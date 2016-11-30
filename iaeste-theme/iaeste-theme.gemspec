@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["dennisauskiel@posteo.de"]
 
   spec.summary       = %q{Theme for the IAESTE LC Kiel homepage}
-  spec.homepage      = "git@github.com:dennis-tra/iaeste-lc-kiel-website.git"
+  spec.homepage      = "https://github.com/dennis-tra/iaeste-lc-kiel-website.git"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README)}i) }
