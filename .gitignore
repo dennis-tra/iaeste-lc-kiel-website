@@ -136,6 +136,10 @@ bh_unicode_properties.cache
 # https://packagecontrol.io/packages/sublime-github
 GitHub.sublime-settings
 
+### Jekyll ###
+iaeste-theme/_site/
+iaeste-theme/.sass-cache/
+iaeste-theme/.jekyll-metadata
 
 ### Leiningen ###
 pom.xml
