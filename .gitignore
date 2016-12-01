@@ -140,4 +140,3 @@ _site
 
 .env
 *.sketch
-deploy.sh

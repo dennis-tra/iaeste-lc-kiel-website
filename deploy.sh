@@ -1,6 +1,6 @@
 STATUS=$(git status)
 
-if [[ $STATUS =~ "nothing to commit, working directory clean" ]]
+if [[ $STATUS =~ "nothing to commit" ]]
 then
     sed -i "" '/_site/d' ./.gitignore
     git add .
