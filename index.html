@@ -1,9 +1,21 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
+title: Home
+navigation_weight: 1
 ---
 
 <h1>Dies ist ein Test</h1>
 
+<ul>
+{% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+{% for p in navigation_pages %}
+  {% if p.navigation_weight %}
+    <li>
+      <a href="{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
+        {{ p.title }}
+      </a>
+    </li>
+  {% endif %}
+{% endfor %}
+  
+</ul>
