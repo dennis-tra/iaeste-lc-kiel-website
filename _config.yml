@@ -28,7 +28,17 @@ repository: "dennis-tra/iaeste-lc-kiel-website"
 # Build settings
 markdown: kramdown
 gems:
-  - jekyll-feed
+   - jemoji
+   - jekyll-redirect-from
+   - jekyll-sitemap
+   - jekyll-seo-tag
+
 exclude:
   - Gemfile
   - Gemfile.lock
+  - Makefile
+  - Dockerfile
+  - docker-compose.yml
+  - design.sketch
+  - .env
+  - .gitignore
