@@ -1,4 +1,4 @@
-STATUS="$(git status)"
+STATUS=$(git status)
 
 if [[ $STATUS =~ "nothing to commit, working directory clean" ]]
 then
