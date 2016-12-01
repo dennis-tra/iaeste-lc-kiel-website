@@ -1,3 +1,12 @@
 ---
 ---
-@import "bootstrap.scss";
+@import "iaeste_variables";
+@import "fonts";
+@import "bootstrap";
+
+@import "_partials/header";
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
