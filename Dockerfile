@@ -34,4 +34,4 @@ ENTRYPOINT ["bundle", "exec"]
 # The main command to run when the container starts. Also 
 # tell the Rails dev server to bind to all interfaces by 
 # default.
-CMD ["jekyll", "serve"]
+CMD ["jekyll", "serve", "--host=0.0.0.0"]

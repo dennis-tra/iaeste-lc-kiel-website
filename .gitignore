@@ -138,5 +138,5 @@ _site/
 .sass-cache/
 .jekyll-metadata
 
-
+.env
 *.sketch
