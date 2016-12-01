@@ -9,5 +9,6 @@ then
     git reset HEAD~
     git checkout .gitignore
 else
+    echo $STATUS
     echo "Need clean working directory to publish"
 fi
