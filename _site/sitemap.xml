@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://0.0.0.0:4000/iaeste-lc-kiel-website/about/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/iaeste-lc-kiel-website/faq.html</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/iaeste-lc-kiel-website/iaeste.html</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/iaeste-lc-kiel-website/incoming.html</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/iaeste-lc-kiel-website/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/iaeste-lc-kiel-website/outgoing.html</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/iaeste-lc-kiel-website/assets/icons/license/license.html</loc>
+<lastmod>2016-11-17T20:23:00+00:00</lastmod>
+</url>
+</urlset>
