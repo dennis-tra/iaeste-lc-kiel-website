@@ -137,9 +137,9 @@ bh_unicode_properties.cache
 GitHub.sublime-settings
 
 ### Jekyll ###
-iaeste-theme/_site/
-iaeste-theme/.sass-cache/
-iaeste-theme/.jekyll-metadata
+_site/
+.sass-cache/
+.jekyll-metadata
 
 ### Leiningen ###
 pom.xml
