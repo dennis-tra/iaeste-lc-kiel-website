@@ -8,6 +8,10 @@ header {
     float: left;
     max-height: $navbar-height - 2 * $brand-image-margin;
     margin: $brand-image-margin;
+
+    @media screen and (max-width: 355px) {
+      display: none;
+    }
   }
 }
 

@@ -10,3 +10,55 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+section.index-hero {
+  background: url(../images/index_hero_tiny.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: calc(100vh - #{$navbar-height});
+  
+  & > div {
+    height: 100%;
+    position: relative;
+  }
+  
+  .index-hero-text {
+    position: absolute;
+    color: white;
+    margin: 0;
+    bottom: $navbar-height;
+    font-family: "Roboto";
+
+    h1 {
+      margin: 0;
+      font-weight: 700;
+      font-size: 64px;
+    }
+
+    h2 {
+      text-transform: uppercase;
+      font-size: 34px;
+      font-weight: 300;
+      line-height: 50px;
+      margin-top: 0px;
+      max-width: 580px;
+    }
+
+    @media screen and (max-width: $screen-xs-max) {
+      bottom: $navbar-height/2;
+
+      h1 {
+        font-size: 34px;
+      }
+
+      h2 {
+        font-size: 18px;
+        line-height: 30px;
+        max-width: 400px;
+      }
+    }
+  }
+}
