@@ -89,9 +89,6 @@ build-iPhoneSimulator/
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
-# JIRA plugin
-atlassian-ide-plugin.xml
-
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
 crashlytics.properties
@@ -141,23 +138,5 @@ _site/
 .sass-cache/
 .jekyll-metadata
 
-### Leiningen ###
-pom.xml
-pom.xml.asc
-*.jar
-*.class
-/lib/
-/classes/
-/target/
-/checkouts/
-.lein-deps-sum
-.lein-repl-history
-.lein-plugins/
-.lein-failures
-.nrepl-port
-
-_site
-.sass-cache
-.jekyll-metadata
 
 *.sketch
