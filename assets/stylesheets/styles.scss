@@ -13,12 +13,12 @@ body {
 
 
 section.index-hero {
-  background: url(../images/index_hero_tiny.jpg) no-repeat center center; 
+  background: url(../images/index_hero_tiny.jpg) no-repeat 63% center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: calc(100vh - #{$navbar-height});
+  height: calc(92vh - #{$navbar-height});
   
   & > div {
     height: 100%;
