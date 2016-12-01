@@ -134,7 +134,7 @@ bh_unicode_properties.cache
 GitHub.sublime-settings
 
 ### Jekyll ###
-_site/
+_site
 .sass-cache/
 .jekyll-metadata
 
