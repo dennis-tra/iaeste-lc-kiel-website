@@ -1,0 +1,133 @@
+section.index-hero {
+  background: url(../images/index_hero_tiny.jpg) no-repeat 63% center;
+  background-size: cover;
+
+  height: calc(92vh - #{$navbar-height});
+  padding: 30px;
+
+  & > div {
+    height: 100%;
+    position: relative;
+  }
+}
+
+.index-hero-heading {
+  position: absolute;
+  bottom: $navbar-height;
+
+  color: white;
+  margin: 0;
+
+  h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 64px;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 50px;
+    margin-top: 0;
+    max-width: 580px;
+  }
+
+  @media screen and (max-width: $screen-xs-max) {
+    bottom: $navbar-height / 2;
+
+    h1 {
+      font-size: 34px;
+    }
+
+    h2 {
+      font-size: 18px;
+      line-height: 30px;
+      max-width: 400px;
+    }
+  }
+}
+
+section.main-audience {
+  padding: 40px 0;
+
+  a:hover {
+    text-decoration: none;
+    color: $primary-color !important;
+
+    img {
+      //filter: sepia(300%) hue-rotate(180deg) saturate(264%);
+      -webkit-filter: sepia(100%) hue-rotate(180deg) saturate(380%);
+      filter: sepia(100%) hue-rotate(180deg) saturate(380%);
+    }
+  }
+
+  h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: $dark-h2-header-color;
+  }
+
+  p {
+    color: $dark-p-color;
+    width: 75%;
+    margin: 0 auto;
+    font-weight:bold;
+  }
+
+  .icon-container {
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:last-child  {
+      height:90px;
+    }
+  }
+
+  img {
+    height: 130px;
+  }
+
+}
+
+section.what-is-iaeste {
+  padding: 30px;
+  background: $section-background-color;
+
+  h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: $dark-h2-header-color;
+    margin-bottom: 50px;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: $dark-h2-header-color;
+  }
+
+  .logo-container img {
+    width: 80%;
+    filter: brightness(20%);
+  }
+
+  .line:before {    position: absolute;
+    top: 3px;
+    left: 30px;
+    content: '';
+    height: 45px;
+    width: 86%;
+    border-top: 3px solid #00416C;
+    border-right: 9px solid #00416C;
+    -webkit-transform: skew(-45deg);
+    -moz-transform: skew(-45deg);
+    transform: skew(70deg);
+  }
+  .line {
+    position: relative;
+  }
+
+}

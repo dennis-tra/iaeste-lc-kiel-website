@@ -1,9 +1,26 @@
 header {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 24px;
-  -webkit-font-smoothing: antialiased;
-  img {
+
+  .navbar-brand {
+    font-size: 36px;
+    font-weight: 700;
+
+    span {
+      font-size: 20px;
+      font-weight: 300;
+    }
+  }
+
+  nav {
+    @include gradient-horizontal($header-gradient-start-color, $header-gradient-end-color, 0%, 50%);
+  }
+
+  .navbar-nav > li > a {
+    transition: background-color $default-transition-duration;
+  }
+
+  .brand-logo {
     $brand-image-margin: 10px;
     float: left;
     max-height: $navbar-height - 2 * $brand-image-margin;
@@ -15,20 +32,3 @@ header {
   }
 }
 
-.navbar-brand {
-  font-size: 36px;
-  font-weight: 700;
-
-  span {
-    font-size: 20px;
-    font-weight: 300;
-  }
-}
-
-.navbar-nav > li > a {
-  transition: background-color 0.3s;
-}
-
-nav {
-  @include gradient-horizontal(#001b2c, #0e3f5d, 0%, 50%);
-}
