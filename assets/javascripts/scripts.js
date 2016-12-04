@@ -1,3 +1,4 @@
+var CountUp = require('countUp');
 var drawCanvases = function() {
 
     var canvases = document.getElementsByClassName("separator-line-canvas");
@@ -7,7 +8,7 @@ var drawCanvases = function() {
       var canvas = canvases[i];
       var heading = canvas.parentElement;
       var canvasHeight = 40;
-      var canvasWidth = heading.offsetWidth + 45;
+      var canvasWidth = heading.offsetWidth + 50;
 
       var xLengthHorizontalLine = 0.65 * canvasWidth;
 
