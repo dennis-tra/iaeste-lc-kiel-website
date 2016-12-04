@@ -80,40 +80,50 @@ section.what-is-iaeste {
     margin-bottom: 50px;
   }
 
+  h3 {
+    position: relative;
+  }
+
   .logo-container img {
       width: 80%;
       filter: brightness(25%);
+      @media screen and (max-width: $screen-xs-max) {
+        max-height: 175px;
+        width: auto;
+      }
   }
 
   .separator-line-canvas {
     position: absolute;
+    $canvas-side-offset: -11px;
 
     &.canvas-top-left {
       top: 26px;
-      left: -11px;
+      left: $canvas-side-offset;
     }
 
     &.canvas-top-right {
       top: 26px;
-      right: -11px;
-      transform: scaleX(-1);
+      right: $canvas-side-offset;
+      @include scaleX(-1);
     }
 
     &.canvas-bottom-left {
       bottom: -5px;
-      left: -11px;
-      transform: scaleY(-1);
+      left: $canvas-side-offset;
+      @include scaleY(-1);
     }
 
     &.canvas-bottom-right {
       bottom: -5px;
-      right: -11px;
-      transform: scale(-1, -1);
+      right: $canvas-side-offset;
+      @include scale(-1, -1);
     }
-
   }
 
-  h3 {
-    position: relative;
+  @media screen and (max-width: $screen-xs-max) {
+    & .text-right, & .text-left {
+      text-align: center;
+    }
   }
 }
