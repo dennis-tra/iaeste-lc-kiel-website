@@ -22,6 +22,7 @@ section.index-hero {
     margin: 0;
     font-weight: bold;
     font-size: 64px;
+    color: white;
   }
 
   h2 {
@@ -31,6 +32,7 @@ section.index-hero {
     line-height: 50px;
     margin-top: 0;
     max-width: 580px;
+    color: white;
   }
 
   @media screen and (max-width: $screen-xs-max) {
@@ -51,23 +53,6 @@ section.index-hero {
 section.main-audience {
   padding: 40px 0;
 
-  a:hover {
-    text-decoration: none;
-    color: $primary-color !important;
-
-    img {
-      //filter: sepia(300%) hue-rotate(180deg) saturate(264%);
-      -webkit-filter: sepia(100%) hue-rotate(180deg) saturate(380%);
-      filter: sepia(100%) hue-rotate(180deg) saturate(380%);
-    }
-  }
-
-  h2 {
-    font-size: 36px;
-    font-weight: bold;
-    color: $dark-h2-header-color;
-  }
-
   p {
     color: $dark-p-color;
     width: 75%;
@@ -80,54 +65,55 @@ section.main-audience {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    &:last-child  {
-      height:90px;
-    }
   }
 
   img {
     height: 130px;
   }
-
 }
 
 section.what-is-iaeste {
   padding: 30px;
   background: $section-background-color;
 
-  h2 {
-    font-size: 36px;
-    font-weight: bold;
-    color: $dark-h2-header-color;
+  h1 {
     margin-bottom: 50px;
   }
 
-  h3 {
-    font-size: 20px;
-    font-weight: bold;
-    color: $dark-h2-header-color;
-  }
-
   .logo-container img {
-    width: 80%;
-    filter: brightness(20%);
+      width: 80%;
+      filter: brightness(25%);
   }
 
-  .line:before {    position: absolute;
-    top: 3px;
-    left: 30px;
-    content: '';
-    height: 45px;
-    width: 86%;
-    border-top: 3px solid #00416C;
-    border-right: 9px solid #00416C;
-    -webkit-transform: skew(-45deg);
-    -moz-transform: skew(-45deg);
-    transform: skew(70deg);
+  .separator-line-canvas {
+    position: absolute;
+
+    &.canvas-top-left {
+      top: 26px;
+      left: -11px;
+    }
+
+    &.canvas-top-right {
+      top: 26px;
+      right: -11px;
+      transform: scaleX(-1);
+    }
+
+    &.canvas-bottom-left {
+      bottom: -5px;
+      left: -11px;
+      transform: scaleY(-1);
+    }
+
+    &.canvas-bottom-right {
+      bottom: -5px;
+      right: -11px;
+      transform: scale(-1, -1);
+    }
+
   }
-  .line {
+
+  h3 {
     position: relative;
   }
-
 }
