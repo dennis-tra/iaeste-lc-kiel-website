@@ -84,6 +84,10 @@ section.what-is-iaeste {
     position: relative;
   }
 
+  p {
+    color: $dark-p-color;
+  }
+
   .logo-container img {
       width: 80%;
       filter: brightness(25%);
@@ -125,5 +129,34 @@ section.what-is-iaeste {
     & .text-right, & .text-left {
       text-align: center;
     }
+  }
+}
+
+section.statistics {
+  background: $primary-color;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+
+  .container {
+    display: flex;
+    align-items: center;
+    height: 80px;
+  }
+
+  .statistic-container {
+    flex-grow: 1;
+  }
+
+  p {
+    display: inline-block;
+  }
+
+  img {
+    filter: brightness(1000%);
+    height: 40px;
+    margin-right: 20px;
   }
 }
