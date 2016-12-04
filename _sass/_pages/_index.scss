@@ -58,6 +58,7 @@ section.main-audience {
     width: 75%;
     margin: 0 auto;
     font-weight:bold;
+    max-width: 300px;
   }
 
   .icon-container {
@@ -159,4 +160,78 @@ section.statistics {
     height: 40px;
     margin-right: 20px;
   }
+}
+
+.information-section .heading-separator {
+  border-width: 2px;
+  border-style: solid;
+  width: 80px;
+}
+
+.text-right .heading-separator {
+  margin: 10px 0 10px auto;
+
+  @media screen and (max-width: $screen-xs-max) {
+    margin: 10px auto;
+  }
+}
+
+.text-left .heading-separator {
+  margin: 10px auto 10px 0;
+
+  @media screen and (max-width: $screen-xs-max) {
+    margin: 10px auto;
+  }
+}
+
+.dark-bg {
+  h2 {
+    color: white;
+  }
+  color: white;
+  border-color: white;
+}
+
+bright-bg {
+  h2 {
+    color: $dark-h2-header-color;
+  }
+
+  color: $dark-p-color;
+  border-color: $dark-h2-header-color;
+}
+
+.information-section {
+  padding: 50px 0 50px 0;
+  min-height: 400px;
+
+  h2 {
+    font-size: 36px;
+  }
+
+  a {
+    font-weight: bold;
+  }
+
+  img {
+    width: 80%;
+  }
+
+  @media screen and (max-width: $screen-xs-max) {
+    text-align: center;
+    min-height: inherit;
+  }
+}
+
+section.travel-reviews {
+  background: url(../images/guy_at_river_tiny.jpg) no-repeat 0% center;
+  background-size: cover;
+
+  h2 {
+    word-wrap: break-word;
+  }
+}
+
+section.employer-information {
+  background: $section-background-color;
 }
