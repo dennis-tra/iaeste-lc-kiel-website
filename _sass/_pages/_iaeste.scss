@@ -1,0 +1,17 @@
+section.iaeste-information {
+  @media screen and (max-width: $screen-xs-max) {
+    h1 {
+      text-align: center;
+    }
+  }
+  .logo-container img {
+      width: 80%;
+      filter: brightness(25%);
+      margin: 50px 0;
+      @media screen and (max-width: $screen-xs-max) {
+        max-height: 175px;
+        width: auto;
+        margin: 20px 0;
+      }
+  }
+}
