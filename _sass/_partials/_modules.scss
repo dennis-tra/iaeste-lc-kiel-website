@@ -37,3 +37,29 @@
     border-color: $dark-h2-header-color;
   }
 }
+
+.information-section {
+  padding: 50px 0 50px 0;
+  min-height: 400px;
+  display: flex;
+
+  a {
+    width: 270px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .information-icon {
+    width: 80%;
+    @media screen and (min-width: $screen-md-max) {
+      width: 65%;
+    }
+  }
+
+  @media screen and (max-width: $screen-xs-max) {
+    text-align: center;
+    min-height: inherit;
+    padding: 20px 0 40px 0;
+  }
+}

@@ -1,0 +1,15 @@
+footer {
+  height: 50px;
+  @include gradient-horizontal($header-gradient-start-color, $header-gradient-end-color, 0%, 50%);
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 10px;
+  color: white;
+  & > div {
+    flex-grow: 1;
+  }
+}

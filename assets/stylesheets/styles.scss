@@ -3,8 +3,9 @@
 @import "iaeste_variables";
 @import "fonts";
 @import "bootstrap";
-@import "_partials/_modules.scss";
+@import "_partials/modules";
 @import "_partials/header";
+@import "_partials/footer";
 @import "_pages/all";
 
 body {
