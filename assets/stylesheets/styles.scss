@@ -3,8 +3,9 @@
 @import "iaeste_variables";
 @import "fonts";
 @import "bootstrap";
-@import "_pages/all";
+@import "_partials/_modules.scss";
 @import "_partials/header";
+@import "_pages/all";
 
 body {
   -webkit-font-smoothing: antialiased;

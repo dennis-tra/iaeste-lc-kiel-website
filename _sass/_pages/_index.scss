@@ -85,10 +85,6 @@ section.what-is-iaeste {
     position: relative;
   }
 
-  p {
-    color: $dark-p-color;
-  }
-
   .logo-container img {
       width: 80%;
       filter: brightness(25%);
@@ -162,59 +158,24 @@ section.statistics {
   }
 }
 
-.information-section .heading-separator {
-  border-width: 2px;
-  border-style: solid;
-  width: 80px;
-}
-
-.text-right .heading-separator {
-  margin: 10px 0 10px auto;
-
-  @media screen and (max-width: $screen-xs-max) {
-    margin: 10px auto;
-  }
-}
-
-.text-left .heading-separator {
-  margin: 10px auto 10px 0;
-
-  @media screen and (max-width: $screen-xs-max) {
-    margin: 10px auto;
-  }
-}
-
-.dark-bg {
-  h2 {
-    color: white;
-  }
-  color: white;
-  border-color: white;
-}
-
-bright-bg {
-  h2 {
-    color: $dark-h2-header-color;
-  }
-
-  color: $dark-p-color;
-  border-color: $dark-h2-header-color;
-}
 
 .information-section {
   padding: 50px 0 50px 0;
   min-height: 400px;
-
-  h2 {
-    font-size: 36px;
-  }
+  display: flex;
 
   a {
-    font-weight: bold;
+    width: 270px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 26px;
   }
 
   img {
     width: 80%;
+    @media screen and (min-width: $screen-md-max) {
+      width: 65%;
+    }
   }
 
   @media screen and (max-width: $screen-xs-max) {
@@ -234,4 +195,24 @@ section.travel-reviews {
 
 section.employer-information {
   background: $section-background-color;
+}
+
+section.horizontal-ruler {
+  position: relative;
+  hr {
+    // border-width: 2px;
+    border-color: $primary-color;
+  }
+
+  span {
+    color: $primary-color;
+    position: absolute;
+    font-weight: 400;
+    font-size: 14px;
+    top: 50%;
+    left: 50%;
+    background: white;
+    padding: 0 40px;
+    @include translate(-50%, -50%);
+  }
 }

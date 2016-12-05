@@ -1,4 +1,3 @@
-var CountUp = require('countUp');
 var drawCanvases = function() {
 
     var canvases = document.getElementsByClassName("separator-line-canvas");

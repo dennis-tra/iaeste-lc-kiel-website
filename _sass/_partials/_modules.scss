@@ -1,0 +1,39 @@
+.information-section .heading-separator {
+  border-width: 2px;
+  border-style: solid;
+  width: 80px;
+}
+
+.text-right .heading-separator {
+  margin: 10px 0 10px auto;
+}
+
+.text-left .heading-separator {
+  margin: 10px auto 10px 0;
+}
+
+@media screen and (max-width: $screen-xs-max) {
+  .text-left .heading-separator, .text-right .heading-separator {
+    margin: 10px auto;
+  }
+}
+
+.dark-bg {
+  h2 {
+    color: white;
+  }
+  color: white;
+}
+
+.bright-bg {
+
+  color: $dark-p-color;
+
+  h2 {
+    color: $dark-h2-header-color;
+  }
+
+  .heading-separator {
+    border-color: $dark-h2-header-color;
+  }
+}
