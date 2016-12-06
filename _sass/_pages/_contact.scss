@@ -13,6 +13,12 @@ section.contact-hero {
 
   h3 {
     margin-bottom: 5px;
+    & > span.badge {
+      background-color: white;
+      color: $primary-color;
+      padding: 4px 12px;
+      font-size: 14px;
+    }
   }
 
   .address {
