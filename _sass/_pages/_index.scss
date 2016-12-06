@@ -108,34 +108,6 @@ section.what-is-iaeste {
       }
   }
 
-  .separator-line-canvas {
-    position: absolute;
-    $canvas-side-offset: -11px;
-
-    &.canvas-top-left {
-      top: 26px;
-      left: $canvas-side-offset;
-    }
-
-    &.canvas-top-right {
-      top: 26px;
-      right: $canvas-side-offset;
-      @include scaleX(-1);
-    }
-
-    &.canvas-bottom-left {
-      bottom: -5px;
-      left: $canvas-side-offset;
-      @include scaleY(-1);
-    }
-
-    &.canvas-bottom-right {
-      bottom: -5px;
-      right: $canvas-side-offset;
-      @include scale(-1, -1);
-    }
-  }
-
   @media screen and (max-width: $screen-xs-max) {
     & .text-right, & .text-left {
       text-align: center;
