@@ -1,0 +1,93 @@
+section.contact-hero {
+  background: url(../images/kiel_weekend.jpg) no-repeat 63% center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 65, 108, 0.79);
+
+//  height: calc(92vh - #{$navbar-height});
+  padding: 30px 0;
+
+  & > div {
+    height: 100%;
+    position: relative;
+  }
+
+  h3 {
+    margin-bottom: 5px;
+  }
+
+  .address {
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  .contact-option {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+
+    img {
+      max-width: 35px;
+      height:auto;
+      margin-right: 15px
+    }
+
+    a {
+      font-weight: 300;
+      font-size: 18px;
+      color: white;
+
+      &:hover {
+        text-decoration: none;
+        font-weight: 500;
+        color: $primary-complementary-color;
+      }
+    }
+  }
+}
+
+.why-participate {
+  h1 {
+    margin-top: 50px;
+  }
+
+  .information-section {
+    min-height: inherit;
+    padding: 50px 0 25px 0;
+
+    img {
+      width: 50%;
+    }
+    @media screen and (max-width: $screen-xs-max) {
+      padding: 20px 0 40px 0;
+    }
+  }
+
+  .last-section {
+    padding: 25px 0;
+    a {
+      margin: 20px;
+      display: inline-flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      word-wrap: break-word;
+    }
+    span {
+      font-size: 4em;
+    }
+
+    @media screen and (max-width: $screen-xs-max) {
+      .btn-sq-lg {
+        width: 90px;
+        height: 90px;
+      }
+      a {
+        margin: 5px;
+      }
+
+      span {
+        font-size: 2em;
+      }
+    }
+  }
+}

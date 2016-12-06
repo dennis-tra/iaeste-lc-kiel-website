@@ -3,7 +3,8 @@
 @import "iaeste_variables";
 @import "fonts";
 @import "bootstrap";
-@import "_partials/modules";
+@import "_modules/all";
+@import "_partials/shared";
 @import "_partials/header";
 @import "_partials/footer";
 @import "_pages/all";

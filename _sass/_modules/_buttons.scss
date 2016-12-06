@@ -1,0 +1,16 @@
+.btn-complementary {
+  color: white;
+  background: $primary-complementary-color;
+  border: 1px solid darken($primary-complementary-color, 5%);
+  max-width: 220px;
+  width: 100%;
+  &:hover {
+    color: white;
+    background: darken($primary-complementary-color, 10%);
+  }
+}
+
+.btn-sq-lg {
+  width: 150px;
+  height: 150px;
+}

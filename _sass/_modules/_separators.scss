@@ -1,0 +1,25 @@
+.information-section .heading-separator {
+  border-width: 2px;
+  border-style: solid;
+  width: 80px;
+}
+
+.text-right .heading-separator {
+  margin: 10px 0 10px auto;
+}
+
+.text-left .heading-separator {
+  margin: 10px auto 10px 0;
+}
+
+@media screen and (max-width: $screen-xs-max) {
+  .text-left .heading-separator, .text-right .heading-separator {
+    margin: 10px auto;
+  }
+}
+
+.short-heading-separator {
+    border: 1px solid white;
+    width: 50px;
+    margin: 5px auto 10px 0;
+}

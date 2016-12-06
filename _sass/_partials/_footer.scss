@@ -12,4 +12,9 @@ footer .container {
   & > div {
     flex-grow: 1;
   }
+
+  .icon-copyright-label {
+    float: right;
+    max-width: 260px;
+  }
 }
