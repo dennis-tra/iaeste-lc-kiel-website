@@ -44,7 +44,8 @@
   display: flex;
 
   a {
-    width: 270px;
+    max-width: 270px;
+    width: 90%;
     height: 40px;
     font-size: 20px;
     line-height: 26px;
