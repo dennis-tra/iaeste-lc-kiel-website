@@ -5,4 +5,167 @@ navigation_weight: 3
 permalink: /outgoing
 ---
 
-<h1>Outgoing</h1>
+<section class="outgoing-hero">
+  <div class="outgoing-hero-heading">
+    <div class="container">
+      <h1>IAESTE Auslandspraktikum</h1>
+      <h2>fachspezifisch, bezahlt, horizonterweiternd</h2>
+    </div>
+  </div>
+</section>
+
+<section class="general-outgoing-info information-section white-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-left">
+        <h2>Allgemeine Informationen</h2>
+        <div class="heading-separator"></div>
+        <p>Das IAESTE Lokalkomitee Kiel vermittelt Fachpraktika im Ausland für Studierende der CAU Kiel, der FH Kiel und der FH Flensburg in allen technischen und naturwissenschaftlichen Fachrichtungen. Ein Großteil der IAESTE-Praktika dauert etwa 2 bis 3 Monate und findet in den Sommermonaten zwischen Mai und Oktober statt, mittlerweile werden aber auch immer mehr Praktika über ein halbes oder ganzes Jahr angeboten. Die Praktika werden grundsätzlich bezahlt; dabei richtet sich der Verdienst nach den landestypischen Lebenshaltungskosten.</p>
+      </div>
+      <div class="col-md-4 col-md-offset-2">
+        <div class="well">
+          <h4>IAESTE in Kürze:</h4>
+          <ul>
+            <li>Weltweiter Praktikantenaustausch</li>
+            <li>Weltweit etwa 80 Mitgliedsländer</li>
+            <li>In Deutschland Teil des DAAD</li>
+            <li>Jährlich etwa 1200 getauschte Praktikumsplätze für Deutschland</li>
+            <li>Betreuung erfolgt an den Universitäten zumeist ehrenamtlich durch Studenten</li>
+            <li>Anzahl angebotener Praktikumsplätze = Anzahl erhaltener Praktikumsplätze</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="text-center">
+  <div class="horizontal-ruler-gray">
+    <div class="container">
+      <hr>
+      <span>Ablauf des Bewerbungsverfahrens</span>
+    </div>
+  </div>
+</section>
+
+{% assign months = "November|Dezember|Januar|Februar|März" | split: "|" %}
+{% assign month_descriptions =
+  "
+    Zunächst wirbt jedes Lokalkomitee Praktikumsplätze in seinem jeweiligen Zuständigkeitsbereich ein. Außerdem sammelt jedes Lokalkomitee bis zum 30. November eines jeden Jahres die Vorbewerbung von den Praktikumsinteressenten, um einen Überblick über den Platzbedarf an der jeweiligen Hochschule zu bekommen. |
+    Zu einem bestimmten Stichtag melden alle Lokalkomitees den eigenen Platzbedarf an das zuständige Nationalkomitee. Wir schicken unsere Bedarfsliste also an den Deutschen Akademischen Austauschdienst (DAAD). Die von den Lokalkomitees eingeworbenen Plätze werden direkt beim Nationalkomitee gesammelt. |
+    Im Januar eines jeden Jahres findet die General Conference (GC) statt, zu der Vertreter aus allen Nationalkomitees anreisen. Jeder hat die Platzangebote aus seinem Land im Gepäck und außerdem einen Überblick über den nationalen Platzbedarf. Auf der GC werden dann in mehreren Tauschsessions die Platzangebote mit den Vertretern der anderen Länder getauscht. Dabei gilt das Prinzip: Anzahl angebotene Plätze = Anzahl erhaltene Plätze. |
+    Jedes Jahr im Februar werden die auf der GC erhaltenen Praktikumsplätze im Ausland dann von den Nationalkomitees an die angeschlossenen Lokalkomitees verteilt. Diese Zuteilung geschieht anhand der von den Lokalkomitees erstellten Bedarfslisten. Zusätzlich findet ebenfalls im Februar eine nationale Tauschkonferenz statt, zu der Vertreter aller Lokalkomitees anreisen. Auf dieser nationalen Tauschkonferenz besteht die Gelegenheit, Plätze mit anderen Lokalkomitees zu tauschen, da die erste Platzzuteilung nicht immer optimal ist. Hier versuchen wir also, für Euch die besten Plätze zu ergattern! |
+    Im letzten Schritt verteilen wir dann noch im Februar eines jeden Jahres die Plätze an unsere Bewerber. Da wir in Kiel jährlich etwa 20 Plätze zur Verfügung haben und die Anzahl der Bewerber bei ca. 60 liegt, werden auf einen Platz bis zu drei Bewerber gesetzt. Bei mehreren Zusagen entscheiden wir dann anhand der Vorbewerbungen über die endgültige Platzvergabe. Sollten alle Interessenten gleich gut geeignet sein, entscheidet das Los.
+  "
+| split: "|" %}
+
+{% assign applicant_tasks =
+  "Schicke uns eine vorläufige Bewerbung bis zum 30. November an unsere Email adresse |
+  |
+  |
+  Hier passiert auch noch iwas voll wichtiges |
+  "
+| split: "|" %}
+
+
+{% for month in months %}
+
+  {% assign modulo = forloop.index | modulo: 2 %}
+  {% if modulo == 1 %}
+    {% assign background = 'white-bg' %}
+  {% else %}
+    {% assign background = 'bright-bg' %}
+  {% endif %}
+
+  {% if forloop.first == true %}
+    {% assign boundry = "step-margin-top" %}
+  {% elsif forloop.last == true %}
+    {% assign boundry = "step-margin-bottom" %}
+  {% else %}
+    {% assign boundry = "" %}
+  {% endif %}
+
+  <section class="application-step {{ background }} text-left {{ boundry }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-1 application-step-column">
+          <div class="application-step-number">{{ forloop.index }}</div>
+          <div class="application-step-vertical-line"> </div>
+        </div>
+        <div class="col-xs-11">
+          <div class="row">
+            <div class="col-xs-12 col-sm-7 col-md-6">
+              <h2>{{ month }}</h2>
+              <div class="heading-separator"></div>
+              <p>{{ month_descriptions[forloop.index0] }}</p>
+            </div>
+            <div class="col-xs-12 col-sm-5 col-md-4 col-md-offset-2 well-column">
+              {% if applicant_tasks[forloop.index0] != blank %}
+                <div class="well">
+                  <span>Das hast du zu tun</span>
+                  <p>{{ applicant_tasks[forloop.index0] }}</p>
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endfor %}
+
+
+<section class="missed-application">
+  <p>Diese Periode verpasst?</p>
+  <p>Macht nichts!</p>
+</section>
+<section class="remaining-offers information-section white-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6 text-left">
+        <h2>Restplätze und kurzfristige Angebote</h2>
+        <div class="heading-separator"></div>
+        <p>Im regulären Bewerbungsverfahren bleiben nach der ersten Platzvergabe oft Plätze übrig, die mitunter recht interessant sind. Diese Restplätze werden im sogenannten Nachtauschverfahren vergeben. Dabei spielt die Abgabe einer Vorbewerbung keine Rolle mehr. Die entsprechenden Termine werden über unseren Newsletter, den IAESTE-Friends-Verteiler, angekündigt.
+        <p>Die außerplanmäßige Platzvergabe durch Early/Late Offers und die kurzfristig zu vergebenen Plätze hat in den letzten Jahren starkt zugenommen. Bei den Early/Late Offers handelt es sich um Plätze, die für das letzte Bewerbungsverfahren zu spät und das folgende zu früh eingereicht wurden. Diese sind oft kurzfristig zu besetzen. Wenn wir so einen Platz vom IAESTE Nationalkomitee bekommen, schicken wir ebenfalls eine Nachricht über unseren Newsletter, den IAESTE-Friends-Verteiler. Bei Interesse an einem solchen Praktikumsplatz solltet Ihr uns möglichst schnell Bescheid geben, damit wir den entsprechenden Platz für Euch reservieren können.</p>
+        <p>Schließlich existiert noch eine internationale IAESTE-Datenbank, in der ebenfalls kurzfristig zu besetzende Praktikumsplätze verzeichnet sind. Mit Unterstützung des LC Karlsruhe können wir Euch hier die aktuelle Platzliste anbieten. Auf diese Plätze kann weltweit zugegriffen werden und sie können schnell anderweitig vergeben sein. Bitte beachtet auch, dass diese Liste aus Datenschutzgründen nicht alle Informationen enthält. Sie wird regelmäßig aktualisiert, bei häufigen Besuchen hilft also ein Klick auf "Aktualisieren" bzw. "Neu laden". Für weitere Informationen bzw. bei Interesse an einem Platz kommt bitte während unserer Bürozeiten bei uns im Büro vorbei! Dann können wir versuchen, den Platz für Euch zu reservieren. </p>
+      </div>
+      <div class="col-xs-12 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1">
+
+        <div id="mc_embed_signup">
+        <form action="//asdf.us13.list-manage.com/subscribe/post?u=682b348e31ca800bd3d0452ab&amp;id=13cf371da3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div class="form-group" id="mc_embed_signup_scroll">
+          	<label for="mce-EMAIL">Subscribe to our mailing list</label>
+          	<input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="email address" required>
+          </div>
+          <div class="form-group">
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_682b348e31ca800bd3d0452ab_13cf371da3" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-complementary"></div>
+          </div>
+          </div>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="bright-bg text-center last-section">
+  <h1>Irgendwas unklar?</h1>
+  <p>Dann schau in der FAQ Abteilung vorbei, schreibe uns eine Email oder komme einfach bei uns im Büro vorbei!</p>
+  <a href="faq.html" class="btn btn-sq-lg btn-primary">
+    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span><br/>
+    FAQ
+  </a>
+  <a href="mailto:iaeste@uv.uni-kiel.de" class="btn btn-sq-lg btn-primary">
+    <span class="glyphicon glyphicon-send" aria-hidden="true"></span><br/>
+    Email
+  </a>
+
+  <a href="contact.html" class="btn btn-sq-lg btn-primary">
+    <span class="glyphicon glyphicon-home" aria-hidden="true"></span><br/>
+    Kontakt
+  </a>
+
+
+</section>
