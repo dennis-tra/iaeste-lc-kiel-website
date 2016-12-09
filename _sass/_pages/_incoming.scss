@@ -1,0 +1,34 @@
+section.incoming-hero {
+  & > div {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .item {
+    height: calc(92vh - #{$navbar-height});
+  }
+
+  .item h3 {
+    margin-top: 0;
+    color: white;
+  }
+
+  .item p {
+    margin-bottom: 0;
+  }
+
+  .item img {
+    min-width: 100%;
+    height: auto;
+    transform: translateY(-20%);
+  }
+
+  .well {
+    background-color: rgba(255, 255, 255, 0.34)
+  }
+
+  .carousel-caption {
+    width: auto;
+    right: inherit;
+    padding-bottom: 0;
+  }
+}

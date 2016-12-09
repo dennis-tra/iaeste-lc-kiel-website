@@ -18,6 +18,10 @@ section.faq {
       background: $primary-color-paletton-2;
     }
 
+    .panel-body {
+      background: lighten($primary-color-paletton-2, 4%);
+    }
+
     .panel-heading a {
       text-decoration: none;
     }

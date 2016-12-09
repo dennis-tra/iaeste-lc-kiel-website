@@ -5,4 +5,62 @@ navigation_weight: 4
 permalink: /incoming
 ---
 
-<h1>Incoming</h1>
+<section class="incoming-hero">
+  <div class="container-fluid">
+    <div id="incoming-hero-carousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <!-- <ol class="carousel-indicators">
+        {% for picture in site.translations[site.lang]["incoming"]["hero_pictures"] %}
+          {% if forloop.first == true %}
+            {% assign active = "active" %}
+          {% else %}
+            {% assign active = "" %}
+          {% endif %}
+          <li data-target="#incoming-hero-carousel" data-slide-to="{{ forloop.index0 }}" class="{{ active }}"></li>
+        {% endfor %}
+      </ol>
+
+      <!-- Wrapper for slides -->
+
+      <div class="carousel-inner" role="listbox">
+        
+        {% for picture in site.translations[site.lang]["incoming"]["hero_pictures"] %}
+          {% if forloop.first == true %}
+            {% assign active = "active" %}
+          {% else %}
+            {% assign active = "" %}
+          {% endif %}
+            <div class="item {{ active }}">
+              <style type="text/css">
+                #carousel_image_{{ forloop.index0 }} {
+                  background: url({{ site.baseurl_root }}/assets/images/{{ picture.filename }}) no-repeat center center;
+                  background-size: cover;
+                  width: 100%;
+                  height: 100%;
+                }
+              </style>
+
+              <div class="carousel-image" id="carousel_image_{{ forloop.index0 }}"></div>
+
+              <div class="carousel-caption">
+                <div class="well text-left">
+                  <h3>{{ picture.title }}</h3>
+                  <p>{{ picture.description }}</p>
+                </div>
+              </div>
+            </div>
+        {% endfor %}
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#incoming-hero-carousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">{% t incoming.control_left %}</span>
+      </a>
+      <a class="right carousel-control" href="#incoming-hero-carousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">{% t incoming.control_right %}</span>
+      </a>
+    </div>
+  </div>
+</section>
