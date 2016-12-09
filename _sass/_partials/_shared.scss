@@ -31,12 +31,21 @@
     -ms-word-wrap: break-word;
     word-wrap: break-word;
   }
+  
+  p {
+    margin-top: 10px;
+  }
+
   a {
     max-width: 270px;
     width: 90%;
     height: 40px;
     font-size: 20px;
     line-height: 26px;
+  }
+
+  &.text-right .btn {
+    margin-left: auto;
   }
 
   .information-icon {
@@ -50,16 +59,35 @@
     text-align: center;
     min-height: inherit;
     padding: 20px 0 40px 0;
-  }
+    .btn {
+      margin: auto;
+    }
 
-  .row {
-    display: flex;
-    align-items: center;
-
-    .text-container {
-      align-self: flex-start;
+    .heading-separator {
+      margin: auto;
     }
   }
+  
+  .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    flex-wrap: wrap;
+  }
+  .row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.content-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .separator-line-canvas {

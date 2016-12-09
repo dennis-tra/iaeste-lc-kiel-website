@@ -33,7 +33,6 @@ section.outgoing-hero {
   }
 
   @media screen and (max-width: $screen-xs-max) {
-    bottom: $navbar-height / 2;
 
     h1 {
       font-size: 34px;
@@ -47,21 +46,15 @@ section.outgoing-hero {
   }
 }
 
-section.general-outgoing-info {
-  .row {
-    display: block;
-  }
-}
-
 section.application-step {
 
   .row {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display:         flex;
-    flex-wrap: wrap;
+    display: flex;
+    .row {
+      flex-wrap: wrap;
+    }
   }
+
   .row > [class*='col-'] {
     display: flex;
     flex-direction: column;
@@ -73,6 +66,7 @@ section.application-step {
 
   p {
     margin-bottom: 40px;
+    margin-top: 10px;
   }
 
   .application-step-column {
@@ -95,6 +89,14 @@ section.application-step {
     border-radius: 25px;
     z-index: 2;
     border: 3px solid #0079B9;
+
+    @media screen and (max-width: $screen-xs-max) {
+      height: 35px;
+      width: 35px;
+      line-height: 31px;
+      font-size: 1.5em;
+      top: 28px;
+    }
   }
 
   .application-step-vertical-line {
@@ -127,6 +129,10 @@ section.application-step {
     p {
       font-weight: lighter;
       margin: 0px 0 40px;
+    }
+
+    @media screen and (max-width: $screen-xs-max) {
+      margin-top: 0;
     }
   }
 
@@ -175,5 +181,17 @@ section.remaining-offers {
   .row > [class*='col-'] {
     display: flex;
     flex-direction: column;
+  }
+
+  .row div:nth-child(2) {
+    justify-content: center;
+  }
+
+  @media screen and (max-width: $screen-xs-max) {
+    text-align: center;
+
+    .heading-separator {
+      margin: 0 auto;
+    }
   }
 }

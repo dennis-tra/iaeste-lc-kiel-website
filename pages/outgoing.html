@@ -17,13 +17,13 @@ permalink: /outgoing
 <section class="general-outgoing-info information-section white-bg">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 text-left">
+      <div class="col-xs-12 col-sm-7 col-md-6 text-left">
         <h2>Allgemeine Informationen</h2>
         <div class="heading-separator"></div>
         <p>Das IAESTE Lokalkomitee Kiel vermittelt Fachpraktika im Ausland für Studierende der CAU Kiel, der FH Kiel und der FH Flensburg in allen technischen und naturwissenschaftlichen Fachrichtungen. Ein Großteil der IAESTE-Praktika dauert etwa 2 bis 3 Monate und findet in den Sommermonaten zwischen Mai und Oktober statt, mittlerweile werden aber auch immer mehr Praktika über ein halbes oder ganzes Jahr angeboten. Die Praktika werden grundsätzlich bezahlt; dabei richtet sich der Verdienst nach den landestypischen Lebenshaltungskosten.</p>
       </div>
-      <div class="col-md-4 col-md-offset-2">
-        <div class="well">
+      <div class="col-xs-12 col-sm-5 col-md-4 col-md-offset-2">
+        <div class="well text-left">
           <h4>IAESTE in Kürze:</h4>
           <ul>
             <li>Weltweiter Praktikantenaustausch</li>
@@ -46,82 +46,64 @@ permalink: /outgoing
     </div>
   </div>
 </section>
+  
+  {% assign outgoing_steps = site.translations[site.lang]["outgoing"]["process"] %}
+  {% for step in outgoing_steps %}
 
-{% assign months = "November|Dezember|Januar|Februar|März" | split: "|" %}
-{% assign month_descriptions =
-  "
-    Zunächst wirbt jedes Lokalkomitee Praktikumsplätze in seinem jeweiligen Zuständigkeitsbereich ein. Außerdem sammelt jedes Lokalkomitee bis zum 30. November eines jeden Jahres die Vorbewerbung von den Praktikumsinteressenten, um einen Überblick über den Platzbedarf an der jeweiligen Hochschule zu bekommen. |
-    Zu einem bestimmten Stichtag melden alle Lokalkomitees den eigenen Platzbedarf an das zuständige Nationalkomitee. Wir schicken unsere Bedarfsliste also an den Deutschen Akademischen Austauschdienst (DAAD). Die von den Lokalkomitees eingeworbenen Plätze werden direkt beim Nationalkomitee gesammelt. |
-    Im Januar eines jeden Jahres findet die General Conference (GC) statt, zu der Vertreter aus allen Nationalkomitees anreisen. Jeder hat die Platzangebote aus seinem Land im Gepäck und außerdem einen Überblick über den nationalen Platzbedarf. Auf der GC werden dann in mehreren Tauschsessions die Platzangebote mit den Vertretern der anderen Länder getauscht. Dabei gilt das Prinzip: Anzahl angebotene Plätze = Anzahl erhaltene Plätze. |
-    Jedes Jahr im Februar werden die auf der GC erhaltenen Praktikumsplätze im Ausland dann von den Nationalkomitees an die angeschlossenen Lokalkomitees verteilt. Diese Zuteilung geschieht anhand der von den Lokalkomitees erstellten Bedarfslisten. Zusätzlich findet ebenfalls im Februar eine nationale Tauschkonferenz statt, zu der Vertreter aller Lokalkomitees anreisen. Auf dieser nationalen Tauschkonferenz besteht die Gelegenheit, Plätze mit anderen Lokalkomitees zu tauschen, da die erste Platzzuteilung nicht immer optimal ist. Hier versuchen wir also, für Euch die besten Plätze zu ergattern! |
-    Im letzten Schritt verteilen wir dann noch im Februar eines jeden Jahres die Plätze an unsere Bewerber. Da wir in Kiel jährlich etwa 20 Plätze zur Verfügung haben und die Anzahl der Bewerber bei ca. 60 liegt, werden auf einen Platz bis zu drei Bewerber gesetzt. Bei mehreren Zusagen entscheiden wir dann anhand der Vorbewerbungen über die endgültige Platzvergabe. Sollten alle Interessenten gleich gut geeignet sein, entscheidet das Los.
-  "
-| split: "|" %}
+    {% assign modulo = forloop.index | modulo: 2 %}
+    {% if modulo == 1 %}
+      {% assign background = 'white-bg' %}
+    {% else %}
+      {% assign background = 'bright-bg' %}
+    {% endif %}
 
-{% assign applicant_tasks =
-  "Schicke uns eine vorläufige Bewerbung bis zum 30. November an unsere Email adresse |
-  |
-  |
-  Hier passiert auch noch iwas voll wichtiges |
-  "
-| split: "|" %}
+    {% if forloop.first == true %}
+      {% assign boundry = "step-margin-top" %}
+    {% elsif forloop.last == true %}
+      {% assign boundry = "step-margin-bottom" %}
+    {% else %}
+      {% assign boundry = "" %}
+    {% endif %}
 
-
-{% for month in months %}
-
-  {% assign modulo = forloop.index | modulo: 2 %}
-  {% if modulo == 1 %}
-    {% assign background = 'white-bg' %}
-  {% else %}
-    {% assign background = 'bright-bg' %}
-  {% endif %}
-
-  {% if forloop.first == true %}
-    {% assign boundry = "step-margin-top" %}
-  {% elsif forloop.last == true %}
-    {% assign boundry = "step-margin-bottom" %}
-  {% else %}
-    {% assign boundry = "" %}
-  {% endif %}
-
-  <section class="application-step {{ background }} text-left {{ boundry }}">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-1 application-step-column">
-          <div class="application-step-number">{{ forloop.index }}</div>
-          <div class="application-step-vertical-line"> </div>
-        </div>
-        <div class="col-xs-11">
-          <div class="row">
-            <div class="col-xs-12 col-sm-7 col-md-6">
-              <h2>{{ month }}</h2>
-              <div class="heading-separator"></div>
-              <p>{{ month_descriptions[forloop.index0] }}</p>
-            </div>
-            <div class="col-xs-12 col-sm-5 col-md-4 col-md-offset-2 well-column">
-              {% if applicant_tasks[forloop.index0] != blank %}
-                <div class="well">
-                  <span>Das hast du zu tun</span>
-                  <p>{{ applicant_tasks[forloop.index0] }}</p>
-                </div>
-              {% endif %}
+    <section class="application-step {{ background }} text-left {{ boundry }}">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-2 col-sm-1 application-step-column">
+            <div class="application-step-number">{{ forloop.index }}</div>
+            <div class="application-step-vertical-line"> </div>
+          </div>
+          <div class="col-xs-10 col-sm-11">
+            <div class="row">
+              <div class="col-xs-12 col-sm-7 col-md-6">
+                <h2>{{ step.month }}</h2>
+                <div class="heading-separator"></div>
+                <p>{{ step.description }}</p>
+              </div>
+              <div class="col-xs-12 col-sm-5 col-md-4 col-md-offset-2 well-column">
+                {% assign applicant_task = step.applicant_task %}
+                {% if applicant_task != blank %}
+                  <div class="well">
+                    <span>Das hast du zu tun</span>
+                    <p>{{ applicant_task }}</p>
+                  </div>
+                {% endif %}
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-{% endfor %}
+    </section>
 
+  {% endfor %}
 
 <section class="missed-application">
   <p>Diese Periode verpasst?</p>
   <p>Macht nichts!</p>
 </section>
-<section class="remaining-offers information-section white-bg">
+<section class="remaining-offers information-section white-bg text-left">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-md-6 text-left">
+      <div class="col-xs-12 col-md-6">
         <h2>Restplätze und kurzfristige Angebote</h2>
         <div class="heading-separator"></div>
         <p>Im regulären Bewerbungsverfahren bleiben nach der ersten Platzvergabe oft Plätze übrig, die mitunter recht interessant sind. Diese Restplätze werden im sogenannten Nachtauschverfahren vergeben. Dabei spielt die Abgabe einer Vorbewerbung keine Rolle mehr. Die entsprechenden Termine werden über unseren Newsletter, den IAESTE-Friends-Verteiler, angekündigt.

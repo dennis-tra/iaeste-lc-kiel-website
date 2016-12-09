@@ -58,18 +58,24 @@ section.contact-hero {
   .information-section {
     min-height: inherit;
     padding: 50px 0 25px 0;
-
+  
     img {
       width: 50%;
     }
+
     @media screen and (max-width: $screen-xs-max) {
       padding: 20px 0 40px 0;
+
+      .heading-separator {
+        margin: 0 auto;
+      }
     }
   }
 }
 
 .last-section {
   padding: 25px 0;
+
   a {
     margin: 20px;
     display: inline-flex;
@@ -78,6 +84,11 @@ section.contact-hero {
     justify-content: center;
     word-wrap: break-word;
   }
+
+  p {
+    margin: 10px 0;
+  }
+
   span {
     font-size: 4em;
   }

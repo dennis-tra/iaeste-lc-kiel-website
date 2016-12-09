@@ -64,7 +64,7 @@ permalink: /contact
     </div>
   </section>
 
-  {% assign reasons = site.translations[site.lang]["why-participate"] %}
+  {% assign reasons = site.translations[site.lang]["why-participate"]["reasons"] %}
   {% for reason in reasons %}
 
     {% assign modulo = forloop.index | modulo: 2 %}    
@@ -76,23 +76,39 @@ permalink: /contact
       {% assign text-direction = 'text-right' %}
     {% endif %}
 
-    {% capture title %}{{ forloop.index }}. {{ reason[1].title }}{% endcapture %}
-    {% capture icon-link %}{{ site.baseurl_root }}/assets/icons/{{ reason[1].icon }}{% endcapture %}
+    {% capture title %}{{ forloop.index }}. {{ reason.title }}{% endcapture %}
+
+    {% capture icon-link %}{{ site.baseurl_root }}/assets/icons/{{ reason.icon }}{% endcapture %}
     
     {% capture icon-tag %} 
-      <img class="information-icon" src="{{ icon-link }}" alt="{{ reason[1].icon_alt }}"> 
+      <img class="information-icon" src="{{ icon-link }}" alt="{{ reason.icon_alt }}"> 
     {% endcapture %}
 
     {% capture text %}
       <h2>{{ title }}</h2>
       <div class="heading-separator"></div>
-      <p>{{ reason[1].description }}</p>
+      <p>{{ reason.description }}</p>
     {% endcapture %}
 
-    {% if forloop.last == true %}
+    {% if forloop.last == false %}
+      <section class="{{ background }} {{ text-direction }} information-section">
+        <div class="container">
+          <div class="row">
+          {% if modulo == 1 %}
+            <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-lg-5"> {{ text }} </div>
+            <div class="col-sm-6 col-md-5 col-md-offset-1 col-lg-offset-2 hidden-xs text-center content-center"> {{ icon-tag }} </div>
+          {% else %}
+            <div class="col-sm-6 col-md-5 hidden-xs text-center content-center"> {{ icon-tag }} </div>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-offset-1 col-lg-5 col-lg-offset-2"> {{ text }}</div>
+          {% endif %}
+          </div>
+        </div>
+      </section>
+    {% else %}
       <section class="{{ background }} text-center last-section">
-        <h1>{{ title }}</h1>
-        <p>{{ reason[1].description }}</p>
+        <h2>{{ title }}</h2>
+        <div class="heading-separator"></div>
+        <p>{{ reason.description }}</p>
         <a href="#" class="btn btn-sq-lg btn-primary"> 
           <span class="glyphicon glyphicon-file" aria-hidden="true"></span><br/> 
           Berichte
@@ -108,20 +124,6 @@ permalink: /contact
           Email
         </a>
 
-      </section>
-    {% else %}
-      <section class="{{ background }} {{ text-direction }} information-section">
-        <div class="container">
-          <div class="row">
-          {% if modulo == 1 %}
-            <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-lg-5 text-container"> {{ text }} </div>
-            <div class="col-sm-6 col-md-5 col-md-offset-1 col-lg-offset-2 hidden-xs text-center"> {{ icon-tag }} </div>
-          {% else %}
-            <div class="col-sm-6 col-md-5 hidden-xs text-center"> {{ icon-tag }} </div>
-            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-offset-1 col-lg-5 col-lg-offset-2 text-container"> {{ text }}</div>
-          {% endif %}
-          </div>
-        </div>
       </section>
     {% endif %}
   {% endfor %}
