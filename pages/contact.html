@@ -8,16 +8,15 @@ permalink: /contact
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <h1>Kontakt</h1>
+          <h1>{% t contact.contact %}</h1>
           <div class="row">
             <div class="col-xs-6 col-sm-12 col-md-6">
-              <h3>Postadresse</h3>
+              <h3>{% t contact.postal_address %}</h3>
               <div class="short-heading-separator"></div>
               <p class="address">Westring 304<br>24043 Kiel<br>Germany</p>
             </div>
             <div class="col-xs-6 col-sm-12 col-md-6">
-              <h3>Büroadresse <span class="badge hidden-xs">Mach Mit
-  </span></h3>
+              <h3>{% t contact.office_address %} <span class="badge hidden-xs">{% t contact.participate_badge %}</span></h3>
               <div class="short-heading-separator"></div>
               <p class="address">Westring 304<br>24043 Kiel<br>Germany</p>
             </div>
@@ -33,38 +32,40 @@ permalink: /contact
           </div>
         </div>
         <div class="col-sm-6 col-md-4">
-          <h1>Anfrage</h1>
+          <h1>{% t contact.enquiry.title %}</h1>
           <form>
             <div class="form-group">
-              <label for="name-input">Name:</label>
+              <label for="name-input">{% t contact.enquiry.name_label %}:</label>
               <input class="form-control" id="name-input">
             </div>
               <div class="form-group">
-                <label for="email-input">Email:</label>
+                <label for="email-input">{% t contact.enquiry.email_label %}:</label>
                 <input type="email" class="form-control" id="email-input">
               </div>
             <div class="form-group">
-              <label for="message-input">Nachricht:</label>
+              <label for="message-input">{% t contact.enquiry.message_label %}:</label>
               <textarea class="form-control" rows="4" id="message-input"></textarea>
             </div>
-            <button type="submit" class="btn btn-complementary">Absenden</button>
+            <button type="submit" class="btn btn-complementary">{% t contact.enquiry.send_button %}</button>
           </form>
         </div>
       </div>
     </div>
 </section>
 <main class="why-participate">
+
+  {% assign reasons = site.translations[site.lang]["why_participate"]["reasons"] %}
+
   <section class="text-center">
-    <h1>Warum mitmachen?</h1>
+    <h1>{% t why_participate.title %}</h1>
     <div class="horizontal-ruler-gray">
       <div class="container">
         <hr>
-        <span>10 Gründe</span>
+        <span>{{ reasons | size }} {% t why_participate.x_reasons %}</span>
       </div>
     </div>
   </section>
 
-  {% assign reasons = site.translations[site.lang]["why-participate"]["reasons"] %}
   {% for reason in reasons %}
 
     {% assign modulo = forloop.index | modulo: 2 %}    
@@ -111,17 +112,17 @@ permalink: /contact
         <p>{{ reason.description }}</p>
         <a href="#" class="btn btn-sq-lg btn-primary"> 
           <span class="glyphicon glyphicon-file" aria-hidden="true"></span><br/> 
-          Berichte
+          {% t why_participate.buttons.reports %}
         </a>
 
         <a href="#" class="btn btn-sq-lg btn-primary">
           <span class="glyphicon glyphicon-picture" aria-hidden="true"></span><br/>
-          Galerie
+          {% t why_participate.buttons.galery %}
         </a>
 
         <a href="mailto:iaeste@uv.uni-kiel.de" class="btn btn-sq-lg btn-primary">
           <span class="glyphicon glyphicon-send" aria-hidden="true"></span><br/>
-          Email
+          {% t why_participate.buttons.email %}
         </a>
 
       </section>

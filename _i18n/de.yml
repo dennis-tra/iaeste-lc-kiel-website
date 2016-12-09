@@ -13,7 +13,77 @@ titles:
   employer: Firmen
   faq: FAQ
   contact: Kontakt
-why-participate:
+supporters_separator: Unterstützt durch
+index:
+  title: Horizont erweitern?
+  subtitle: Nutze die Chance und mache eine einmalige internationale Erfahrung im Ausland
+  main_audience:
+    outgoing:
+      title: Outgoing
+      description: Du studierst an der <strong>CAU</strong> oder <strong>FH</strong> in Kiel und möchtest ein Praktikum im Ausland machen? Klick hier
+    incoming:
+      title: Incoming
+      description: Du möchtest ein Praktikum im Ausland machen oder die einfach nur informieren? Hier entlang
+    employer:
+      title: Firmen
+      description: Du möchtest ein Praktikum im Ausland machen oder die einfach nur informieren? Hier entlang
+  what_is_iaeste:
+    title: Was ist IAESTE?
+    top_left:
+      title: Lorem ipsum dolor
+      description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+    bottom_left:
+      title: Lorem ipsum dolor
+      description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+    top_right:
+      title: Lorem ipsum dolor
+      description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+    bottom_right:
+      title: Lorem ipsum dolor
+      description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+  statistics:
+    - value: 5600
+      description: Outgoer
+      icon: backpack.png
+      icon_alt: Backpack
+    - value: 80
+      description: Länder
+      icon: world.png
+      icon_alt: World
+    - value: 600
+      description: offene Stellen
+      icon: worker.png
+      icon_alt: Worker
+  travel_reports:
+    title: Erfahrungsberichte
+    description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, a
+    button_label: Klick hier
+  discover_kiel:
+    title: Entdecke Kiel
+    description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, a
+    button_label: Klick hier 
+  employer_information:
+    title: Entdecke Kiel
+    description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, a
+    button_label: Klick hier
+contact:
+  contact: Kontakt
+  postal_address: Postadresse
+  office_address: Büroadresse
+  enquiry: 
+    title: Anfrage
+    name_label: Name
+    email_label: Email
+    message_label: Nachricht
+    send_button: Absenden
+  participate_badge: Mach Mit
+why_participate:
+  title: Warum mitmachen?
+  x_reasons: Gründe
+  buttons:
+    reports: Berichte
+    galery: Galerie
+    email: Email
   reasons:
     - title: Abwechslung im Studium
       description: "Du hast genug von der grauen Theorie des Studiums und brauchst ein bisschen Abwechslung? Bei uns im Lokalkomitee kannst du vielfältige Aufgaben übernehmen, ganz nach deinen Vorlieben: Ausflüge und Wohnungen organiseren, Projekte planen und durchführen, andere Studenten beraten und Praktikumsplätze vermitteln, ..."
@@ -56,6 +126,21 @@ why-participate:
       icon: 
       icon_alt: ""
 outgoing:
+  title: IAESTE Auslandspraktikum
+  subtitle: fachspezifisch, bezahlt, horizonterweiternd
+  general_information: 
+    title: Allgemeine Informationen
+    description: Das IAESTE Lokalkomitee Kiel vermittelt Fachpraktika im Ausland für Studierende der CAU Kiel, der FH Kiel und der FH Flensburg in allen technischen und naturwissenschaftlichen Fachrichtungen. Ein Großteil der IAESTE-Praktika dauert etwa 2 bis 3 Monate und findet in den Sommermonaten zwischen Mai und Oktober statt, mittlerweile werden aber auch immer mehr Praktika über ein halbes oder ganzes Jahr angeboten. Die Praktika werden grundsätzlich bezahlt; dabei richtet sich der Verdienst nach den landestypischen Lebenshaltungskosten.
+  in_a_nutshell:
+    title: IAESTE in Kürze
+    points:
+      - Weltweiter Praktikantenaustausch
+      - Weltweit etwa 80 Mitgliedsländer
+      - In Deutschland Teil des DAAD
+      - Jährlich etwa 1200 getauschte Praktikumsplätze für Deutschland
+      - Betreuung erfolgt an den Universitäten zumeist ehrenamtlich durch Studenten
+      - Anzahl angebotener Praktikumsplätze = Anzahl erhaltener Praktikumsplätze
+  process_title: Ablauf des Bewerbungsverfahrens
   process:
     - month: November
       description: Zunächst wirbt jedes Lokalkomitee Praktikumsplätze in seinem jeweiligen Zuständigkeitsbereich ein. Außerdem sammelt jedes Lokalkomitee bis zum 30. November eines jeden Jahres die Vorbewerbung von den Praktikumsinteressenten, um einen Überblick über den Platzbedarf an der jeweiligen Hochschule zu bekommen.
@@ -72,6 +157,26 @@ outgoing:
     - month: März
       description: Im letzten Schritt verteilen wir dann noch im Februar eines jeden Jahres die Plätze an unsere Bewerber. Da wir in Kiel jährlich etwa 20 Plätze zur Verfügung haben und die Anzahl der Bewerber bei ca. 60 liegt, werden auf einen Platz bis zu drei Bewerber gesetzt. Bei mehreren Zusagen entscheiden wir dann anhand der Vorbewerbungen über die endgültige Platzvergabe. Sollten alle Interessenten gleich gut geeignet sein, entscheidet das Los.
       applicant_task: Hier passiert auch noch iwas voll wichtiges
+  missed_application:
+    question: Diese Periode verpasst?
+    answer: Macht nichts!
+  remaining_offers:
+    title: Restplätze und kurzfristige Angebote
+    paragraphs:
+      - Im regulären Bewerbungsverfahren bleiben nach der ersten Platzvergabe oft Plätze übrig, die mitunter recht interessant sind. Diese Restplätze werden im sogenannten Nachtauschverfahren vergeben. Dabei spielt die Abgabe einer Vorbewerbung keine Rolle mehr. Die entsprechenden Termine werden über unseren Newsletter, den IAESTE-Friends-Verteiler, angekündigt.
+      - Die außerplanmäßige Platzvergabe durch Early/Late Offers und die kurzfristig zu vergebenen Plätze hat in den letzten Jahren starkt zugenommen. Bei den Early/Late Offers handelt es sich um Plätze, die für das letzte Bewerbungsverfahren zu spät und das folgende zu früh eingereicht wurden. Diese sind oft kurzfristig zu besetzen. Wenn wir so einen Platz vom IAESTE Nationalkomitee bekommen, schicken wir ebenfalls eine Nachricht über unseren Newsletter, den IAESTE-Friends-Verteiler. Bei Interesse an einem solchen Praktikumsplatz solltet Ihr uns möglichst schnell Bescheid geben, damit wir den entsprechenden Platz für Euch reservieren können.
+      - Schließlich existiert noch eine internationale IAESTE-Datenbank, in der ebenfalls kurzfristig zu besetzende Praktikumsplätze verzeichnet sind. Mit Unterstützung des LC Karlsruhe können wir Euch hier die aktuelle Platzliste anbieten. Auf diese Plätze kann weltweit zugegriffen werden und sie können schnell anderweitig vergeben sein. Bitte beachtet auch, dass diese Liste aus Datenschutzgründen nicht alle Informationen enthält. Sie wird regelmäßig aktualisiert, bei häufigen Besuchen hilft also ein Klick auf "Aktualisieren" bzw. "Neu laden". Für weitere Informationen bzw. bei Interesse an einem Platz kommt bitte während unserer Bürozeiten bei uns im Büro vorbei! Dann können wir versuchen, den Platz für Euch zu reservieren.
+  newsletter:
+    label: Subscribe to our mailing list
+    email_placeholder: Email Adresse
+    subscribe_button: Subscribe
+  something_unclear:
+    title: Irgendwas unklar?
+    description: Dann schau in der FAQ Abteilung vorbei, schreibe uns eine Email oder komme einfach bei uns im Büro vorbei!
+    buttons:
+      faq: FAQ
+      email: Email
+      contact: Kontakt
 
 
 
