@@ -4,54 +4,8 @@ title: Kontakt
 navigation_weight: 7
 permalink: /contact
 ---
-<section class="contact-hero dark-bg">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <h1>{% t contact.contact %}</h1>
-          <div class="row">
-            <div class="col-xs-6 col-sm-12 col-md-6">
-              <h3>{% t contact.postal_address %}</h3>
-              <div class="short-heading-separator"></div>
-              <p class="address">Westring 304<br>24043 Kiel<br>Germany</p>
-            </div>
-            <div class="col-xs-6 col-sm-12 col-md-6">
-              <h3>{% t contact.office_address %} <span class="badge hidden-xs">{% t contact.participate_badge %}</span></h3>
-              <div class="short-heading-separator"></div>
-              <p class="address">Westring 304<br>24043 Kiel<br>Germany</p>
-            </div>
-          </div>
-          <div class="contact-option">
-            <img src="{{ site.baseurl_root }}/assets/icons/email-logo-white.png" alt="Email icon">
-            <a href="mailto:iaeste@uv.uni-kiel.de">iaeste@uv.uni-kiel.de</a>
-          </div>
+{% include address_enquiry.html %}
 
-          <div class="contact-option">
-            <img src="{{ site.baseurl_root }}/assets/icons/facebook-logo-white.png" alt="Email icon">
-            <a href="https://www.facebook.com/iaestelckiel/">IAESTE LC Kiel</a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <h1>{% t contact.enquiry.title %}</h1>
-          <form>
-            <div class="form-group">
-              <label for="name-input">{% t contact.enquiry.name_label %}:</label>
-              <input class="form-control" id="name-input">
-            </div>
-              <div class="form-group">
-                <label for="email-input">{% t contact.enquiry.email_label %}:</label>
-                <input type="email" class="form-control" id="email-input">
-              </div>
-            <div class="form-group">
-              <label for="message-input">{% t contact.enquiry.message_label %}:</label>
-              <textarea class="form-control" rows="4" id="message-input"></textarea>
-            </div>
-            <button type="submit" class="btn btn-complementary">{% t contact.enquiry.send_button %}</button>
-          </form>
-        </div>
-      </div>
-    </div>
-</section>
 <main class="why-participate">
 
   {% assign reasons = site.translations[site.lang]["why_participate"]["reasons"] %}

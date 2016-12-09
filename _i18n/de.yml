@@ -177,7 +177,35 @@ outgoing:
       faq: FAQ
       email: Email
       contact: Kontakt
-
+faq:
+  sections:
+    - title: Outgoing
+      questions:
+        - question: Wer kann einen Praktikumsplatz bekommen?
+          answer: Alle eingeschriebenen Studenten der CAU, FH Kiel und FH Flensburg können einen Praktikumsplatz über das IAESTE LC Kiel bekommen. Uns stehen hauptsächlich Praktikumsplätze für Studenten technischer und naturwissenschaftlicher Studiengänge zur Verfügung. Aber auch bei anderen Studiengängen lohnt sich eine Anfrage. Studenten anderer Hochschulen wenden sich bitte an das jeweils zuständige Lokalkomitee.
+        - question: Welche Voraussetzungen muss ich für ein IAESTE-Praktikum erfüllen?
+          answer: Ein Bewerber muss das dritte Fachsemester eines Bachelor-Studienganges vollendet haben. Daneben sollten selbstverständlich auch die platzspezifischen Voraussetzungen erfüllt sein.
+        - question: Wie bekomme ich einen Praktikumsplatz über IAESTE?
+          answer: Wer bis zum 30. November eines Jahres eine unverbindliche Vorbewerbung beim Lokalkomitee einreicht, wird bei der Platzvergabe für Praktika im Folgejahr berücksichtigt. Beim LC Kiel erfolgt die Abgabe der Vorbewerbung online. Der Start der Vorbewerbungsphase wird auf unserer Homepage bzw. über den Friends-Verteiler bekanntgegeben. Generell gilt es zu beachten, dass IAESTE ausschließlich Praktika vermittelt, d.h. die endgültige Entscheidung über die Akzeptierung des Bewerbers liegt bei dem jeweiligen Arbeitgeber.
+        - question: Werden die Praktika vergütet?
+          answer: "IAESTE-Praktika sind bezahlte Praktikumsstellen. Die Bezahlung der Praktika orientiert sich an den Ansprüchen der Firmen und deckt mindestens die Lebenshaltungskosten im Gastland. Zum Vergleich: Der IAESTE-Lebenshaltungskostensatz (Mindestvergütung für Praktikanten) in Deutschland beträgt aktuell 650 €."
+        - question: Was kostet mich dieser Vermittlungsservice?
+          answer: "Einfache Antwort: Nichts! Es gibt keinerlei Verpflichtungen, die mit der Vermittlung eines Platzes einhergehen. Dies ist in Deutschland durch die Eingliederung des IAESTE-Programmes in den DAAD (Deutscher Akademischer Auslandsdienst) möglich.
+Es ist lediglich eine Kaution in Höhe von 30 Euro zu hinterlegen, die nach Beendigung des Praktikums bzw. bei Ablehnung durch den Arbeitgeber selbstverständlich zurückerstattet wird."
+        - question: Ich habe keine Vorbewerbung abgegeben, kann ich trotzdem einen Praktikumsplatz bekommen?
+          answer: Über den Friends-Verteiler werden in unregelmäßigen Abständen kurzfristig zu besetzende Platzangebote verschickt. Während unserer Bürozeiten kann darüberhinaus auch Einblick in die IAESTE-interne Datenbank genommen werden, in der ebenfalls kurzfristig zu besetzende Platzangebote verzeichnet sind. Diese Plätze werden auch an Bewerber ohne Vorbewerbung direkt vermittelt.
+        - question: Was kostet mich dieser Vermittlungsservice?Warum steht auf meinem Platzangebot nicht der Firmenname?
+          answer: Zum Schutz der Firma geben wir zunächst keine Informationen über die jeweilige Firma, um eine vorzeitige Kontaktaufnahme mit der Firma zu vermeiden. Dies ist wichtig, damit dort kein zusätzlicher Organisationsaufwand verursacht wird. Nach definitiver Zusage und Kautionszahlung bekommt der Bewerber aber selbstverständlich nähere Informationen über den Arbeitgeber.
+        - question: Warum muss ich für meinen Platz 30 Euro Kaution bezahlen?
+          answer: Um sicherzustellen, dass wirklich Interesse an dem Platz besteht muss bei definitiver Zusage eine Kaution in Höhe von 30 Euro beim LC Kiel hinterlegt werden. Dies ist wichtig, da es pro Platz generell nur einen Bewerber gibt; zum Schutz und Wohl der Firma soll der angebotene Platz aber auf jeden Fall besetzt werden. Nach Beendigung des Praktikums und Abgabe der Praktikumsberichte oder aber bei Ablehnung durch den Arbeitgeber wird die Kaution selbstverständlich zurückerstattet.
+        - question: Kann ich beim LC Kiel mitmachen?
+          answer: Auf jeden Fall! Wir freuen uns über jeden, der bei uns mitmachen will. Wir haben neben der Praktikavermittlung an Studenten noch viele andere Aufgabenbereiche. Dabei steht der Spaß an der Sache bei uns immer im Vordergrund. Und alles ist problemlos neben einem Vollzeitstudium machbar! Weitere Infos über unsere Aktivitäten findest du hier und in unseren Newcomerinfos. Bei Interesse komm doch einfach mal bei unseren Treffen vorbei oder schick uns eine Email!
+    - title: Incoming
+      questions:
+        - question: Collapsible Group Item
+          answer: Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        - question: Collapsible Group Item
+          answer: Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
 
 
 

@@ -1,0 +1,34 @@
+section.faq {
+  background: $primary-color;
+
+  .jumbotron {
+    margin-top: 30px;
+    color: white;
+    background: $primary-color-paletton-1;
+
+    h2 {
+      color: white;
+      margin: 0px 0 20px 0;
+    }
+
+    .panel, .panel-heading, .panel-body {
+      border-color: $primary-color;
+      border-top-color: $primary-color !important; //speceficity from bootstrap is crazy...
+      color: white;
+      background: $primary-color-paletton-2;
+    }
+
+    .panel-heading a {
+      text-decoration: none;
+    }
+
+    .panel-heading:hover {
+      background: darken($primary-color-paletton-2, 5%);
+      cursor:pointer;
+    }
+
+    .panel-heading:active {
+      background: darken($primary-color-paletton-2, 7%);
+    }
+  }
+}
