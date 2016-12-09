@@ -25,6 +25,12 @@ url: "https://dennis-tra.github.io" # the base hostname & protocol for your site
 github_username:  dennis-tra
 repository: "dennis-tra/iaeste-lc-kiel-website"
 
+languages: ["de", "en"]
+exclude_from_localizations: [ "assets" ]
+
+sass:
+  style: compressed
+
 # Build settings
 markdown: kramdown
 gems:
@@ -32,6 +38,7 @@ gems:
    - jekyll-redirect-from
    - jekyll-sitemap
    - jekyll-seo-tag
+   - jekyll-multiple-languages-plugin
 
 exclude:
   - Gemfile
@@ -42,3 +49,4 @@ exclude:
   - design.sketch
   - .env
   - .gitignore
+  - scripts/deploy.sh

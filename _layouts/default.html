@@ -8,11 +8,11 @@
 
     <title>{{ site.title }} | {{ page.title }}</title>
 
-    <link href="assets/stylesheets/styles.css" rel="stylesheet">
+    <link href="{{ site.baseurl_root }}/assets/stylesheets/styles.css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="assets/javascripts/bootstrap.min.js"></script>
-    <script src="assets/javascripts/scripts.js"></script>
+    <script src="{{ site.baseurl_root }}/assets/javascripts/bootstrap.min.js"></script>
+    <script src="{{ site.baseurl_root }}/assets/javascripts/scripts.js"></script>
   </head>
   <body>
     {% include header.html %}
