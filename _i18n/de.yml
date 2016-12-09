@@ -14,53 +14,80 @@ titles:
   faq: FAQ
   contact: Kontakt
 why-participate:
-  reason_0:
-    title: Abwechslung im Studium
-    description: "Du hast genug von der grauen Theorie des Studiums und brauchst ein bisschen Abwechslung? Bei uns im Lokalkomitee kannst du vielfältige Aufgaben übernehmen, ganz nach deinen Vorlieben: Ausflüge und Wohnungen organiseren, Projekte planen und durchführen, andere Studenten beraten und Praktikumsplätze vermitteln, ..."
-    icon: bored_student.png
-    icon_alt: ""
-  reason_1:
-    title: Auslandsaufenthalte
-    description: "Du bist an der Quelle für ein gutes Auslandspraktikum und eine Menge an spaßigen internationalen Treffen weltweit - praktische Auslandserfahrungen mit hohem Spaßfaktor - in mehr als 80 Ländern der Welt!"
-    icon: plane.png
-    icon_alt: ""
-  reason_2:
-    title: Internationale Kontakte
-    description: "IAESTE - ein weltweites Netzwerk. Bei uns kommunizierst du mit Studenten aus der ganzen Welt. Um Erfahrungen auszutauschen, gemeinsame Projekte zu organisieren, oder um langjährige Freundschaften zu pflegen!"
-    icon: network.png
-    icon_alt: ""
-  reason_3:
-    title: Soziale Kompetenz
-    description: "Alle Unternehmen fordern sie, viele Studenten können damit aber nicht viel anfangen. Bei uns investierst du in deine eigene Zukunft - durch verantwortungsvollen Umgang mit deinen Aufgaben im Lokalkomitee kann man das lernen: Ideen vertreten vor anderen, Diskutieren, Verhandeln mit Firmenvertretern - und noch viel mehr!"
-    icon: soft_skill.png
-    icon_alt: ""
-  reason_4: 
-    title: Teamwork
-    description: "Viele Köpfe haben viele gute Ideen. Im Team gilt es dann abzuwägen, welcher Weg der beste ist... Teamwork ist außerordentlich wichtig, sowohl bei uns als auch später im Berufsleben. Bei uns kann man seine Teamfähigkeit trainieren."
-    icon: teamwork.png
-    icon_alt: ""
-  reason_5:
-    title: Fremdsprachen aktiv nutzen
-    description: "Deine Fremdsprachenkenntnisse sind seit der Schule stark eingerostet? Oder du sprichst eine exotische Sprache? Bei uns hast Du Kontakt zu Praktikanten und Studenten aus aller Welt: Japan, Brasilien, England, Finnland... fast alle sprechen Englisch. Die ideale Gelegenheit, eine Fremdsprache regelmäßig aktiv zu benutzen und die eigenen Kenntnisse zu verbessern. Du lernst schnell neue Begriffe aus erster Hand, oder bringst den Praktikanten bei, sich auf Deutsch zurechtzufinden."
-    icon: speaking_bubbles.png
-    icon_alt: ""
-  reason_6:
-    title: Kreativität ausleben
-    description: "Du kannst gut Schreiben, Zeichnen, Reden? Aber im Studium fühlst Du Dich unterfordert... Oder Du findest nicht die richtigen Aufgaben? Sprich uns an - wir können kreative Köpfe immer gebrauchen: für unsere Artikel, für die Werbung, für Grafik und Layout..."
-    icon: creativity.png
-    icon_alt: ""
-  reason_7:
-    title: Verantwortung übernehmen
-    description: "Für uns kein Fremdwort. Wir übernehmen Aufgaben, die ein hohes Maß an Verantwortungsbewusstsein erfordern - die Dankbarkeit und Zufriedenheit unserer Praktikanten zeigt uns, dass sich der Einsatz lohnt."
-    icon: responsibility.png
-    icon_alt: ""
-  reason_8:
-    title: Eine Welt voll neuer Bekanntschaften
-    description: "Das weltweite Netzwerk von IAESTE sorgt immer wieder für internationale Freundschaften. Und durch unsere Projekte sieht man sich immer mal wieder - irgendwo..."
-    icon: world-icon.png
-    icon_alt: ""
-  reason_9:
-    title: Es macht einfach Spaß
-    description: "Schaue Dir unsere Erfahrungsberichte, Incomer-Aktivitäten an oder melde dich bei uns!"
-    icon: 
-    icon_alt: ""
+  reasons:
+    - title: Abwechslung im Studium
+      description: "Du hast genug von der grauen Theorie des Studiums und brauchst ein bisschen Abwechslung? Bei uns im Lokalkomitee kannst du vielfältige Aufgaben übernehmen, ganz nach deinen Vorlieben: Ausflüge und Wohnungen organiseren, Projekte planen und durchführen, andere Studenten beraten und Praktikumsplätze vermitteln, ..."
+      icon: bored_student.png
+      icon_alt: ""
+    - title: Auslandsaufenthalte
+      description: "Du bist an der Quelle für ein gutes Auslandspraktikum und eine Menge an spaßigen internationalen Treffen weltweit - praktische Auslandserfahrungen mit hohem Spaßfaktor - in mehr als 80 Ländern der Welt!"
+      icon: plane.png
+      icon_alt: ""
+    - title: Internationale Kontakte
+      description: "IAESTE - ein weltweites Netzwerk. Bei uns kommunizierst du mit Studenten aus der ganzen Welt. Um Erfahrungen auszutauschen, gemeinsame Projekte zu organisieren, oder um langjährige Freundschaften zu pflegen!"
+      icon: network.png
+      icon_alt: ""
+    - title: Soziale Kompetenz
+      description: "Alle Unternehmen fordern sie, viele Studenten können damit aber nicht viel anfangen. Bei uns investierst du in deine eigene Zukunft - durch verantwortungsvollen Umgang mit deinen Aufgaben im Lokalkomitee kann man das lernen: Ideen vertreten vor anderen, Diskutieren, Verhandeln mit Firmenvertretern - und noch viel mehr!"
+      icon: soft_skill.png
+      icon_alt: ""
+    - title: Teamwork
+      description: "Viele Köpfe haben viele gute Ideen. Im Team gilt es dann abzuwägen, welcher Weg der beste ist... Teamwork ist außerordentlich wichtig, sowohl bei uns als auch später im Berufsleben. Bei uns kann man seine Teamfähigkeit trainieren."
+      icon: teamwork.png
+      icon_alt: ""
+    - title: Fremdsprachen aktiv nutzen
+      description: "Deine Fremdsprachenkenntnisse sind seit der Schule stark eingerostet? Oder du sprichst eine exotische Sprache? Bei uns hast Du Kontakt zu Praktikanten und Studenten aus aller Welt: Japan, Brasilien, England, Finnland... fast alle sprechen Englisch. Die ideale Gelegenheit, eine Fremdsprache regelmäßig aktiv zu benutzen und die eigenen Kenntnisse zu verbessern. Du lernst schnell neue Begriffe aus erster Hand, oder bringst den Praktikanten bei, sich auf Deutsch zurechtzufinden."
+      icon: speaking_bubbles.png
+      icon_alt: ""
+    - title: Kreativität ausleben
+      description: "Du kannst gut Schreiben, Zeichnen, Reden? Aber im Studium fühlst Du Dich unterfordert... Oder Du findest nicht die richtigen Aufgaben? Sprich uns an - wir können kreative Köpfe immer gebrauchen: für unsere Artikel, für die Werbung, für Grafik und Layout..."
+      icon: creativity.png
+      icon_alt: ""
+    - title: Verantwortung übernehmen
+      description: "Für uns kein Fremdwort. Wir übernehmen Aufgaben, die ein hohes Maß an Verantwortungsbewusstsein erfordern - die Dankbarkeit und Zufriedenheit unserer Praktikanten zeigt uns, dass sich der Einsatz lohnt."
+      icon: responsibility.png
+      icon_alt: ""
+    - title: Eine Welt voll neuer Bekanntschaften
+      description: "Das weltweite Netzwerk von IAESTE sorgt immer wieder für internationale Freundschaften. Und durch unsere Projekte sieht man sich immer mal wieder - irgendwo..."
+      icon: world-icon.png
+      icon_alt: ""
+    - title: Es macht einfach Spaß
+      description: "Schaue Dir unsere Erfahrungsberichte, Incomer-Aktivitäten an oder melde dich bei uns!"
+      icon: 
+      icon_alt: ""
+outgoing:
+  process:
+    - month: November
+      description: Zunächst wirbt jedes Lokalkomitee Praktikumsplätze in seinem jeweiligen Zuständigkeitsbereich ein. Außerdem sammelt jedes Lokalkomitee bis zum 30. November eines jeden Jahres die Vorbewerbung von den Praktikumsinteressenten, um einen Überblick über den Platzbedarf an der jeweiligen Hochschule zu bekommen.
+      applicant_task: Schicke uns eine vorläufige Bewerbung bis zum 30. November an unsere Email adresse
+    - month: Dezember
+      description: Zu einem bestimmten Stichtag melden alle Lokalkomitees den eigenen Platzbedarf an das zuständige Nationalkomitee. Wir schicken unsere Bedarfsliste also an den Deutschen Akademischen Austauschdienst (DAAD). Die von den Lokalkomitees eingeworbenen Plätze werden direkt beim Nationalkomitee gesammelt.
+      applicant_task:
+    - month: Januar
+      description: "Im Januar eines jeden Jahres findet die General Conference (GC) statt, zu der Vertreter aus allen Nationalkomitees anreisen. Jeder hat die Platzangebote aus seinem Land im Gepäck und außerdem einen Überblick über den nationalen Platzbedarf. Auf der GC werden dann in mehreren Tauschsessions die Platzangebote mit den Vertretern der anderen Länder getauscht. Dabei gilt das Prinzip: Anzahl angebotene Plätze = Anzahl erhaltene Plätze."
+      applicant_task:
+    - month: Februar
+      description: "Jedes Jahr im Februar werden die auf der GC erhaltenen Praktikumsplätze im Ausland dann von den Nationalkomitees an die angeschlossenen Lokalkomitees verteilt. Diese Zuteilung geschieht anhand der von den Lokalkomitees erstellten Bedarfslisten. Zusätzlich findet ebenfalls im Februar eine nationale Tauschkonferenz statt, zu der Vertreter aller Lokalkomitees anreisen. Auf dieser nationalen Tauschkonferenz besteht die Gelegenheit, Plätze mit anderen Lokalkomitees zu tauschen, da die erste Platzzuteilung nicht immer optimal ist. Hier versuchen wir also, für Euch die besten Plätze zu ergattern!"
+      applicant_task:
+    - month: März
+      description: Im letzten Schritt verteilen wir dann noch im Februar eines jeden Jahres die Plätze an unsere Bewerber. Da wir in Kiel jährlich etwa 20 Plätze zur Verfügung haben und die Anzahl der Bewerber bei ca. 60 liegt, werden auf einen Platz bis zu drei Bewerber gesetzt. Bei mehreren Zusagen entscheiden wir dann anhand der Vorbewerbungen über die endgültige Platzvergabe. Sollten alle Interessenten gleich gut geeignet sein, entscheidet das Los.
+      applicant_task: Hier passiert auch noch iwas voll wichtiges
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
