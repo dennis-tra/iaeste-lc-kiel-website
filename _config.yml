@@ -25,7 +25,8 @@ url: "https://dennis-tra.github.io" # the base hostname & protocol for your site
 github_username:  dennis-tra
 repository: "dennis-tra/iaeste-lc-kiel-website"
 
-languages: ["de", "en"]
+#languages: ["de", "en"]
+languages: ["de"]
 exclude_from_localizations: [ "assets" ]
 
 sass:
