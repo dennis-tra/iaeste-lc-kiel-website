@@ -36,6 +36,48 @@ var drawCanvases = function() {
 
 $(document).ready(function() {
   drawCanvases();
+
+  var reportHeadingDiv = $("#report-heading");
+  var reportTextDiv = $("#report-text");
+  var reportSubheadingDiv = $("#report-subheading");
+  var reportPDFButton = $("#report-pdf-button");
+  var travelReportsSection = $('.travel-reports-section')
+
+  for (var report in $('.report-item')) {
+    $(report).find('.hover-dummy').on('click', function(ev) {
+      var reportID = ev.target.id;
+      var reportLocation = $('#' + ev.target.id + '_location')[0].innerHTML;
+      var reportWho = $('#' + ev.target.id + '_who')[0].innerHTML;
+      var reportWhen = $('#' + ev.target.id + '_when')[0].innerHTML;
+      var reportText = $('#' + ev.target.id + '_text')[0].innerHTML;
+      var reportPDF = $('#' + ev.target.id + '_pdf')[0].innerHTML;
+      var reportImage = $('#' + ev.target.id + '_image')[0].innerHTML;
+
+      reportHeadingDiv.fadeOut(function() {
+        $(this).text(reportLocation).fadeIn();
+      });
+
+      reportSubheadingDiv.fadeOut(function(){
+        $(this).text(reportWho + ", " + reportWhen).fadeIn();
+      });
+
+      reportTextDiv.fadeOut(function(){
+        $(this).text(reportText).fadeIn();
+      });
+
+      reportPDFButton.fadeOut(function(){
+        $(this).removeClass("hidden")
+        $(this).attr("href", reportPDF);
+        $(this).fadeIn();
+      });
+
+      $(travelReportsSection).fadeTo('slow', 0.3, function() {
+          $(this).css('background-image', 'url(' + reportImage + ')');
+      }).fadeTo('slow', 1);
+
+    });
+  }
+
 });
 
 window.onresize = function(event) {

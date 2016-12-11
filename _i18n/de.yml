@@ -63,7 +63,7 @@ index:
     description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, a
     button_label: Klick hier 
   employer_information:
-    title: Entdecke Kiel
+    title: Informationen für Arbeitgeber
     description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, a
     button_label: Klick hier
 contact:
@@ -131,6 +131,7 @@ outgoing:
   general_information: 
     title: Allgemeine Informationen
     description: Das IAESTE Lokalkomitee Kiel vermittelt Fachpraktika im Ausland für Studierende der CAU Kiel, der FH Kiel und der FH Flensburg in allen technischen und naturwissenschaftlichen Fachrichtungen. Ein Großteil der IAESTE-Praktika dauert etwa 2 bis 3 Monate und findet in den Sommermonaten zwischen Mai und Oktober statt, mittlerweile werden aber auch immer mehr Praktika über ein halbes oder ganzes Jahr angeboten. Die Praktika werden grundsätzlich bezahlt; dabei richtet sich der Verdienst nach den landestypischen Lebenshaltungskosten.
+    button: Erfahrungsberichte
   in_a_nutshell:
     title: IAESTE in Kürze
     points:
@@ -170,14 +171,16 @@ outgoing:
     label: Subscribe to our mailing list
     email_placeholder: Email Adresse
     subscribe_button: Subscribe
-  something_unclear:
-    title: Irgendwas unklar?
-    description: Dann schau in der FAQ Abteilung vorbei, schreibe uns eine Email oder komme einfach bei uns im Büro vorbei!
-    buttons:
-      faq: FAQ
-      email: Email
-      contact: Kontakt
+something_unclear:
+  title: Irgendwas unklar?
+  description: Dann schau in der FAQ Abteilung vorbei, schreibe uns eine Email oder komme einfach bei uns im Büro vorbei!
+  buttons:
+    faq: FAQ
+    email: Email
+    contact: Kontakt
 faq:
+  title: Häufig gestellte Fragen
+  subtitle: Hier findet Ihr die am häufigsten gestellten Fragen. Solltet Ihr noch weiter Fragen haben, dann wendet euch einfach per Email an uns. Wir versuchen darauf so schnell wie möglich zu antworten.
   sections:
     - title: Outgoing
       questions:
@@ -196,7 +199,7 @@ Es ist lediglich eine Kaution in Höhe von 30 Euro zu hinterlegen, die nach Been
           answer: Über den Friends-Verteiler werden in unregelmäßigen Abständen kurzfristig zu besetzende Platzangebote verschickt. Während unserer Bürozeiten kann darüberhinaus auch Einblick in die IAESTE-interne Datenbank genommen werden, in der ebenfalls kurzfristig zu besetzende Platzangebote verzeichnet sind. Diese Plätze werden auch an Bewerber ohne Vorbewerbung direkt vermittelt.
         - question: Was kostet mich dieser Vermittlungsservice?Warum steht auf meinem Platzangebot nicht der Firmenname?
           answer: Zum Schutz der Firma geben wir zunächst keine Informationen über die jeweilige Firma, um eine vorzeitige Kontaktaufnahme mit der Firma zu vermeiden. Dies ist wichtig, damit dort kein zusätzlicher Organisationsaufwand verursacht wird. Nach definitiver Zusage und Kautionszahlung bekommt der Bewerber aber selbstverständlich nähere Informationen über den Arbeitgeber.
-        - question: Warum muss ich für meinen Platz 30 Euro Kaution bezahlen?
+        - question: Warum muss ich für meinen Platz 70 Euro Kaution bezahlen?
           answer: Um sicherzustellen, dass wirklich Interesse an dem Platz besteht muss bei definitiver Zusage eine Kaution in Höhe von 30 Euro beim LC Kiel hinterlegt werden. Dies ist wichtig, da es pro Platz generell nur einen Bewerber gibt; zum Schutz und Wohl der Firma soll der angebotene Platz aber auf jeden Fall besetzt werden. Nach Beendigung des Praktikums und Abgabe der Praktikumsberichte oder aber bei Ablehnung durch den Arbeitgeber wird die Kaution selbstverständlich zurückerstattet.
         - question: Kann ich beim LC Kiel mitmachen?
           answer: Auf jeden Fall! Wir freuen uns über jeden, der bei uns mitmachen will. Wir haben neben der Praktikavermittlung an Studenten noch viele andere Aufgabenbereiche. Dabei steht der Spaß an der Sache bei uns immer im Vordergrund. Und alles ist problemlos neben einem Vollzeitstudium machbar! Weitere Infos über unsere Aktivitäten findest du hier und in unseren Newcomerinfos. Bei Interesse komm doch einfach mal bei unseren Treffen vorbei oder schick uns eine Email!
@@ -210,6 +213,10 @@ incoming:
   control_left: Previous
   control_right: Next
   hero_pictures:
+    - filename: kiel_04.jpg
+      alt_text: "" 
+      title: "asdf"
+      description: "asdf"
     - filename: kiel_01.jpg
       alt_text: "" 
       title: "asdf"
@@ -226,8 +233,99 @@ incoming:
       alt_text: "" 
       title: "Kiel Wochenende 2016"
       description: "Falkensteiner Strand"
-
-
+  general_information: 
+    title: Lieber Bewerber
+    description: Wir freuen uns, dass du dich für ein Praktikum in Kiel beworben hast. Sobald der Arbeitgeber deine Bewerbung akzeptiert hat, steht deinem Praktikum nichts mehr im Wege! <br /><br />Wir sind eine Gruppe von etwa 10 Studenten in Kiel und bilden das IAESTE Lokalkomitee Kiel. Wir arbeiten ehrenamtlich für IAESTE, weil wir sehr interessiert daran sind, Leute aus aller Welt kennenzulernen und auf diesem Wege mehr über andere Kulturen und Sprachen zu erfahren – genau wie du! Aus diesem Grunde geben wir alles, um deinen Aufenthalt in Kiel so angenehm und spaßig wie möglich zu gestalten. Im Rahmen unserer Sommerbetreuung veranstalten wir z.B. verschiedene Ausflüge und Events für unsere Praktikanten. Während deines Praktikums hast du die Möglichkeit, wertvolle Erfahrungen für dein Studienfach zu sammeln und neue Dinge zu lernen. Gleichzeitig möchten wir dir während deiner Zeit in Deutschland aber auch die deutsche Gesellschaft und Kultur näherbringen. Zusammen mit uns und ein paar weiteren Praktikanten wirst du daher sicherlich eine unvergessliche Zeit in Kiel verbringen!<br/><br/>Auf diesen Seiten findest du einige wichtige Informationen für deinen Aufenthalt in Kiel. Solltest du weitere Fragen haben, kannst du uns jederzeit kontaktieren.
+  process:
+    - title: Formular N5/b ausfüllen
+      description: Innerhalb von 2 Wochen das Formular N5/b ausfüllen und an das IAESTE-Nationalkomitee im Heimatland zurückschicken (manchmal müssen weitere Formulare ausgefüllt und eingereicht werden). Sobald wir das Formular N5/b erhalten haben, können wir mit der Suche nach einer Unterkunft für dich beginnen. Es ist also sehr wichtig, das N5/b so schnell wie möglich zurückzuschicken.
+      note: 
+    - title: Visum beantragen
+      description: Wenn du kein EU-Bürger bist, benötigst du zur Einreise nach Deutschland ein Visum. Dieses solltest du so schnell wie möglich bei der nächsten deutschen Botschaft beantragen, da die Bearbeitung oft einige Wochen dauert. Für den Visumantrag benötigst du das Formular N5/a. Bitte erkundige dich bei der deutschen Botschaft nach einem „Schengen-Visum“, da dieses Visum auch in den meisten anderen Ländern Europas gültig ist.
+      note: Nur für nicht EU-Bürger
+    - title: Reisepass verlängern
+      description: Stelle sicher, dass dein Pass während des Praktikums gültig ist
+      note:
+    - title: Internationaler Studentenausweis
+      description: "Jedes Jahr im Februar werden die auf der GC erhaltenen Praktikumsplätze im Ausland dann von den Nationalkomitees an die angeschlossenen Lokalkomitees verteilt. Diese Zuteilung geschieht anhand der von den Lokalkomitees erstellten Bedarfslisten. Zusätzlich findet ebenfalls im Februar eine nationale Tauschkonferenz statt, zu der Vertreter aller Lokalkomitees anreisen. Auf dieser nationalen Tauschkonferenz besteht die Gelegenheit, Plätze mit anderen Lokalkomitees zu tauschen, da die erste Platzzuteilung nicht immer optimal ist. Hier versuchen wir also, für Euch die besten Plätze zu ergattern!"
+      note:
+    - title: "Reise buchen :)"
+      description: Buche einen Flug nach Deutschland. Weitere Informationen zur Anreise gibt es hier. Benachrichtige uns bitte, wann du in Deutschland ankommen wirst.
+      note: Günstige Flugportale hier, hier, hier
+tavel_reports:
+  reports:
+    - where: Deutschland
+      who: Anonym
+      when: 2014
+      image: report_1.jpg
+      teaser_text: 
+      pdf:
+    - where: Neuseeland
+      who: Dennis Trautwein
+      when: 2015
+      image: new_zealand_tiny.jpg
+      teaser_text: 
+      pdf:
+    - where: Israel
+      who: Lea Lehmann-Matthaei
+      when: 2016
+      image: ISRAEL2016Lea.png
+      teaser_text: Am 30. Juli 2016, einem Samstag, was sich als ungünstig herausstellen sollte, bin ich also ins Flugzeug nach Tel Aviv gestiegen. Da mir im Voraus bereits einige Schauergeschichten erzählt wurden, erwartete ich extreme Sicherheitsmaßnahmen und eingehende Befragung, was sich jedoch als unbegründet herausstellte. Man fühlt sich im ganzen Land durchweg sicher! Gewöhnungsbedürftig sind lediglich die bewaffneten Soldaten, die man hin und wieder sieht und kleinere, jedoch nicht sehr penible Sicherheitskontrollen an Shoppingcentern und ...
+      pdf: ISRAEL2016Lea.pdf
+    - where: Deutschland
+      who: Anonym
+      when: 2014
+      image: report_1.jpg
+      teaser_text: 
+      pdf:
+    - where: Deutschland
+      who: Anonym
+      when: 2014
+      image: report_1.jpg
+      teaser_text: 
+      pdf:
+    - where: Deutschland
+      who: Anonym
+      when: 2014
+      image: report_1.jpg
+      teaser_text: 
+      pdf:
+    - where: Deutschland
+      who: Anonym
+      when: 2014
+      image: report_1.jpg
+      teaser_text: 
+      pdf:
+    - where: Neuseeland
+      who: Dennis Trautwein
+      when: 2015
+      image: new_zealand_tiny.jpg
+      teaser_text: 
+      pdf:
+    - where: Israel
+      who: Lea Lehmann-Matthaei
+      when: 2016
+      image: ISRAEL2016Lea.png
+      teaser_text: Am 30. Juli 2016, einem Samstag, was sich als ungünstig herausstellen sollte, bin ich also ins Flugzeug nach Tel Aviv gestiegen. Da mir im Voraus bereits einige Schauergeschichten erzählt wurden, erwartete ich extreme Sicherheitsmaßnahmen und eingehende Befragung, was sich jedoch als unbegründet herausstellte. Man fühlt sich im ganzen Land durchweg sicher! Gewöhnungsbedürftig sind lediglich die bewaffneten Soldaten, die man hin und wieder sieht und kleinere, jedoch nicht sehr penible Sicherheitskontrollen an Shoppingcentern und ...
+      pdf: ISRAEL2016Lea.pdf
+    - where: Deutschland
+      who: Anonym
+      when: 2014
+      image: report_1.jpg
+      teaser_text: 
+      pdf:
+    - where: Deutschland
+      who: Anonym
+      when: 2014
+      image: report_1.jpg
+      teaser_text: 
+      pdf:
+    - where: Deutschland
+      who: Anonym
+      when: 2014
+      image: report_1.jpg
+      teaser_text: 
+      pdf:
 
 
 

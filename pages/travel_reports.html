@@ -1,0 +1,48 @@
+---
+layout: default
+title: Travel Reports
+permalink: /travel_reports
+---
+
+<main class="travel-reports-section">
+  <div class="container">
+    <div class="col-xs-12 col-sm-4 reports-list">
+      {% assign reports = site.translations[site.lang]["tavel_reports"]["reports"] %}
+      {% for report in reports %}
+
+        {% assign modulo = forloop.index0 | modulo: 2 %}
+
+
+        {% if modulo == 0 %}
+          <div class="flex-container">
+        {% endif %}
+
+
+          <div class="report-item">
+            <div class="background-image" style="background-image: url({{ site.baseurl_root }}/assets/travel-reports/{{ report.image }})"></div>
+            <div class="blue-bottom-badge">
+              <h1 id="report_{{forloop.index0}}_location">{{ report.where }}</h1>
+              <h2><span id="report_{{forloop.index0}}_who">{{ report.who }}</span>, <span id="report_{{forloop.index0}}_when">{{ report.when }}</span></h2>
+            </div>
+            <div class="hover-dummy" id="report_{{forloop.index0}}"></div>
+            <span class="hidden" id="report_{{forloop.index0}}_text">{{ report.teaser_text }}</span>
+            <span class="hidden" id="report_{{forloop.index0}}_pdf">{{ site.baseurl_root }}/assets/travel-reports/{{ report.pdf }}</span>
+            <span class="hidden" id="report_{{forloop.index0}}_image">{{ site.baseurl_root }}/assets/travel-reports/{{ report.image }}</span>
+          </div>
+
+        {% if modulo == 1 or forloop.last == true %}
+          </div>
+        {% endif %}
+
+      {% endfor %}
+    </div>
+    <div class="col-sm-6 col-sm-offset-1">
+      <div class="well text-left">
+        <h1 id="report-heading">Erfahrungsberichte</h1>
+        <p id="report-subheading"></p>
+        <p id="report-text">Wähle einen Berichte aus der liste rechts aus und ...</p>
+        <a id="report-pdf-button" class="hidden btn btn-complementary" href="">Weiterlesen</a>
+      </div>
+    </div>
+  </div>
+</main>

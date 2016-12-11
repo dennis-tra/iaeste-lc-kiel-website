@@ -1,5 +1,5 @@
 footer {
-  height: 50px;
+  height: $footer-height;
   @include gradient-horizontal($header-gradient-start-color, $header-gradient-end-color, 0%, 50%);
 }
 

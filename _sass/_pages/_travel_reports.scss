@@ -1,0 +1,107 @@
+.travel-reports-section {
+  background: url(../images/guy_at_river_tiny.jpg) no-repeat center center;
+  background-size: cover;
+  
+  padding: 20px 0 0 0;
+
+  height: calc(100vh - #{$navbar-height} - #{$footer-height});
+  
+  .container {
+    height: 100%;
+  }
+  .well {
+    color: white;
+    h1 {
+      color: white;
+    }
+    background-color: rgba(14, 63, 93, 0.42);
+  }
+}
+
+#report-subheading {
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+.reports-list {
+  overflow: auto;
+  height: 100%;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row;
+  justify-content: space-around;
+  line-height:30px;
+  min-height: min-content;
+}
+
+.report-item {
+  $border-radius: 10px;
+  
+  position: relative;
+  margin: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  flex: 1 0 auto;
+  height:auto;
+  flex-grow: 1;
+  border-radius: $border-radius;
+
+  border: 2px solid white;
+  .background-image {
+    background: url(../travel-reports/report_1.jpg) no-repeat center center;
+    background-size: cover;
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: $border-radius;
+  }
+
+  .hover-dummy {
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: $border-radius;
+    &:hover {
+      background: rgba(0,0,0,0.2);
+    }
+    &:active, &:focus {
+      background: rgba(0,0,0,0.4);
+    }
+  }
+
+  .blue-bottom-badge {
+    text-align: left;
+    padding-left: 6px;
+    border-bottom-right-radius: $border-radius;
+    border-bottom-left-radius: $border-radius;
+
+    h1 {
+      font-size: 16px;
+    }
+    h2 {
+      font-size: 12px;
+      line-height: initial;
+    }
+  }
+}
+
+.report-item:before {
+  content:'';
+  float:left;
+  padding-top:100%;
+}
