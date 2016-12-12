@@ -4,7 +4,7 @@
   
   padding: 20px 0 0 0;
 
-  height: calc(100vh - #{$navbar-height} - #{$footer-height});
+  height: calc(100vh - #{$navbar-height} - 50px);
   
   .container {
     height: 100%;
@@ -35,6 +35,9 @@
 .reports-list {
   overflow: auto;
   height: 100%;
+  &::-webkit-scrollbar {
+    background:transparent;
+  }
 }
 
 .flex-container {
