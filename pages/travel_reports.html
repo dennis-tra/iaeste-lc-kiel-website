@@ -6,9 +6,23 @@ permalink: /travel_reports
 
 <main class="travel-reports-section">
   <div class="container">
-    <div class="col-xs-12 col-sm-4 reports-list">
-      {% assign reports = site.translations[site.lang]["tavel_reports"]["reports"] %}
-      {% for report in reports %}
+    <div class="col-xs-12 dropdown">
+      <button class="visible-xs btn btn-complementary" type="button" id="report-dropdown" data-toggle="collapse" aria-haspopup="true" data-target="#reports-collapse" aria-expanded="false">
+        Erfahrungsberichte
+        <span class="caret"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="reports-collapse" aria-expanded="false">
+        <ul class="nav navbar-nav">
+          {% for report in site.data.travel_reports %}
+            <li><a class="dropdown-report-link" data-report-id="report_{{forloop.index0}}" href="#">{{ report.where }}, {{ report.when }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+    </div>
+    <div class="hidden-xs col-xs-12 col-sm-5 col-md-4 reports-list">
+
+      {% for report in site.data.travel_reports %}
 
         {% assign modulo = forloop.index0 | modulo: 2 %}
 
@@ -24,10 +38,14 @@ permalink: /travel_reports
               <h1 id="report_{{forloop.index0}}_location">{{ report.where }}</h1>
               <h2><span id="report_{{forloop.index0}}_who">{{ report.who }}</span>, <span id="report_{{forloop.index0}}_when">{{ report.when }}</span></h2>
             </div>
-            <div class="hover-dummy" id="report_{{forloop.index0}}"></div>
-            <span class="hidden" id="report_{{forloop.index0}}_text">{{ report.teaser_text }}</span>
-            <span class="hidden" id="report_{{forloop.index0}}_pdf">{{ site.baseurl_root }}/assets/travel-reports/{{ report.pdf }}</span>
-            <span class="hidden" id="report_{{forloop.index0}}_image">{{ site.baseurl_root }}/assets/travel-reports/{{ report.image }}</span>
+            <div class="hover-dummy" id="report_{{forloop.index0}}"
+              data-report-location="{{ report.where }}"
+              data-report-who="{{ report.who }}"
+              data-report-when="{{ report.when }}"
+              data-report-text="{{ report.teaser_text }}"
+              data-report-pdf="{{ site.baseurl_root }}/assets/travel-reports/{{ report.pdf }}"
+              data-report-image="{{ site.baseurl_root }}/assets/travel-reports/{{ report.image }}"
+            ></div>
           </div>
 
         {% if modulo == 1 or forloop.last == true %}
@@ -36,12 +54,12 @@ permalink: /travel_reports
 
       {% endfor %}
     </div>
-    <div class="col-sm-6 col-sm-offset-1">
+    <div class="col-xs-12 col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1">
       <div class="well text-left">
-        <h1 id="report-heading">Erfahrungsberichte</h1>
+        <h1 id="report-heading">{% t travel_reports.title %}</h1>
         <p id="report-subheading"></p>
-        <p id="report-text">Wähle einen Berichte aus der liste rechts aus und ...</p>
-        <a id="report-pdf-button" class="hidden btn btn-complementary" href="">Weiterlesen</a>
+        <p id="report-text">{% t travel_reports.description %}</p>
+        <a id="report-pdf-button" class="hidden btn btn-complementary" href="">{% t travel_reports.read_on_button %}</a>
       </div>
     </div>
   </div>

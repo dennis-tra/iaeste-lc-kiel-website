@@ -42,39 +42,56 @@ $(document).ready(function() {
   var reportSubheadingDiv = $("#report-subheading");
   var reportPDFButton = $("#report-pdf-button");
   var travelReportsSection = $('.travel-reports-section')
+  var dropdownLinks = $('a.dropdown-report-link');
+
+  var addFadingsFrom = function(reportInfoDiv) {
+
+    var reportLocation = reportInfoDiv.dataset.reportLocation;
+    var reportWho = reportInfoDiv.dataset.reportWho;
+    var reportWhen = reportInfoDiv.dataset.reportWhen;
+    var reportText = reportInfoDiv.dataset.reportText;
+    var reportPDF = reportInfoDiv.dataset.reportPDF;
+    var reportImage = reportInfoDiv.dataset.reportImage;
+
+    reportHeadingDiv.fadeOut(function() {
+      $(this).text(reportLocation).fadeIn();
+    });
+
+    reportSubheadingDiv.fadeOut(function(){
+      $(this).text(reportWho + ", " + reportWhen).fadeIn();
+    });
+
+    reportTextDiv.fadeOut(function(){
+      $(this).text(reportText).fadeIn();
+    });
+
+    reportPDFButton.fadeOut(function(){
+      $(this).removeClass("hidden")
+      $(this).attr("href", reportPDF);
+      $(this).fadeIn();
+    });
+
+    $(travelReportsSection).fadeTo('slow', 0.3, function() {
+        $(this).css('background-image', 'url(' + reportImage + ')');
+    }).fadeTo('slow', 1);
+  };
+
+  for (var i = 0; i < dropdownLinks.length; i++) {
+    var reportLink = dropdownLinks[i];
+    
+    $(reportLink).on('click', function(ev) {
+      var reportId = this.dataset.reportId
+      var hoverDummy = $("#" + reportId)[0];
+      addFadingsFrom(hoverDummy);
+
+      $('#report-dropdown').click()
+    });
+
+  }
 
   for (var report in $('.report-item')) {
     $(report).find('.hover-dummy').on('click', function(ev) {
-      var reportID = ev.target.id;
-      var reportLocation = $('#' + ev.target.id + '_location')[0].innerHTML;
-      var reportWho = $('#' + ev.target.id + '_who')[0].innerHTML;
-      var reportWhen = $('#' + ev.target.id + '_when')[0].innerHTML;
-      var reportText = $('#' + ev.target.id + '_text')[0].innerHTML;
-      var reportPDF = $('#' + ev.target.id + '_pdf')[0].innerHTML;
-      var reportImage = $('#' + ev.target.id + '_image')[0].innerHTML;
-
-      reportHeadingDiv.fadeOut(function() {
-        $(this).text(reportLocation).fadeIn();
-      });
-
-      reportSubheadingDiv.fadeOut(function(){
-        $(this).text(reportWho + ", " + reportWhen).fadeIn();
-      });
-
-      reportTextDiv.fadeOut(function(){
-        $(this).text(reportText).fadeIn();
-      });
-
-      reportPDFButton.fadeOut(function(){
-        $(this).removeClass("hidden")
-        $(this).attr("href", reportPDF);
-        $(this).fadeIn();
-      });
-
-      $(travelReportsSection).fadeTo('slow', 0.3, function() {
-          $(this).css('background-image', 'url(' + reportImage + ')');
-      }).fadeTo('slow', 1);
-
+      addFadingsFrom(this);
     });
   }
 

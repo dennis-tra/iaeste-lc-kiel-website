@@ -215,8 +215,8 @@ incoming:
   hero_pictures:
     - filename: kiel_04.jpg
       alt_text: "" 
-      title: "asdf"
-      description: "asdf"
+      title: "Kite Surfer"
+      description: "Heikendorf"
     - filename: kiel_01.jpg
       alt_text: "" 
       title: "asdf"
@@ -252,80 +252,12 @@ incoming:
     - title: "Reise buchen :)"
       description: Buche einen Flug nach Deutschland. Weitere Informationen zur Anreise gibt es hier. Benachrichtige uns bitte, wann du in Deutschland ankommen wirst.
       note: Günstige Flugportale hier, hier, hier
-tavel_reports:
-  reports:
-    - where: Deutschland
-      who: Anonym
-      when: 2014
-      image: report_1.jpg
-      teaser_text: 
-      pdf:
-    - where: Neuseeland
-      who: Dennis Trautwein
-      when: 2015
-      image: new_zealand_tiny.jpg
-      teaser_text: 
-      pdf:
-    - where: Israel
-      who: Lea Lehmann-Matthaei
-      when: 2016
-      image: ISRAEL2016Lea.png
-      teaser_text: Am 30. Juli 2016, einem Samstag, was sich als ungünstig herausstellen sollte, bin ich also ins Flugzeug nach Tel Aviv gestiegen. Da mir im Voraus bereits einige Schauergeschichten erzählt wurden, erwartete ich extreme Sicherheitsmaßnahmen und eingehende Befragung, was sich jedoch als unbegründet herausstellte. Man fühlt sich im ganzen Land durchweg sicher! Gewöhnungsbedürftig sind lediglich die bewaffneten Soldaten, die man hin und wieder sieht und kleinere, jedoch nicht sehr penible Sicherheitskontrollen an Shoppingcentern und ...
-      pdf: ISRAEL2016Lea.pdf
-    - where: Deutschland
-      who: Anonym
-      when: 2014
-      image: report_1.jpg
-      teaser_text: 
-      pdf:
-    - where: Deutschland
-      who: Anonym
-      when: 2014
-      image: report_1.jpg
-      teaser_text: 
-      pdf:
-    - where: Deutschland
-      who: Anonym
-      when: 2014
-      image: report_1.jpg
-      teaser_text: 
-      pdf:
-    - where: Deutschland
-      who: Anonym
-      when: 2014
-      image: report_1.jpg
-      teaser_text: 
-      pdf:
-    - where: Neuseeland
-      who: Dennis Trautwein
-      when: 2015
-      image: new_zealand_tiny.jpg
-      teaser_text: 
-      pdf:
-    - where: Israel
-      who: Lea Lehmann-Matthaei
-      when: 2016
-      image: ISRAEL2016Lea.png
-      teaser_text: Am 30. Juli 2016, einem Samstag, was sich als ungünstig herausstellen sollte, bin ich also ins Flugzeug nach Tel Aviv gestiegen. Da mir im Voraus bereits einige Schauergeschichten erzählt wurden, erwartete ich extreme Sicherheitsmaßnahmen und eingehende Befragung, was sich jedoch als unbegründet herausstellte. Man fühlt sich im ganzen Land durchweg sicher! Gewöhnungsbedürftig sind lediglich die bewaffneten Soldaten, die man hin und wieder sieht und kleinere, jedoch nicht sehr penible Sicherheitskontrollen an Shoppingcentern und ...
-      pdf: ISRAEL2016Lea.pdf
-    - where: Deutschland
-      who: Anonym
-      when: 2014
-      image: report_1.jpg
-      teaser_text: 
-      pdf:
-    - where: Deutschland
-      who: Anonym
-      when: 2014
-      image: report_1.jpg
-      teaser_text: 
-      pdf:
-    - where: Deutschland
-      who: Anonym
-      when: 2014
-      image: report_1.jpg
-      teaser_text: 
-      pdf:
+travel_reports:
+  title: Erfahrungsberichte
+  description: Wähle einen Berichte aus der liste rechts aus und ...
+  read_on_button: Weiterlesen
+  
+
 
 
 

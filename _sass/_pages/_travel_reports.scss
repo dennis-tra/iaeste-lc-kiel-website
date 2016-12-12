@@ -15,6 +15,14 @@
       color: white;
     }
     background-color: rgba(14, 63, 93, 0.42);
+
+    @media screen and (max-width: $screen-xs-max) {
+      margin-top: 20px;
+    }
+  }
+  @media screen and (max-width: $screen-xs-max) {
+    height: initial;
+    min-height: calc(100vh - #{$navbar-height} - #{$footer-height});
   }
 }
 
@@ -104,4 +112,25 @@
   content:'';
   float:left;
   padding-top:100%;
+}
+
+#report-dropdown {
+  max-width: initial;
+}
+
+#reports-collapse {
+  background: $primary-complementary-color;
+  border-radius: 10px;
+  max-height: 28vh;
+  
+  a {
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+    &:focus, &:active {
+      background-color: darken($primary-complementary-color, 5%);
+    }
+  }
+
 }
