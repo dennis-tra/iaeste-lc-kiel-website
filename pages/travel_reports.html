@@ -6,8 +6,8 @@ permalink: /travel_reports
 
 <main class="travel-reports-section">
   <div class="container">
-    <div class="col-xs-12 dropdown">
-      <button class="visible-xs btn btn-complementary" type="button" id="report-dropdown" data-toggle="collapse" aria-haspopup="true" data-target="#reports-collapse" aria-expanded="false">
+    <div class="visible-xs col-xs-12 dropdown">
+      <button class="btn btn-complementary" type="button" id="report-dropdown" data-toggle="collapse" aria-haspopup="true" data-target="#reports-collapse" aria-expanded="false">
         Erfahrungsberichte
         <span class="caret"></span>
       </button>
@@ -59,7 +59,7 @@ permalink: /travel_reports
         <h1 id="report-heading">{% t travel_reports.title %}</h1>
         <p id="report-subheading"></p>
         <p id="report-text">{% t travel_reports.description %}</p>
-        <a id="report-pdf-button" class="hidden btn btn-complementary" href="">{% t travel_reports.read_on_button %}</a>
+        <a id="report-pdf-button" class="hidden btn btn-complementary" href="" download>{% t travel_reports.read_on_button %}</a>
       </div>
     </div>
   </div>

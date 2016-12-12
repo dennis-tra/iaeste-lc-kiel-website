@@ -13,6 +13,7 @@
     color: white;
     h1 {
       color: white;
+      word-break: break-word;
     }
     background-color: rgba(14, 63, 93, 0.42);
 
@@ -122,13 +123,13 @@
   background: $primary-complementary-color;
   border-radius: 10px;
   max-height: 28vh;
-  
+
   a {
     color: white;
     padding-top: 7px;
     padding-bottom: 7px;
 
-    &:focus, &:active {
+    &:focus, &:active, &:hover {
       background-color: darken($primary-complementary-color, 5%);
     }
   }

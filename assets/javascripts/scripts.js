@@ -50,7 +50,7 @@ $(document).ready(function() {
     var reportWho = reportInfoDiv.dataset.reportWho;
     var reportWhen = reportInfoDiv.dataset.reportWhen;
     var reportText = reportInfoDiv.dataset.reportText;
-    var reportPDF = reportInfoDiv.dataset.reportPDF;
+    var reportPDF = reportInfoDiv.dataset.reportPdf;
     var reportImage = reportInfoDiv.dataset.reportImage;
 
     reportHeadingDiv.fadeOut(function() {
@@ -75,6 +75,7 @@ $(document).ready(function() {
         $(this).css('background-image', 'url(' + reportImage + ')');
     }).fadeTo('slow', 1);
   };
+
 
   for (var i = 0; i < dropdownLinks.length; i++) {
     var reportLink = dropdownLinks[i];
