@@ -51,6 +51,7 @@ permalink: /travel_reports
         {% if modulo == 1 or forloop.last == true %}
           </div>
         {% endif %}
+        
 
       {% endfor %}
     </div>
@@ -59,7 +60,7 @@ permalink: /travel_reports
         <h1 id="report-heading">{% t travel_reports.title %}</h1>
         <p id="report-subheading"></p>
         <p id="report-text">{% t travel_reports.description %}</p>
-        <a id="report-pdf-button" class="hidden btn btn-complementary" href="" download>{% t travel_reports.read_on_button %}</a>
+        <a id="report-pdf-button" class="hidden btn btn-complementary" href="">{% t travel_reports.read_on_button %}</a>
       </div>
     </div>
   </div>
