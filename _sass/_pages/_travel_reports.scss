@@ -4,6 +4,7 @@
   
   padding: 20px 0 0 0;
 
+  transition: background 0.5s linear;
   height: calc(100vh - #{$navbar-height} - 50px);
   
   .container {
@@ -19,6 +20,9 @@
 
     @media screen and (max-width: $screen-xs-max) {
       margin-top: 20px;
+      h1 {
+        font-size: 25px;
+      }
     }
   }
   @media screen and (max-width: $screen-xs-max) {
