@@ -71,9 +71,10 @@ $(document).ready(function() {
       $(this).fadeIn();
     });
 
-    $(travelReportsSection).fadeTo('slow', 0.3, function() {
+    $(travelReportsSection).css('background-image', 'url('+ reportImage +')');
+    /*$(travelReportsSection).fadeTo('slow', 0.3, function() {
         $(this).css('background-image', 'url(' + reportImage + ')');
-    }).fadeTo('slow', 1);
+    }).fadeTo('slow', 1);*/
   };
 
 
