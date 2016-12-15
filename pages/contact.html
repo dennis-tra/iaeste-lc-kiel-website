@@ -64,7 +64,7 @@ permalink: /contact
         <h2>{{ title }}</h2>
         <div class="heading-separator"></div>
         <p>{{ reason.description }}</p>
-        <a href="#" class="btn btn-sq-lg btn-primary"> 
+        <a href="travel_reports.html" class="btn btn-sq-lg btn-primary"> 
           <span class="glyphicon glyphicon-file" aria-hidden="true"></span><br/> 
           {% t why_participate.buttons.reports %}
         </a>
@@ -74,7 +74,7 @@ permalink: /contact
           {% t why_participate.buttons.gallery %}
         </a>
 
-        <a href="mailto:iaeste@uv.uni-kiel.de" class="btn btn-sq-lg btn-primary">
+        <a href="mailto:{{ site.iaeste_email }}" class="btn btn-sq-lg btn-primary">
           <span class="glyphicon glyphicon-send" aria-hidden="true"></span><br/>
           {% t why_participate.buttons.email %}
         </a>
