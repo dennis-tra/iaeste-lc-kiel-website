@@ -4,7 +4,7 @@ section.incoming-hero {
     padding-right: 0;
   }
   .item {
-    height: calc(92vh - #{$navbar-height});
+    height: calc(100vh - #{$navbar-height});
   }
 
   .item h3 {

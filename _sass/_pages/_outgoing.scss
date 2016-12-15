@@ -2,7 +2,7 @@ section.outgoing-hero {
   background: url(../images/wanderlust_tiny.jpg) no-repeat center center;
   background-size: cover;
 
-  height: calc(92vh - #{$navbar-height});
+  height: calc(100vh - #{$navbar-height});
   padding: 30px 0;
   position: relative;
 }

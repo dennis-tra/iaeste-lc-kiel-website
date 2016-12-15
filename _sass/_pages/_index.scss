@@ -2,7 +2,7 @@ section.index-hero {
   background: url(../images/index_hero_tiny.jpg) no-repeat 63% center;
   background-size: cover;
 
-  height: calc(92vh - #{$navbar-height});
+  height: calc(100vh - #{$navbar-height});
   padding: 30px 0;
 
   & > div {
@@ -66,14 +66,13 @@ section.main-audience {
   }
 
   .icon-container {
-    height: 190px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   img {
-    height: 130px;
+    height: 105px;
   }
 
   a.main-audience-link {
