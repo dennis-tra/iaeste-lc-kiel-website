@@ -24,6 +24,22 @@
               <li {% if p.url == page.url %}class="active"{% endif %}><a href="{{ p.url | prepend: site.baseurl | prepend: site.github.url }}">{{ p.title }}</a></li>
             {% endif %}
           {% endfor %}
+          <li>
+            <div class="btn-group current-language">
+              <button type="button" class="btn-default" data-toggle="dropdown" style="background-image: url({{ site.baseurl_root }}/assets/icons/flags/{{ site.translations[site.lang]["langs"][site.lang]["image"] }})" aria-haspopup="true" aria-expanded="false"></button>
+              <ul class="dropdown-menu">
+
+                {% for language in site.languages %}
+                  {% if language == "de" %}
+                    {% capture link %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
+                  {% else %}
+                    {% capture link %}{{ site.baseurl_root }}/{{ language }}{{ page.url  }}{% endcapture %}
+                  {% endif %}
+                  <li><a href="{{ link }}">{{ site.translations[site.lang]["langs"][language]["title"] }}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
+          </li>
         </ul>
       </div>
     </div>

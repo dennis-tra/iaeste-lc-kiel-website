@@ -32,3 +32,23 @@ header {
   }
 }
 
+.btn-group.current-language  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+
+  button {
+    background: url(../icons/flags/germany.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 50% !important;
+    border: $primary-complementary-color solid 1px;
+    width: 30px;
+    height: 30px;
+    margin-right:10px;
+    margin-left: 25px;
+    &:focus {
+      outline: none;
+    }
+  }
+}
