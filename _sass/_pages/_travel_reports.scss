@@ -129,7 +129,15 @@
 #reports-collapse {
   background: $primary-complementary-color;
   border-radius: 10px;
-  max-height: 28vh;
+  max-height: 50vh;
+  width: calc(100% - 30px);
+  position: absolute;
+  z-index: 1;
+  display: inline-block;
+  
+  &:not(.in):not(.collapsing) {
+    z-index: -1;
+  }
 
   a {
     color: white;
