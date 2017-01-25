@@ -23,23 +23,23 @@ index:
       description: Du studierst an der <strong>CAU</strong> oder <strong>FH</strong> in Kiel und möchtest ein Praktikum im Ausland machen? Klick hier
     incoming:
       title: Incoming
-      description: Du möchtest ein Praktikum im Ausland machen oder die einfach nur informieren? Hier entlang
+      description: Du wuredes für ein IAESTE Praktikum in Kiel akzeptiert und möchtest dich informieren? Hier entlang
     employer:
       title: Firmen
-      description: Du möchtest ein Praktikum im Ausland machen oder die einfach nur informieren? Hier entlang
+      description: Sie möchten einem angegierten Studierenden ein Praktikum ermöglichen? Weitere Information 
   what_is_iaeste:
     title: Was ist IAESTE?
     top_left:
       title: Vielfalt
       description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
     bottom_left:
-      title: Lorem ipsum dolor
+      title: Fachbezogen
       description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
     top_right:
-      title: Lorem ipsum dolor
+      title: Interkulturell
       description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
     bottom_right:
-      title: Lorem ipsum dolor
+      title: Teamwork
       description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
   statistics:
     - value: 5600
@@ -68,8 +68,8 @@ index:
     button_label: Klick hier
 contact:
   contact: Kontakt
-  postal_address: Postadresse
-  office_address: Büroadresse
+  postal_address: IAESTE LC Kiel Westring 400, 24105 Kiel 
+  office_address: Olshausenstraße 76 
   enquiry: 
     title: Anfrage
     name_label: Name
