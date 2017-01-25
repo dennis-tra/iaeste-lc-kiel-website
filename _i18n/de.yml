@@ -56,7 +56,7 @@ index:
       icon_alt: Worker
   travel_reports:
     title: Erfahrungsberichte
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, a
+    description: Wir bitten alle Praktikanten noch absolvierten Praktikum 
     button_label: Berichte lesen
   discover_kiel:
     title: Entdecke Kiel
@@ -68,8 +68,8 @@ index:
     button_label: Klick hier
 contact:
   contact: Kontakt
-  postal_address: IAESTE LC Kiel Westring 400, 24105 Kiel 
-  office_address: Olshausenstraße 76 
+  postal_address: IAESTE LC Kiel </br> Westring 400 </br> 24105 Kiel 
+  office_address: Olshausenstraße 76 </br>  
   enquiry: 
     title: Anfrage
     name_label: Name
@@ -136,7 +136,7 @@ outgoing:
     title: IAESTE in Kürze
     points:
       - Weltweiter Praktikantenaustausch
-      - Weltweit etwa 80 Mitgliedsländer
+      - Weltweit etwa 85 Mitgliedsländer
       - In Deutschland Teil des DAAD
       - Jährlich etwa 1200 getauschte Praktikumsplätze für Deutschland
       - Betreuung erfolgt an den Universitäten zumeist ehrenamtlich durch Studenten
