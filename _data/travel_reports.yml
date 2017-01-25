@@ -8,7 +8,7 @@
   who: Dennis
   when: 2015
   image: new_zealand_tiny.jpg
-  teaser_text: 
+  teaser_text:
   pdf:
 - where: Israel
   who: Lea
@@ -28,11 +28,11 @@
   image: kairo.png
   teaser_text: Das absolvierte Praktikum fand im Zeitraum vom 01.08.2016 bis zum 01.09.2016 an der Cairo University in der Hauptstadt Ägyptens statt. Die vorgesehene Arbeit sollte im DLECS-Labor im Fachbereich für Elektrotechnik der Fakultät für Ingenieurwesen der Universität Kairo abgeleistet werden. Es gestaltete sich relativ schwierig ...
   pdf: Praktikumsbericht Ägypten 2016.pdf
-- where: Neuseeland
-  who: Dennis
-  when: 2015
-  image: new_zealand_tiny.jpg
-  teaser_text: 
+- where: Kolumbien
+  who: Flo
+  when: 2013
+  image: columbia.jpg
+  teaser_text:
   pdf:
 - where: Israel
   who: Lea
