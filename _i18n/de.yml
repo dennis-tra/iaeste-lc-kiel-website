@@ -30,27 +30,27 @@ index:
   what_is_iaeste:
     title: Was ist IAESTE?
     top_left:
-      title: Vielfalt
-      description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-    bottom_left:
+      title: Erfahrungen
+      description: 
+    bottom_left: Setze dein Wissen in die Praxi um und erweitere deine Fähigkeiten. Stelle dich neue Herausforderunden
       title: Fachbezogen
-      description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+      description: Wir bieten vielfältige Praktika in Bereichen Ingenieur- und Naturwissenschaften sowie der Land- und Forstwirtschaften
     top_right:
-      title: Interkulturell
-      description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+      title: Weltoffen
+      description: Verbessere deine Sprachkenntisse und bereise neue Länder und lerne fremde Kulturen kennen
     bottom_right:
-      title: Teamwork
-      description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+      title: Netzwerk
+      description: Werde Teil einer weltumspannenden Gemseinschaft aus engagierten Studenten
   statistics:
-    - value: 5600
+    - value: 300k
       description: Outgoer
       icon: backpack.png
       icon_alt: Backpack
-    - value: 80
+    - value: 85
       description: Länder
       icon: world.png
       icon_alt: World
-    - value: 600
+    - value: 800
       description: offene Stellen
       icon: worker.png
       icon_alt: Worker
