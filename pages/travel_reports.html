@@ -33,7 +33,7 @@ permalink: /travel_reports
 
 
           <div class="report-item">
-            <div class="background-image" style="background-image: url({{ site.baseurl_root }}/assets/travel-reports/{{ report.image }})"></div>
+            <div class="background-image" style="background-image: url({{ site.baseurl_root }}/assets/travel-reports/{{ report.folder }}/thumb.jpg)"></div>
             <div class="blue-bottom-badge">
               <h1 id="report_{{forloop.index0}}_location">{{ report.where }}</h1>
               <h2><span id="report_{{forloop.index0}}_who">{{ report.who }}</span>, <span id="report_{{forloop.index0}}_when">{{ report.when }}</span></h2>
@@ -43,8 +43,8 @@ permalink: /travel_reports
               data-report-who="{{ report.who }}"
               data-report-when="{{ report.when }}"
               data-report-text="{{ report.teaser_text }}"
-              data-report-pdf="{{ site.baseurl_root }}/assets/travel-reports/{{ report.pdf }}"
-              data-report-image="{{ site.baseurl_root }}/assets/travel-reports/{{ report.image }}"
+              data-report-pdf="{{ site.baseurl_root }}/assets/travel-reports/{{ report.folder }}/report.pdf"
+              data-report-image="{{ site.baseurl_root }}/assets/travel-reports/{{ report.folder }}/hero.jpg"
             ></div>
           </div>
 
