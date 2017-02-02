@@ -203,6 +203,14 @@ Es ist lediglich eine Kaution in Höhe von 30 Euro zu hinterlegen, die nach Been
           answer: Um sicherzustellen, dass wirklich Interesse an dem Platz besteht muss bei definitiver Zusage eine Kaution in Höhe von 30 Euro beim LC Kiel hinterlegt werden. Dies ist wichtig, da es pro Platz generell nur einen Bewerber gibt; zum Schutz und Wohl der Firma soll der angebotene Platz aber auf jeden Fall besetzt werden. Nach Beendigung des Praktikums und Abgabe der Praktikumsberichte oder aber bei Ablehnung durch den Arbeitgeber wird die Kaution selbstverständlich zurückerstattet.
         - question: Kann ich beim LC Kiel mitmachen?
           answer: Auf jeden Fall! Wir freuen uns über jeden, der bei uns mitmachen will. Wir haben neben der Praktikavermittlung an Studenten noch viele andere Aufgabenbereiche. Dabei steht der Spaß an der Sache bei uns immer im Vordergrund. Und alles ist problemlos neben einem Vollzeitstudium machbar! Weitere Infos über unsere Aktivitäten findest du hier und in unseren Newcomerinfos. Bei Interesse komm doch einfach mal bei unseren Treffen vorbei oder schick uns eine Email!
+        - question: Muss ich vor Ort um eine Unterkunft bemühen?
+          answer: adsfdafsasdfasdsdagga
+        - question: Besteht die Möglichkeit sich das Praktikum an Hochschule anrechnen zu lassen?
+          answer: dasflkfdsalkadslfkdfasj - Fahrkostenzuschuss
+        - question: Verlängert sich durch das Praktikum meine Studiendauer? / Gefährdet es meine Regelstudienzeit?
+          answer: dsfjfasdlkjsldjfds
+        - question: Bin ich für die Dauer meines Praktikums im Ausland versichert?
+          answer: DAAD aksdfjflds
     - title: Incoming
       questions:
         - question: Collapsible Group Item
@@ -221,7 +229,7 @@ Es ist lediglich eine Kaution in Höhe von 30 Euro zu hinterlegen, die nach Been
           answer: asdfasdfasdf
         - question: Wer sorgt für die Unterkunft und Betreuung des Praktikanten?
           ansewr: adsfklnaldsfn
-        #- question: 
+
 incoming:
   control_left: Previous
   control_right: Next
