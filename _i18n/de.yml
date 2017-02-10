@@ -260,7 +260,7 @@ incoming:
   process:
     - title: Formular N5/b ausfüllen
       description: Innerhalb von 2 Wochen das Formular N5/b ausfüllen und an das IAESTE-Nationalkomitee im Heimatland zurückschicken (manchmal müssen weitere Formulare ausgefüllt und eingereicht werden). Sobald wir das Formular N5/b erhalten haben, können wir mit der Suche nach einer Unterkunft für dich beginnen. Es ist also sehr wichtig, das N5/b so schnell wie möglich zurückzuschicken.
-      note: 
+      note:
     - title: Visum beantragen
       description: Wenn du kein EU-Bürger bist, benötigst du zur Einreise nach Deutschland ein Visum. Dieses solltest du so schnell wie möglich bei der nächsten deutschen Botschaft beantragen, da die Bearbeitung oft einige Wochen dauert. Für den Visumantrag benötigst du das Formular N5/a. Bitte erkundige dich bei der deutschen Botschaft nach einem „Schengen-Visum“, da dieses Visum auch in den meisten anderen Ländern Europas gültig ist.
       note: Nur für nicht EU-Bürger
@@ -277,19 +277,61 @@ travel_reports:
   title: Erfahrungsberichte
   description: Wähle einen Berichte aus der liste rechts aus und ...
   read_on_button: Weiterlesen
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+employer:
+  title: Internationaler Praktikantenaustausch
+  subtitle: DURCH EHRENAMTLICH ARBEITENDE STUDIERENDE UND DIE UNTERSÜTZUNG DES DAAD BLEIBT IHR AUFWAND GERING
+  general_information:
+    title: Hinweise für Arbeitgeber
+    description: Die Vermittlung ausländischer wie auch deutscher Praktikanten im Rahmen des Austauschprogramms der "International Association for the Exchange of Students for Technical Experience" (IAESTE) wird vom Deutschen Komitee der IAESTE im Deutschen Akademischen Austauschdienst (DAAD) wahrgenommen. Die Vermittlung erfolgt im Einvernehmen mit der Zentralen Auslandsund Fachvermittlung (ZAV) der Bundesagentur für Arbeit.</br></br>Broschüren-Download
+    button_1:
+      title: Weltweiter Praktikantaustausch
+      link: ""
+    button_2:
+      title: Hinweise für Arbeitgeber
+      link: ""
+  process_title: Jahresablauf
+  process:
+    - month: November
+      description: Bis etwa Ende November müssen die Anforderungen an den gewünschten Praktikanten beim IAESTE-Lokalkomitee Kiel vorliegen. Dazu kann, wenn gewünscht auch gerne mit unserer Unterstützung, das Anmelde-Formular (LINK) oder das Online-Formular (LINK) ausgefüllt werden. Sollten Sie sich für das Ausfüllen des pdf-Dokumentes entscheiden, senden Sie es bitte an unsere eMail-Adresse. Sie haben diese Frist verpasst? Auch auﬂerhalb des IAESTE-Zyklus kann ein Bewerber gefunden werden. Sie können sich gerne jederzeit an uns wenden.
+      applicant_task:
+    - month: Januar
+      description: Ende Januar findet die sogenannte Annual Conference der IAESTE statt. Diese wird jedes Jahr von einem anderen Mitgliedsland ausgerichtet. Hier tauschen die Nationalkomitees ihre eingeworbenen Plätze mit anderen Ländern. Sollten Sie in Ihrem Angebot die Länderauswahl eingeschränkt haben, wird Ihr Angebot selbstverständlich an eines der gewünschten Länder vergeben.
+      applicant_task:
+    - month: März
+      description: Die Bewerbungsfrist ist Ende März. Im März wird also Ihr potentieller Praktikant damit beschäftigt sein, seine oder ihre Bewerbung anzufertigen. Diese schickt er oder sie dann an sein Nationalkomitee und dieses leitet die vollständige Bewerbung nach erfolgreicher Prüfung an das deutsche Nationalkomitee weiter. Von dort gelangt sie nur zu Ihnen, wenn alles vollständig ist. So wird sichergestellt, dass nur eine korrekte und vollständige Bewerbung Sie erreicht.
+      applicant_task:
+    - month: April
+      description: Spätestens jetzt liegt Ihnen die Bewerbung vor. Pro angebotener Praktikumsstelle erhalten Sie nur eine, ihren vorher festgelegten Anforderungen entsprechende, Bewerbung. Ein Vordruck zur Bestätigung beziehungsweise Ablehnung liegt vor. Gerne kann der Bewerber auch kontaktiert und zum Beispiel um ein Skype-Interview gebeten werden, bevor Sie sich entscheiden. Wir bitten Sie jedoch, Ihre Entscheidung schnellstmöglich zu fällen, damit der Bewerber sich darauf einstellen kann. Zudem wäre es schön, wenn Sie neben dem Nationalkomitee in Bonn auch uns unterrichten könnten, wie Ihre Entscheidung ausgefallen ist.
+      applicant_task:
+    - month: Juni
+      description: Die frühesten Praktika beginnen meist Anfang Juni (in Ausnahmefällen Mitte Mai). Ihr bestätigter Praktikant / Praktikantin reist an und wird von uns in seine für ihn organisierte Wohnung gebracht. Wir helfen ihm, eine SIM-Karte zu kaufen, sich zurechtzufinden und Kontakte zu knüpfen. Er wird von uns auch am ersten Tag zur Arbeit gebracht. Kranken- und haftpflichtversichert ist er oder sie über den DAAD, der die Versicherung nach der Akzeptierung abschlieﬂt und bezahlt. Sie sind lediglich für den Inhalt des Praktikums zuständig.
+      applicant_task:
+    - month: Juli und August
+      description: Den ganzen Sommer über kann Ihr Praktikant an den Wochenenden durch Deutschland reisen und das Land und die Kultur kennenlernen. Die Lokalkomitees der verschiedenen Städte organisieren Wochenenden, die finanziell vom DAAD unterstützt werden. Natürlich wird auch ein Kiel-Wochenende mit Aktivitäten wie Segeln und Kanufahren auf der Schwentine dazu beitragen, dass Ihr Praktikant eine unvergessliche Zeit hat.
+      applicant_task:
+  task_sharing:
+    title: Aufgabenteilung auf einen Blick
+    entities_responsible:
+      - title: DAAD in Bonn
+        points:
+          - Prüfen der Bewerbungen, bevor sie an den Arbeitgeber weitergeleitet werden
+          - Kommunikation und Abstimmung mit der Bundesagentur für Arbeit, insbesondere bei visapflichtigen Praktikanten
+          - Bereitstellung der Dokumente für das Visum
+          - Abschlieﬂen und Bezahlen der Kranken- und Haftpflichtversicherung
+          - Unterstützung der Lokalkomitees bei wichtigen Fragen und Problemen
+          - Finanzielle Unterstützung des von den Lokalkomitees organisierten Freizeitprogrammes
+          - nur bei Hochschulen ggf. anteilige oder volle Bezahlung des Praktikumsgehaltes
+      - title: Lokalkomitee Kiel
+        points:
+          - Wohnungssuche
+          - Abholung bei der Ankunft, Zeigen der wichtigsten Anlaufstellen
+          - Organisation von SIM-Karte, Busticket, ggf. Bankkonto etc.
+          - Erklärung des Weges zur Arbeit, ggf. Bringen am ersten Tag
+          - Gestaltung eines Freizeitprogrammes in Kooperation mit allen Lokalkomitees deutschlandweit (und sogar grenzübergreifend)
+          - Ansprechpartner für die Praktikanten und Praktikantinnen und auch für die Arbeitgeber
+      - title: Arbeitgeber
+        points:
+          - Festlegen von Anforderungen an den Bewerber
+          - Zu- oder Absage nach Durchsicht der Bewerbung
+          - Gestaltung des Praktikumsinhaltes, ggf. zusammen mit dem Praktikanten
+          - Bezahlung des Praktikanten

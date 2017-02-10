@@ -4,3 +4,147 @@ title: Firmen
 permalink: /employer
 navigation_weight: 5
 ---
+
+<section class="employer-hero">
+  <div class="blue-bottom-badge">
+    <div class="container">
+      <h1>{% t employer.title %}</h1>
+      <h2>{% t employer.subtitle %}</h2>
+    </div>
+  </div>
+</section>
+
+<section class="general-employer-information information-section white-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-5 col-md-4">
+        <div class="well text-left">
+          <h4>{% t outgoing.in_a_nutshell.title %}:</h4>
+          <ul>
+            {% for point in site.translations[site.lang]["outgoing"]["in_a_nutshell"]["points"] %}
+            <li>{{ point }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-7 col-md-offset-1 col-md-6 text-left">
+        <h2>{% t employer.general_information.title %}</h2>
+        <div class="heading-separator"></div>
+        <p>{% t employer.general_information.description %}</p>
+        <a class="btn btn-complementary" href="">{% t employer.general_information.button_1.title %}</a>
+        <a class="btn btn-complementary" href="">{% t employer.general_information.button_2.title %}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="text-center">
+  <div class="horizontal-ruler-gray">
+    <div class="container">
+      <hr>
+      <span>{% t employer.process_title %}</span>
+    </div>
+  </div>
+</section>
+
+{% assign outgoing_steps = site.translations[site.lang]["employer"]["process"] %}
+{% for step in outgoing_steps %}
+
+  {% assign modulo = forloop.index | modulo: 2 %}
+  {% if modulo == 1 %}
+    {% assign background = 'white-bg' %}
+  {% else %}
+    {% assign background = 'bright-bg' %}
+  {% endif %}
+
+  {% if forloop.first == true %}
+    {% assign boundry = "step-margin-top" %}
+  {% elsif forloop.last == true %}
+    {% assign boundry = "step-margin-bottom" %}
+  {% else %}
+    {% assign boundry = "" %}
+  {% endif %}
+
+  <section class="application-step {{ background }} text-left {{ boundry }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-2 col-sm-1 application-step-column">
+          <div class="application-step-number">{{ forloop.index }}</div>
+          <div class="application-step-vertical-line"> </div>
+        </div>
+        <div class="col-xs-10 col-sm-11">
+          <div class="row">
+            <div class="col-xs-12 col-sm-7 col-md-6">
+              <h2>{{ step.month }}</h2>
+              <div class="heading-separator"></div>
+              <p>{{ step.description }}</p>
+            </div>
+            <div class="col-xs-12 col-sm-5 col-md-4 col-md-offset-2 well-column">
+              {% assign applicant_task = step.applicant_task %}
+              {% if applicant_task != blank %}
+                <div class="well">
+                  <span>Das hast du zu tun</span>
+                  <p>{{ applicant_task }}</p>
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endfor %}
+
+<section class="text-center">
+  <div class="horizontal-ruler-gray">
+    <div class="container">
+      <hr>
+      <span>{% t employer.task_sharing.title %}</span>
+    </div>
+  </div>
+</section>
+
+<section class="approach-section">
+  <div class="container">
+    <div class="row">
+
+      {% assign entities_responsible = site.translations[site.lang]["employer"]["task_sharing"]["entities_responsible"] %}
+      {% for entity in entities_responsible %}
+
+        <div class="col-xs-12 col-sm-4">
+          <h2>{{ entity.title }}</h2>
+          <ul>
+          {% for point in entity.points %}
+            <li>{{ point }}</li>
+          {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="thick-separator-primary">
+  <p>Sie haben sich entschieden, einen Praktikumsplatz anzubieten?</p>
+  <p></p>
+</section>
+
+<section class="information-section white-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-lg-5">
+        <h2>Praktikumsplatz anbieten</h2>
+        <div class="heading-separator"></div>
+        <p>Damit Sie auf jeden Fall den geeigneten Bewerber erhalten, können Sie bereits vorab genau festlegen, was der potentielle Praktikant können muss. Neben Fachrichtung, Sprachkenntnissen, Arbeitserfahrung und Fachsemester kann beispielsweise auch das Herkunftsland festgelegt werden. Bei Fragen wenden Sie sich jederzeit gerne an uns. Das auszufüllende Formular ist hier zu finden</p>
+        <a class="btn btn-complementary" href="">Download PDF "Angebotsformular"</a>
+        <a class="btn btn-complementary" href="">Link zum Online-Formular</a>
+      </div>
+      <div class="col-sm-6 col-md-5 col-md-offset-1 col-lg-offset-2 hidden-xs text-center content-center">
+        <img class="information-icon" src="{{ site.baseurl_root }}/assets/icons/soft_skill.png"  alt="Image of two people shaking hands">
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include unclear.html %}

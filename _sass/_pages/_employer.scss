@@ -1,0 +1,20 @@
+section.employer-hero {
+  background: url(../images/employer_hero.jpg) no-repeat center center;
+  background-size: cover;
+
+  height: calc(100vh - #{$navbar-height});
+  padding: 30px 0;
+  position: relative;
+}
+
+section.general-employer-information {
+  .heading-separator {
+    margin-left: 0;
+  }
+}
+
+section.approach-section {
+  ul {
+    padding-left: 25px;
+  }
+}
