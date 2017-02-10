@@ -16,61 +16,61 @@ titles:
 supporters_separator: Unterstützt durch
 index:
   title: Horizont erweitern?
-  subtitle: Nutze die Chance und mache eine einmalige internationale Erfahrung im Ausland
+  subtitle: IAESTE bietet dir fachbezogene und internationale Praktikumsplätze an!
   main_audience:
     outgoing:
       title: Outgoing
       description: Du studierst an der <strong>CAU</strong> oder <strong>FH</strong> in Kiel und möchtest ein Praktikum im Ausland machen? Klick hier
     incoming:
       title: Incoming
-      description: Du wuredes für ein IAESTE Praktikum in Kiel akzeptiert und möchtest dich informieren? Hier entlang
+      description: Du wurdest für ein IAESTE-Praktikum in Kiel akzeptiert und möchtest dich informieren? Hier entlang
     employer:
       title: Firmen
-      description: Sie möchten einem angegierten Studierenden ein Praktikum ermöglichen? Weitere Information 
+      description: Sie möchten einem engegierten Studierenden ein Praktikum ermöglichen? Weitere Informationen
   what_is_iaeste:
     title: Was ist IAESTE?
     top_left:
       title: Erfahrungen
-      description: Setze dein Wissen in die Praxi um und erweitere deine Fähigkeiten. Stelle dich neue Herausforderunden 
+      description: Erarbeite dir neue Fähigkeiten und lerne in einer multikulturellen Umgebung
     bottom_left:
-      title: Fachbezogen
-      description: Wir bieten vielfältige Praktika in Bereichen Ingenieur- und Naturwissenschaften sowie der Land- und Forstwirtschaften
-    top_right:
       title: Weltoffen
-      description: Verbessere deine Sprachkenntisse und bereise neue Länder und lerne fremde Kulturen kennen
+      description: Finde internationale Praktika, verbessere deine Sprachkenntisse und erlebe neue Kulturen
+    top_right:
+      title: Fachbezogen
+      description: Forsche und Arbeite an einem Projekt, um dein Wissen in der Praxis anzuwenden
     bottom_right:
       title: Netzwerk
-      description: Werde Teil einer weltumspannenden Gemseinschaft aus engagierten Studenten
+      description: Werde Teil einer weltumspannenden Gemeinschaft von Studenten und finde zukünftige Arbeitspartner
   statistics:
     - value: 300k
       description: Outgoer
       icon: backpack.png
       icon_alt: Backpack
     - value: 85
-      description: Länder
+      description: Nationen
       icon: world.png
       icon_alt: World
     - value: 800
-      description: offene Stellen
+      description: offene Praktika/Jahr
       icon: worker.png
       icon_alt: Worker
   travel_reports:
     title: Erfahrungsberichte
-    description: Wir bitten alle Praktikanten noch absolvierten Praktikum 
+    description: Hier findest du die gesammelten Berichte früherer Praktikanten und kannst ihre Erfahrungen im Ausland lesen. Von fachspezifischen Projekten, kulturellen Erfahrungen bis hin zu Hochzeitsfeiern der Arbeitgeber findest du hier alles. Einfach reinblättern und Fernweh bekommen.
     button_label: Berichte lesen
   discover_kiel:
     title: Entdecke Kiel
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, a
-    button_label: Klick hier 
+    description: Kiel ist die Landeshauptstadt Schleswig-Holsteins und mit seiner Lage an der Ostsee eine der schönsten Städte zum Studieren. Wenn du für ein Praktikum in Kiel akzeptiert wurdest, kannst du hier klicken und mehr Informationen erhalten.
+    button_label: Klick hier
   employer_information:
     title: Informationen für Arbeitgeber
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, a
-    button_label: Klick hier
+    description: IAESTE ist eine international agierende Nicht-Regierungsorganisation, die sich für den Austausch von Studenten einsetzt. Neben Praktika für deutsche Studenten organisieren wir auch Praktika für internationale Studenten in Deutschland. Hier erfahren Sie Vorteile, weshalb ein internationaler Student ihren Betrieb in vielfältiger Weise bereichern kann.
+    button_label: Weitere Informationen
 contact:
   contact: Kontakt
-  postal_address: IAESTE LC Kiel </br> Westring 400 </br> 24105 Kiel 
-  office_address: Olshausenstraße 76 </br>  
-  enquiry: 
+  postal_address: Postadresse
+  office_address: Büroadresse
+  enquiry:
     title: Anfrage
     name_label: Name
     email_label: Email
@@ -123,12 +123,12 @@ why_participate:
       icon_alt: ""
     - title: Es macht einfach Spaß
       description: "Schaue Dir unsere Erfahrungsberichte, Incomer-Aktivitäten an oder melde dich bei uns!"
-      icon: 
+      icon:
       icon_alt: ""
 outgoing:
   title: IAESTE Auslandspraktikum
   subtitle: fachspezifisch, bezahlt, horizonterweiternd
-  general_information: 
+  general_information:
     title: Allgemeine Informationen
     description: Das IAESTE Lokalkomitee Kiel vermittelt Fachpraktika im Ausland für Studierende der CAU Kiel, der FH Kiel und der FH Flensburg in allen technischen und naturwissenschaftlichen Fachrichtungen. Ein Großteil der IAESTE-Praktika dauert etwa 2 bis 3 Monate und findet in den Sommermonaten zwischen Mai und Oktober statt, mittlerweile werden aber auch immer mehr Praktika über ein halbes oder ganzes Jahr angeboten. Die Praktika werden grundsätzlich bezahlt; dabei richtet sich der Verdienst nach den landestypischen Lebenshaltungskosten.
     button: Erfahrungsberichte
@@ -235,26 +235,26 @@ incoming:
   control_right: Next
   hero_pictures:
     - filename: kiel_04.jpg
-      alt_text: "" 
+      alt_text: ""
       title: "Kitesurfer"
       description: "Heikendorf"
     - filename: kiel_01.jpg
-      alt_text: "" 
+      alt_text: ""
       title: "asdf"
       description: "asdf"
     - filename: kiel_02.jpg
-      alt_text: "" 
+      alt_text: ""
       title: "asdf"
       description: "asdf"
     - filename: kiel_03.jpg
-      alt_text: "" 
+      alt_text: ""
       title: "asdf"
       description: "asdf"
     - filename: kiel_weekend.jpg
-      alt_text: "" 
+      alt_text: ""
       title: "Kiel Wochenende 2016"
       description: "Falkensteiner Strand"
-  general_information: 
+  general_information:
     title: Lieber Bewerber
     description: Wir freuen uns, dass du dich für ein Praktikum in Kiel beworben hast. Sobald der Arbeitgeber deine Bewerbung akzeptiert hat, steht deinem Praktikum nichts mehr im Wege! <br /><br />Wir sind eine Gruppe von etwa 10 Studenten in Kiel und bilden das IAESTE Lokalkomitee Kiel. Wir arbeiten ehrenamtlich für IAESTE, weil wir sehr interessiert daran sind, Leute aus aller Welt kennenzulernen und auf diesem Wege mehr über andere Kulturen und Sprachen zu erfahren – genau wie du! Aus diesem Grunde geben wir alles, um deinen Aufenthalt in Kiel so angenehm und spaßig wie möglich zu gestalten. Im Rahmen unserer Sommerbetreuung veranstalten wir z.B. verschiedene Ausflüge und Events für unsere Praktikanten. Während deines Praktikums hast du die Möglichkeit, wertvolle Erfahrungen für dein Studienfach zu sammeln und neue Dinge zu lernen. Gleichzeitig möchten wir dir während deiner Zeit in Deutschland aber auch die deutsche Gesellschaft und Kultur näherbringen. Zusammen mit uns und ein paar weiteren Praktikanten wirst du daher sicherlich eine unvergessliche Zeit in Kiel verbringen!<br/><br/>Auf diesen Seiten findest du einige wichtige Informationen für deinen Aufenthalt in Kiel. Solltest du weitere Fragen haben, kannst du uns jederzeit kontaktieren.
   process:
