@@ -159,6 +159,10 @@ section.employer-information {
   background: $section-background-color;
 }
 
+.supports {
+  padding: 20px 0;
+}
+
 .supporters .supporter-logo {
   max-width: 80%;
   max-height: 100px;
@@ -168,7 +172,7 @@ section.employer-information {
 section.newsletter {
 
   min-height: inherit;
-  
+
   .row {
     display: -webkit-box;
     display: -webkit-flex;
