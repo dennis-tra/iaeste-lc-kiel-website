@@ -68,8 +68,8 @@ permalink: /incoming
 </section>
 
 <section class="thick-separator-primary">
-  <p>Nach der Akzeptierung</p>
-  <p>Erste Schritte</p>
+  <p>{% t incoming.after_acceptance_separator.line_1 %}</p>
+  <p>{% t incoming.after_acceptance_separator.line_2 %}</p>
 </section>
 
 {% assign incoming_steps = site.translations[site.lang]["incoming"]["process"] %}
@@ -105,7 +105,7 @@ permalink: /incoming
               <p>{{ step.description }}</p>
             </div>
             <div class="col-xs-12 col-sm-5 col-md-4 col-md-offset-2 well-column">
-              {% if step.note != blank %}
+              {% if step.note != null %}
                 <div class="well">
                   <span>{{ step.note }}</span>
                 </div>
@@ -123,7 +123,7 @@ permalink: /incoming
   <div class="horizontal-ruler-gray">
     <div class="container">
       <hr>
-      <span>Anfahrt</span>
+      <span>{% t incoming.arrival.separator %}</span>
     </div>
   </div>
 </section>
@@ -132,16 +132,18 @@ permalink: /incoming
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-4">
-        <h2>Flugzeug</h2>
-        <p>Die beste Möglichkeit nach Kiel zu kommen, ist nach Hamburg Airport (HAM) zu fliegen. Von dort fährt ein Flughafenbus direkt nach Kiel zum Hauptbahnhof: Kielius Bei der Planung der Weiterreise vom Flughafen nach Kiel sind wir gerne behilflich. Auf den Seiten der Deutschen Bahn kann man sich passende Verbindungen heraussuchen.</p>
+        <h2>{% t incoming.arrival.plane.title %}</h2>
+        <p>{% t incoming.arrival.plane.description %}>
+
+        </details> %}</p>
       </div>
       <div class="col-xs-12 col-sm-4">
-        <h2>Bahn</h2>
-        <p>Durch die Anbindung Kiels an das internationale Hochgeschwindigkeitsnetz ist in einigen Fällen eine Anreise per Bahn möglich. Auf den Seiten der europäischen Bahngesellschaften und der Deutschen Bahn kann man sich passende Verbindungen heraussuchen.</p>
+        <h2>{% t incoming.arrival.train.title %}</h2>
+        <p>{% t incoming.arrival.train.description %}</p>
       </div>
       <div class="col-xs-12 col-sm-4">
-        <h2>Auto</h2>
-        <p>Kiel ist an das deutsche Autobahnnetz angebunden. Europaweite Routenempfehlungen bekommt man hier. Wir empfehlen jedoch, nicht mit dem Auto anzureisen, da es in Kiel relativ wenige Parkplätze gibt. Außerdem benötigt man in Kiel kein Auto im Alltag, da alles einfach zu Fuß erreichbar ist.</p>
+        <h2>{% t incoming.arrival.car.title %}</h2>
+        <p>{% t incoming.arrival.car.description %}</p>
       </div>
     </div>
   </div>
@@ -149,8 +151,8 @@ permalink: /incoming
 
 
 <section class="thick-separator-primary">
-  <p>Nun bin ich in Kiel</p>
-  <p>Und dann?</p>
+  <p>{% t incoming.separator_2.line_1 %}</p>
+  <p>{% t incoming.separator_2.line_2 %}</p>
 </section>
 
 
@@ -158,13 +160,9 @@ permalink: /incoming
   <div class="container">
     <div class="row">
       <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-lg-5">
-        <h2>Unterkunft</h2>
+        <h2>{% t incoming.accommodation.title %}</h2>
         <div class="heading-separator"></div>
-        <p>Sofern nichts anderes in den IAESTE-Unterlagen vermerkt ist, sind wir verantwortlich für die Organisation einer Unterkunft. Wir suchen preiswerte, möblierte Zimmer und mieten diese für die Dauer deines Praktikums. Die Miete liegt bei etwa 250 EUR, kann aber auch günstiger sein. Die Zimmer sind mindestens mit einem Bett, Schrank/Regal, Tisch und Stuhl ausgestattet, außerdem gibt es Zugang zu einer Küche und zu Dusche/WC. In vielen Zimmern gibt es einen Internetanschluss, dies können wir allerdings nicht garantieren.
-
-Die entsprechende Miete musst du selbst bezahlen. Du musst zusätzlich beim Einzug eine Kaution in Höhe von 50 EUR bei uns hinterlegen, die du später beim Auszug wieder von uns zurückerhälst, sofern in der Wohnung alles in Ordnung ist.
-
-Bettbezüge und Handtücher müssen mitgebracht werden!</p>
+        <p>{% t incoming.accommodation.description %}</p>
       </div>
       <div class="col-sm-6 col-md-5 col-md-offset-1 col-lg-offset-2 hidden-xs text-center content-center">
         <img class="information-icon" src="{{ site.baseurl_root }}/assets/icons/germany.png"  alt="Image of german map">

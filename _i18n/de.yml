@@ -288,6 +288,9 @@ incoming:
   general_information:
     title: Lieber Bewerber
     description: Wir freuen uns, dass du dich für ein Praktikum in Kiel beworben hast. Sobald der Arbeitgeber deine Bewerbung akzeptiert hat, steht deinem Praktikum nichts mehr im Wege! <br /><br />Wir sind eine Gruppe von etwa 10 Studenten in Kiel und bilden das IAESTE Lokalkomitee Kiel. Wir arbeiten ehrenamtlich für IAESTE, weil wir sehr interessiert daran sind, Leute aus aller Welt kennenzulernen und auf diesem Wege mehr über andere Kulturen und Sprachen zu erfahren – genau wie du! Aus diesem Grunde geben wir alles, um deinen Aufenthalt in Kiel so angenehm und spaßig wie möglich zu gestalten. Im Rahmen unserer Sommerbetreuung veranstalten wir z.B. verschiedene Ausflüge und Events für unsere Praktikanten. Während deines Praktikums hast du die Möglichkeit, wertvolle Erfahrungen für dein Studienfach zu sammeln und neue Dinge zu lernen. Gleichzeitig möchten wir dir während deiner Zeit in Deutschland aber auch die deutsche Gesellschaft und Kultur näherbringen. Zusammen mit uns und ein paar weiteren Praktikanten wirst du daher sicherlich eine unvergessliche Zeit in Kiel verbringen!<br/><br/>Auf diesen Seiten findest du einige wichtige Informationen für deinen Aufenthalt in Kiel. Solltest du weitere Fragen haben, kannst du uns jederzeit kontaktieren.
+  after_acceptance_separator:
+    line_1: Nach der Akzeptierung
+    line_2: Erste Schritte
   process:
     - title: Formular N5/b ausfüllen
       description: Innerhalb von 2 Wochen das Formular N5/b ausfüllen und an das IAESTE-Nationalkomitee im Heimatland zurückschicken (manchmal müssen weitere Formulare ausgefüllt und eingereicht werden). Sobald wir das Formular N5/b erhalten haben, können wir mit der Suche nach einer Unterkunft für dich beginnen. Es ist also sehr wichtig, das N5/b so schnell wie möglich zurückzuschicken.
@@ -301,9 +304,27 @@ incoming:
     - title: Internationaler Studentenausweis
       description: "Jedes Jahr im Februar werden die auf der GC erhaltenen Praktikumsplätze im Ausland dann von den Nationalkomitees an die angeschlossenen Lokalkomitees verteilt. Diese Zuteilung geschieht anhand der von den Lokalkomitees erstellten Bedarfslisten. Zusätzlich findet ebenfalls im Februar eine nationale Tauschkonferenz statt, zu der Vertreter aller Lokalkomitees anreisen. Auf dieser nationalen Tauschkonferenz besteht die Gelegenheit, Plätze mit anderen Lokalkomitees zu tauschen, da die erste Platzzuteilung nicht immer optimal ist. Hier versuchen wir also, für Euch die besten Plätze zu ergattern!"
       note:
-    - title: "Reise buchen :)"
+    - title: "Reise buchen"
       description: Buche einen Flug nach Deutschland. Weitere Informationen zur Anreise gibt es hier. Benachrichtige uns bitte, wann du in Deutschland ankommen wirst.
-      note: Günstige Flugportale hier, hier, hier
+      note:
+  arrival:
+    separator: Anfahrt
+    plane:
+      title: Flugzeug
+      description: Die beste Möglichkeit nach Kiel zu kommen, ist nach Hamburg Airport (HAM) zu fliegen. Von dort fährt ein Flughafenbus direkt nach Kiel zum Hauptbahnhof. Kielius Bei der Planung der Weiterreise vom Flughafen nach Kiel sind wir gerne behilflich. Auf den Seiten der Deutschen Bahn kann man sich passende Verbindungen heraussuchen.
+    train:
+      title: Bahn
+      description: Durch die Anbindung Kiels an das internationale Hochgeschwindigkeitsnetz ist in einigen Fällen eine Anreise per Bahn möglich. Auf den Seiten der europäischen Bahngesellschaften und der Deutschen Bahn kann man sich passende Verbindungen heraussuchen.
+    car:
+      title: Auto
+      description: Kiel ist an das deutsche Autobahnnetz angebunden. Europaweite Routenempfehlungen bekommt man hier. Wir empfehlen jedoch, nicht mit dem Auto anzureisen, da es in Kiel relativ wenige Parkplätze gibt. Außerdem benötigt man in Kiel kein Auto im Alltag, da alles einfach zu Fuß erreichbar ist.
+  separator_2:
+    line_1: Nun bin ich in Kiel
+    line_2: Und dann?
+  accommodation:
+    title: Unterkunft
+    description: Sofern nichts anderes in den IAESTE-Unterlagen vermerkt ist, sind wir verantwortlich für die Organisation einer Unterkunft. Wir suchen preiswerte, möblierte Zimmer und mieten diese für die Dauer deines Praktikums. Die Miete liegt bei etwa 250 EUR, kann aber auch günstiger sein. Die Zimmer sind mindestens mit einem Bett, Schrank/Regal, Tisch und Stuhl ausgestattet, außerdem gibt es Zugang zu einer Küche und zu Dusche/WC. In vielen Zimmern gibt es einen Internetanschluss, dies können wir allerdings nicht garantieren. Die entsprechende Miete musst du selbst bezahlen. Du musst zusätzlich beim Einzug eine Kaution in Höhe von 50 EUR bei uns hinterlegen, die du später beim Auszug wieder von uns zurückerhälst, sofern in der Wohnung alles in Ordnung ist. Bettbezüge und Handtücher müssen mitgebracht werden!
+
 travel_reports:
   title: Erfahrungsberichte
   description: Wähle einen Berichte aus der liste rechts aus und ...
