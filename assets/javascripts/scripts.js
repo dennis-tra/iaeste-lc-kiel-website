@@ -23,7 +23,7 @@ var drawCanvases = function() {
 
       canvas.width = canvasWidth;
       canvas.height = canvasHeight;
-      ctx.moveTo(0, 2);
+      ctx.moveTo(0, 4);
       ctx.lineTo(xLengthHorizontalLine, 4);
       ctx.lineTo(canvasWidth - 4, canvasHeight - 4);
 
@@ -80,7 +80,7 @@ $(document).ready(function() {
 
   for (var i = 0; i < dropdownLinks.length; i++) {
     var reportLink = dropdownLinks[i];
-    
+
     $(reportLink).on('click', function(ev) {
       var reportId = this.dataset.reportId
       var hoverDummy = $("#" + reportId)[0];

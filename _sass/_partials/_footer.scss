@@ -1,20 +1,68 @@
 footer {
-  height: $footer-height;
   @include gradient-horizontal($header-gradient-start-color, $header-gradient-end-color, 0%, 50%);
+
+  a {
+    color: #3e688c
+  }
+  
+  color: #4d748c;
+
+  h5, h6 {
+    color: #4d748c;
+  }
+
+  .horizontal-ruler-footer {
+    @extend %horizontal-ruler;
+    margin: 10px 0;
+    hr {
+      width: 100%;
+      border-top: 1px solid #315165;
+      margin-top: 0px;
+    }
+    span {
+        color: $primary-color;
+    }
+  }
 }
 
 footer .container {
   display: flex;
-  align-items: center;
-  height: 100%;
-  font-size: 10px;
-  color: white;
+  &.copyright-logo {
+    align-items: center;
+    font-size: 13px;
+  }
+
   & > div {
     flex-grow: 1;
   }
 
-  .icon-copyright-label {
+  .brand-logo {
+    color: white;
+    display: flex;
+    align-items: center;
     float: right;
-    max-width: 260px;
+
+    .navbar-brand {
+      color: white;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  img {
+    height: 50px;
+  }
+
+  .copyright-label {
+    color: white;
+  }
+
+  .love {
+    text-align: center;
+    margin: 50px auto;
+    .glyphicon {
+      color: #b54545;
+    }
   }
 }

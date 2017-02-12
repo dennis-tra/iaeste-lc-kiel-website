@@ -14,6 +14,14 @@ titles:
   faq: FAQ
   contact: Kontakt
 supporters_separator: Unterstützt durch
+footer:
+  headlines:
+    navigation: Navigation
+    imprint: Impressum
+    languages: Sprachen
+    credits: Credits
+
+
 index:
   title: Horizont erweitern?
   subtitle: IAESTE bietet dir fachbezogene und internationale Praktikumsplätze an!
@@ -66,6 +74,13 @@ index:
     title: Informationen für Arbeitgeber
     description: IAESTE ist eine international agierende Nicht-Regierungsorganisation, die sich für den Austausch von Studenten einsetzt. Neben Praktika für deutsche Studenten organisieren wir auch Praktika für internationale Studenten in Deutschland. Hier erfahren Sie Vorteile, weshalb ein internationaler Student ihren Betrieb in vielfältiger Weise bereichern kann.
     button_label: Weitere Informationen
+  newsletter:
+    separator: Bleib auf dem Laufenden!
+    title: Newsletter
+    description: Wir informieren über unsere Arbeiten in einem Newsletter, für den ihr euch hier unverbindlich anmelden könnt. Neben den genauen Daten für unsere Informationsveranstaltung erhaltet ihr auch aktuelle Informationen unserer Arbeiten mit internationalen Studenten.
+    label: Subscribe to our mailing list
+    email_placeholder: Email Adresse
+    subscribe_button: Subscribe
 contact:
   contact: Kontakt
   postal_address: Postadresse
@@ -167,10 +182,7 @@ outgoing:
       - Im regulären Bewerbungsverfahren bleiben nach der ersten Platzvergabe oft Plätze übrig, die mitunter recht interessant sind. Diese Restplätze werden im sogenannten Nachtauschverfahren vergeben. Dabei spielt die Abgabe einer Vorbewerbung keine Rolle mehr. Die entsprechenden Termine werden über unseren Newsletter, den IAESTE-Friends-Verteiler, angekündigt.
       - Die außerplanmäßige Platzvergabe durch Early/Late Offers und die kurzfristig zu vergebenen Plätze hat in den letzten Jahren starkt zugenommen. Bei den Early/Late Offers handelt es sich um Plätze, die für das letzte Bewerbungsverfahren zu spät und das folgende zu früh eingereicht wurden. Diese sind oft kurzfristig zu besetzen. Wenn wir so einen Platz vom IAESTE Nationalkomitee bekommen, schicken wir ebenfalls eine Nachricht über unseren Newsletter, den IAESTE-Friends-Verteiler. Bei Interesse an einem solchen Praktikumsplatz solltet Ihr uns möglichst schnell Bescheid geben, damit wir den entsprechenden Platz für Euch reservieren können.
       - Schließlich existiert noch eine internationale IAESTE-Datenbank, in der ebenfalls kurzfristig zu besetzende Praktikumsplätze verzeichnet sind. Mit Unterstützung des LC Karlsruhe können wir Euch hier die aktuelle Platzliste anbieten. Auf diese Plätze kann weltweit zugegriffen werden und sie können schnell anderweitig vergeben sein. Bitte beachtet auch, dass diese Liste aus Datenschutzgründen nicht alle Informationen enthält. Sie wird regelmäßig aktualisiert, bei häufigen Besuchen hilft also ein Klick auf "Aktualisieren" bzw. "Neu laden". Für weitere Informationen bzw. bei Interesse an einem Platz kommt bitte während unserer Bürozeiten bei uns im Büro vorbei! Dann können wir versuchen, den Platz für Euch zu reservieren.
-  newsletter:
-    label: Subscribe to our mailing list
-    email_placeholder: Email Adresse
-    subscribe_button: Subscribe
+
 something_unclear:
   title: Irgendwas unklar?
   description: Dann schau in der FAQ Abteilung vorbei, schreibe uns eine Email oder komme einfach bei uns im Büro vorbei!

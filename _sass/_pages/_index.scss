@@ -31,7 +31,6 @@ section.index-hero {
     font-weight: 300;
     line-height: 50px;
     margin-top: 0;
-    max-width: 580px;
     color: white;
   }
 
@@ -71,6 +70,10 @@ section.main-audience {
     align-items: center;
   }
 
+  div[class*="col"] {
+    margin: 20px 0 40px 0;
+  }
+
   img {
     height: 105px;
   }
@@ -87,7 +90,7 @@ section.main-audience {
 }
 
 section.what-is-iaeste {
-  padding: 30px 0;
+  padding: 50px 0 70px 0;
   background: $section-background-color;
 
   h1 {
@@ -160,4 +163,43 @@ section.employer-information {
   max-width: 80%;
   max-height: 100px;
   margin: 20px 0 35px 0;
+}
+
+section.newsletter {
+
+  min-height: inherit;
+  
+  .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    flex-wrap: wrap;
+  }
+  .row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row div:nth-child(2) {
+    justify-content: center;
+  }
+
+  @media screen and (max-width: $screen-xs-max) {
+    text-align: center;
+    padding: 20px 0 0 0;
+
+    .heading-separator {
+      margin: 0 auto;
+    }
+  }
+}
+
+#mc_embed_signup {
+  margin-top: 47px;
+
+  @media screen and (max-width: $screen-xs-max) {
+    text-align: center;
+    margin-top: 10px;
+  }
 }

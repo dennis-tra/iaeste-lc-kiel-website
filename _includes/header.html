@@ -35,7 +35,7 @@
                   {% else %}
                     {% capture link %}{{ site.baseurl_root }}/{{ language }}{{ page.url  }}{% endcapture %}
                   {% endif %}
-                  <li><a href="{{ link }}">{{ site.translations[site.lang]["langs"][language]["title"] }}</a></li>
+                  <li><a href="{{ link }}">{{ site.translations[site.lang]["langs"][language] }}</a></li>
                 {% endfor %}
               </ul>
             </div>

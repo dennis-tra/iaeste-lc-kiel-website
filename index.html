@@ -113,7 +113,7 @@ navigation_weight: 1
         <h2>{% t index.discover_kiel.title %}</h2>
         <div class="heading-separator"></div>
         <p>{% t index.discover_kiel.description %}</p>
-        <a href="outgoing.html" class="btn btn-primary" role="button">{% t index.discover_kiel.button_label %}</a>
+        <a href="incoming.html" class="btn btn-primary" role="button">{% t index.discover_kiel.button_label %}</a>
       </div>
     </div>
   </div>
@@ -126,10 +126,29 @@ navigation_weight: 1
         <h2>{% t index.employer_information.title %}</h2>
         <div class="heading-separator"></div>
         <p>{% t index.employer_information.description %}</p>
-        <a href="#" class="btn btn-primary" role="button">{% t index.employer_information.button_label %}</a>
+        <a href="employer.html" class="btn btn-primary" role="button">{% t index.employer_information.button_label %}</a>
       </div>
       <div class="col-sm-6 col-md-5 col-md-offset-1 col-lg-offset-2 hidden-xs text-center content-center">
         <img class="information-icon" src={{ "/assets/icons/bag-icon.png" | prepend: site.baseurl_root }}  alt="Icon of a bag">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="thick-separator-primary">
+  <p>{% t index.newsletter.separator %}</p>
+</section>
+
+<section class="newsletter information-section white-bg text-left">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-lg-5">
+        <h2>{% t index.newsletter.title %}</h2>
+        <div class="heading-separator"></div>
+        <p>{% t index.newsletter.description %}</p>
+      </div>
+      <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-5 col-md-offset-1 col-lg-offset-1 text-left">
+        {% include mailchimp_signup_form.html %}
       </div>
     </div>
   </div>
