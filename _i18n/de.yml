@@ -33,7 +33,7 @@ index:
       description: Du wurdest für ein IAESTE-Praktikum in Kiel akzeptiert und möchtest dich informieren? Hier entlang
     employer:
       title: Firmen
-      description: Sie möchten einem engegierten Studierenden ein Praktikum ermöglichen? Weitere Informationen
+      description: Sie möchten einem engagierten Studierenden ein Praktikum ermöglichen? Weitere Informationen
   what_is_iaeste:
     title: Was ist IAESTE?
     top_left:
@@ -205,8 +205,7 @@ faq:
         - question: Werden die Praktika vergütet?
           answer: "IAESTE-Praktika sind bezahlte Praktikumsstellen. Die Bezahlung der Praktika orientiert sich an den Ansprüchen der Firmen und deckt mindestens die Lebenshaltungskosten im Gastland. Zum Vergleich: Der IAESTE-Lebenshaltungskostensatz (Mindestvergütung für Praktikanten) in Deutschland beträgt aktuell 650 €."
         - question: Was kostet mich dieser Vermittlungsservice?
-          answer: "Einfache Antwort: Nichts! Es gibt keinerlei Verpflichtungen, die mit der Vermittlung eines Platzes einhergehen. Dies ist in Deutschland durch die Eingliederung des IAESTE-Programmes in den DAAD (Deutscher Akademischer Auslandsdienst) möglich.
-Es ist lediglich eine Kaution in Höhe von 30 Euro zu hinterlegen, die nach Beendigung des Praktikums bzw. bei Ablehnung durch den Arbeitgeber selbstverständlich zurückerstattet wird."
+          answer: "Einfache Antwort: Nichts! Es gibt keinerlei Verpflichtungen, die mit der Vermittlung eines Platzes einhergehen. Dies ist in Deutschland durch die Eingliederung des IAESTE-Programmes in den DAAD (Deutscher Akademischer Auslandsdienst) möglich. Es ist lediglich eine Kaution in Höhe von 30 Euro zu hinterlegen, die nach Beendigung des Praktikums bzw. bei Ablehnung durch den Arbeitgeber selbstverständlich zurückerstattet wird."
         - question: Ich habe keine Vorbewerbung abgegeben, kann ich trotzdem einen Praktikumsplatz bekommen?
           answer: Über den Friends-Verteiler werden in unregelmäßigen Abständen kurzfristig zu besetzende Platzangebote verschickt. Während unserer Bürozeiten kann darüberhinaus auch Einblick in die IAESTE-interne Datenbank genommen werden, in der ebenfalls kurzfristig zu besetzende Platzangebote verzeichnet sind. Diese Plätze werden auch an Bewerber ohne Vorbewerbung direkt vermittelt.
         - question: Was kostet mich dieser Vermittlungsservice?Warum steht auf meinem Platzangebot nicht der Firmenname?
@@ -215,57 +214,77 @@ Es ist lediglich eine Kaution in Höhe von 30 Euro zu hinterlegen, die nach Been
           answer: Um sicherzustellen, dass wirklich Interesse an dem Platz besteht muss bei definitiver Zusage eine Kaution in Höhe von 30 Euro beim LC Kiel hinterlegt werden. Dies ist wichtig, da es pro Platz generell nur einen Bewerber gibt; zum Schutz und Wohl der Firma soll der angebotene Platz aber auf jeden Fall besetzt werden. Nach Beendigung des Praktikums und Abgabe der Praktikumsberichte oder aber bei Ablehnung durch den Arbeitgeber wird die Kaution selbstverständlich zurückerstattet.
         - question: Kann ich beim LC Kiel mitmachen?
           answer: Auf jeden Fall! Wir freuen uns über jeden, der bei uns mitmachen will. Wir haben neben der Praktikavermittlung an Studenten noch viele andere Aufgabenbereiche. Dabei steht der Spaß an der Sache bei uns immer im Vordergrund. Und alles ist problemlos neben einem Vollzeitstudium machbar! Weitere Infos über unsere Aktivitäten findest du hier und in unseren Newcomerinfos. Bei Interesse komm doch einfach mal bei unseren Treffen vorbei oder schick uns eine Email!
-        - question: Muss ich vor Ort um eine Unterkunft bemühen?
-          answer: adsfdafsasdfasdsdagga
-        - question: Besteht die Möglichkeit sich das Praktikum an Hochschule anrechnen zu lassen?
-          answer: dasflkfdsalkadslfkdfasj - Fahrkostenzuschuss
-        - question: Verlängert sich durch das Praktikum meine Studiendauer? / Gefährdet es meine Regelstudienzeit?
-          answer: dsfjfasdlkjsldjfds
-        - question: Bin ich für die Dauer meines Praktikums im Ausland versichert?
-          answer: DAAD aksdfjflds
+        # - question: Muss ich vor Ort um eine Unterkunft bemühen?
+        #   answer: adsfdafsasdfasdsdagga
+        # - question: Besteht die Möglichkeit sich das Praktikum an Hochschule anrechnen zu lassen?
+        #   answer: dasflkfdsalkadslfkdfasj - Fahrkostenzuschuss
+        # - question: Verlängert sich durch das Praktikum meine Studiendauer? / Gefährdet es meine Regelstudienzeit?
+        #   answer: dsfjfasdlkjsldjfds
+        # - question: Bin ich für die Dauer meines Praktikums im Ausland versichert?
+        #   answer: DAAD aksdfjflds
     - title: Incoming
       questions:
-        - question: Collapsible Group Item
-          answer: Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        - question: Collapsible Group Item
-          answer: Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        - question: Bekomme ich eine Wohnung gestellt?
+          answer: Ja, das Lokalkomitee kümmert sich um ein Zimmer für dich.
+        - question: Werde ich mein Zimmer teilen müssen?
+          answer: Nein. Du wirst mit hoher Wahrscheinlichkeit Bad und Küche teilen müssen. Aber jeder hat in der Regel sein eigenes Zimmer.
+        - question: Wie teuer ist die Miete in Kiel?
+          answer: Die Mietpreise in Kiel sind generell etwas günstiger als in einigen größeren Städten Deutschlands. Wir versuchen, euch möglichst eine Wohnung zu finden, deren monatlicher Mietpreis etwa 260€ pro Monat nicht überschreitet. Versprechen können wir das aber nicht. Hilfreich ist es für uns, wenn der Zeitraum des Praktikums in den Monaten Juni bis September liegt und Beginn und Ende des Praktikums möglichst nicht mitten im Monat liegen.
+        - question: Was muss ich machen, wenn ich mein Praktikum doch nicht antreten kann?
+          answer: Du solltest dich so schnell wie möglich bei deinem zuständigen Komitee melden, um die Weitergabe deines Praktikums und Zimmers an jemand anderen zu ermöglichen.
+        - question: Was sollte ich noch beachten?
+          answer: Ein wichtiger Hinweis an unsere Incomer - Downloads von Musik und Filmen per Filesharing (torrent etc.) sind in Deutschland illegal und werden strafrechtlich verfolgt. Bitte lade dir benötigte Dateien vor der Anreise herunter und lösche die entsprechende Software. Schon das versehentliche ÷ffnen eines dieser Programme und das damit verbundene Herunterladen weniger Megabytes einer Datei kann zu Strafen in Höhe mehreren 1000€ führen. Bitte achte darauf!
+
     - title: Firmen
       questions:
-        - question: Wie kann ich einen Praktikumsplatz anbieten?
-          answer: Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        - question: Ist der Praktikant versichert?
-          answer: Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        - question: Wie wird ein Praktikant ausgewählt?
-          answer: Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        - question: Was kostet mich der Praktikant?
-          answer: asdfasdfasdf
-        - question: Wer sorgt für die Unterkunft und Betreuung des Praktikanten?
-          ansewr: adsfklnaldsfn
-
+        - question: Welche Anforderungen kann ich an den potentiellen Praktikanten stellen?
+          answer: Im Angebotsformular können die Sprachkenntnisse, das Herkunftsland, das Studienfach und ñsemester sowie etwaige Arbeitserfahrung festgelegt werden. Wenn Sie beispielsweise gerne einen Masterstudenten oder nur jemanden aus Polen beschäftigen wollen, ist das kein Problem. Gerne können auch weitere Fachkenntnisse wie etwa die Kenntnis bestimmter Programmiersprachen oder Laborerfahrung gefordert werden. Zudem kann natürlich der Zeitraum eingeschränkt werden.
+        - question: Wie viele Bewerbungen muss ich sichten, bis ich einen geeigneten Praktikanten finde?
+          answer: In der Regel nur eine - die Vorarbeit leisten bereits Lokal- und Nationalkomitees des Herkunftslandes und Deutschlands. Nur wenn der Bewerber die geforderten Kenntnisse ausreichend erfüllt und seine Bewerbung korrekt und vollständig ist, wird diese an Sie weitergeleitet. Sollte der unwahrscheinliche Fall eintreten, dass der Bewerber nicht geeignet ist, entscheiden Sie, ob Sie eine weitere Bewerbung annehmen würden oder nicht.
+        - question: Kann ich davon zurücktreten, eine Praktikumsstelle anzubieten?
+          answer: Das können Sie theoretisch zu jeder Zeit. Hat sich bereits jemand beworben und ist er oder sie eventuell sogar schon von Ihnen akzeptiert, so wird das natürlich zu viel Enttäuschung führen. Für Sie entsteht jedoch kein Nachteil. Wenden Sie sich bei Problemen oder Fragen gerne jederzeit an uns!
+        - question: Muss ich für den Praktikanten eine Wohnung finden und sein / ihr Visum organisieren?
+          answer: Nein. Sie sind lediglich für die Gestaltung des Praktikumsinhaltes zuständig. Das Lokalkomitee Kiel kümmert sich um die Wohnungssuche und das ggf. nötige Visum besorgt sich der Studierende selbst. Die Arbeitserlaubnis beziehungsweise die Befreiung von dieser besorgt der DAAD von der Bundesagentur für Arbeit.
+        - question: Welches Gehalt ist angemessen?
+          answer: Momentan (Stand Anfang 2017) gilt, dass der IAESTE-Praktikanten mindestens 670€ im Monat als Vergütung erhalten sollten. Dieser Betrag orientiert sich am Bafög-Satz. Dazu ist zu beachten, dass Praktikanten zum Teil aus sehr armen Regionen kommen und daher in Deutschland so bezahlt werden sollen, dass sie von dem Gehalt leben können. Ist der Arbeitgeber eine Hochschule oder ein Forschungsinstitut, kann der DAAD die kosten anteilig übernehmen. Dies ist im Einzelfall zu klären. Bei Praktika, die länger als drei Monate sind, muss der Mindestlohn gezahlt werden, es sei denn, der Bewerber kann nachweisen, dass er im Rahmen seines Studiums ein Pflichtpraktikum absolvieren muss (auch das kann im Angebotsformular als Voraussetzung festgelegt werden).
+        - question: Ist der Praktikant versichert, wenn er etwas beschädigt oder krank wird?
+          answer: Ja. Der DAAD schließt die Versicherung ab und bezahlt diese auch, sodass hier nichts schiefgehen kann. Es handelt sich um eine sehr umfangreiche Kranken- und Haftpflichtversicherung bei der Continentale. Gerne kann der Umfang der Versicherung bei uns angefragt werden.
 incoming:
   control_left: Previous
   control_right: Next
   hero_pictures:
     - filename: kiel_04.jpg
-      alt_text: ""
+      alt_text: "Kite surfer in Heikendorf"
       title: "Kitesurfer"
       description: "Heikendorf"
+    - filename: kiel_08.jpg
+      alt_text: ""
+      title: "Steg"
+      description: "Nord-Ostsee-Kanal"
     - filename: kiel_01.jpg
       alt_text: ""
-      title: "asdf"
-      description: "asdf"
-    - filename: kiel_02.jpg
-      alt_text: ""
-      title: "asdf"
-      description: "asdf"
+      title: "Hörnbrücke bei Nacht"
+      description: "Hörn"
     - filename: kiel_03.jpg
       alt_text: ""
-      title: "asdf"
-      description: "asdf"
-    - filename: kiel_weekend.jpg
+      title: "Fähren"
+      description: "Kieler Förde"
+    - filename: kiel_05.jpg
       alt_text: ""
       title: "Kiel Wochenende 2016"
       description: "Falkensteiner Strand"
+    - filename: kiel_06.jpg
+      alt_text: ""
+      title: "Skyline"
+      description: "Blick über Kiel"
+    - filename: kiel_07.jpg
+      alt_text: ""
+      title: "Nord-Ostsee-Kanal"
+      description: "Hochbrücke"
+    - filename: kiel_02.jpg
+      alt_text: ""
+      title: "Innenstadt"
+      description: "Hörn"
   general_information:
     title: Lieber Bewerber
     description: Wir freuen uns, dass du dich für ein Praktikum in Kiel beworben hast. Sobald der Arbeitgeber deine Bewerbung akzeptiert hat, steht deinem Praktikum nichts mehr im Wege! <br /><br />Wir sind eine Gruppe von etwa 10 Studenten in Kiel und bilden das IAESTE Lokalkomitee Kiel. Wir arbeiten ehrenamtlich für IAESTE, weil wir sehr interessiert daran sind, Leute aus aller Welt kennenzulernen und auf diesem Wege mehr über andere Kulturen und Sprachen zu erfahren – genau wie du! Aus diesem Grunde geben wir alles, um deinen Aufenthalt in Kiel so angenehm und spaßig wie möglich zu gestalten. Im Rahmen unserer Sommerbetreuung veranstalten wir z.B. verschiedene Ausflüge und Events für unsere Praktikanten. Während deines Praktikums hast du die Möglichkeit, wertvolle Erfahrungen für dein Studienfach zu sammeln und neue Dinge zu lernen. Gleichzeitig möchten wir dir während deiner Zeit in Deutschland aber auch die deutsche Gesellschaft und Kultur näherbringen. Zusammen mit uns und ein paar weiteren Praktikanten wirst du daher sicherlich eine unvergessliche Zeit in Kiel verbringen!<br/><br/>Auf diesen Seiten findest du einige wichtige Informationen für deinen Aufenthalt in Kiel. Solltest du weitere Fragen haben, kannst du uns jederzeit kontaktieren.
@@ -303,7 +322,7 @@ employer:
   employer_task_headline: Aufgaben des Arbeitgebers
   process:
     - month: November
-      description: Bis etwa Ende November müssen die Anforderungen an den gewünschten Praktikanten beim IAESTE-Lokalkomitee Kiel vorliegen. Dazu kann, wenn gewünscht auch gerne mit unserer Unterstützung, das <a href="assets/documents/ANGEBOTSFORMULAR_IAESTE_fuer_Arbeitgeber.pdf">Anmelde-Formular</a> oder das <a href="https://www.iaeste.de/employers?page=onlineform_link">Online-Formular</a> ausgefüllt werden. Sollten Sie sich für das Ausfüllen des pdf-Dokumentes entscheiden, senden Sie es bitte an <a href="mailto:iaeste@uv.uni-kiel.de">unsere eMail-Adresse</a>. Sie haben diese Frist verpasst? Auch auﬂerhalb des IAESTE-Zyklus kann ein Bewerber gefunden werden. Sie können sich gerne jederzeit an uns wenden.
+      description: Bis etwa Ende November müssen die Anforderungen an den gewünschten Praktikanten beim IAESTE-Lokalkomitee Kiel vorliegen. Dazu kann, wenn gewünscht auch gerne mit unserer Unterstützung, das <a href="assets/documents/ANGEBOTSFORMULAR_IAESTE_fuer_Arbeitgeber.pdf">Anmelde-Formular</a> oder das <a href="https://www.iaeste.de/employers?page=onlineform_link">Online-Formular</a> ausgefüllt werden. Sollten Sie sich für das Ausfüllen des pdf-Dokumentes entscheiden, senden Sie es bitte an <a href="mailto:iaeste@uv.uni-kiel.de">unsere eMail-Adresse</a>. Sie haben diese Frist verpasst? Auch außerhalb des IAESTE-Zyklus kann ein Bewerber gefunden werden. Sie können sich gerne jederzeit an uns wenden.
       employer_task: <a href="{{ site.baseurl_root }}/assets/documents/ANGEBOTSFORMULAR_IAESTE_fuer_Arbeitgeber.pdf">Angebotsformular</a> oder <a href="https://www.iaeste.de/employers?page=onlineform_link">Online-Formular</a> ausfüllen und uns bzw. dem Nationalkomitee zukommen lassen.
     - month: Januar
       description: Ende Januar findet die sogenannte Annual Conference der IAESTE statt. Diese wird jedes Jahr von einem anderen Mitgliedsland ausgerichtet. Hier tauschen die Nationalkomitees ihre eingeworbenen Plätze mit anderen Ländern. Sollten Sie in Ihrem Angebot die Länderauswahl eingeschränkt haben, wird Ihr Angebot selbstverständlich an eines der gewünschten Länder vergeben.
@@ -328,7 +347,7 @@ employer:
           - Prüfen der Bewerbungen, bevor sie an den Arbeitgeber weitergeleitet werden
           - Kommunikation und Abstimmung mit der Bundesagentur für Arbeit, insbesondere bei visapflichtigen Praktikanten
           - Bereitstellung der Dokumente für das Visum
-          - Abschlieﬂen und Bezahlen der Kranken- und Haftpflichtversicherung
+          - Abschließen und Bezahlen der Kranken- und Haftpflichtversicherung
           - Unterstützung der Lokalkomitees bei wichtigen Fragen und Problemen
           - Finanzielle Unterstützung des von den Lokalkomitees organisierten Freizeitprogrammes
           - nur bei Hochschulen ggf. anteilige oder volle Bezahlung des Praktikumsgehaltes

@@ -29,13 +29,13 @@ footer .container {
   }
 
   .brand-logo {
-    color: white;
+    color: #4d748c;
     display: flex;
     align-items: center;
     float: right;
 
     .navbar-brand {
-      color: white;
+      color: #4d748c;
       &:hover {
         text-decoration: underline;
       }
@@ -44,10 +44,11 @@ footer .container {
 
   img {
     height: 50px;
+    opacity: 0.3;
   }
 
   .copyright-label {
-    color: white;
+    color: #4d748c;
   }
 
   .love {
