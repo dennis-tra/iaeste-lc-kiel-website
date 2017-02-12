@@ -17,7 +17,14 @@ navigation_weight: 5
 <section class="general-employer-information information-section white-bg">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-sm-5 col-md-4">
+      <div class="col-xs-12 col-sm-7 col-md-6 text-left">
+        <h2>{% t employer.general_information.title %}</h2>
+        <div class="heading-separator"></div>
+        <p>{% t employer.general_information.description %}</p>
+        <a href="{{ site.baseurl_root }}/assets/documents/IAESTE_Weltweiter_Praktikantenaustausch-Allgemein.pdf">{% t employer.general_information.button_1.title %}</a>
+        <a href="{{ site.baseurl_root }}/assets/documents/IAESTE_Hinweise_fuer_Arbeitgeber">{% t employer.general_information.button_2.title %}</a>
+      </div>
+      <div class="col-xs-12 col-sm-5 col-md-4 col-md-offset-2 well-column">
         <div class="well text-left">
           <h4>{% t outgoing.in_a_nutshell.title %}:</h4>
           <ul>
@@ -26,13 +33,6 @@ navigation_weight: 5
             {% endfor %}
           </ul>
         </div>
-      </div>
-      <div class="col-xs-12 col-sm-7 col-md-offset-1 col-md-6 text-left">
-        <h2>{% t employer.general_information.title %}</h2>
-        <div class="heading-separator"></div>
-        <p>{% t employer.general_information.description %}</p>
-        <a class="btn btn-complementary" href="">{% t employer.general_information.button_1.title %}</a>
-        <a class="btn btn-complementary" href="">{% t employer.general_information.button_2.title %}</a>
       </div>
     </div>
   </div>
@@ -47,8 +47,8 @@ navigation_weight: 5
   </div>
 </section>
 
-{% assign outgoing_steps = site.translations[site.lang]["employer"]["process"] %}
-{% for step in outgoing_steps %}
+{% assign employer_steps = site.translations[site.lang]["employer"]["process"] %}
+{% for step in employer_steps %}
 
   {% assign modulo = forloop.index | modulo: 2 %}
   {% if modulo == 1 %}
@@ -80,11 +80,11 @@ navigation_weight: 5
               <p>{{ step.description }}</p>
             </div>
             <div class="col-xs-12 col-sm-5 col-md-4 col-md-offset-2 well-column">
-              {% assign applicant_task = step.applicant_task %}
-              {% if applicant_task != blank %}
+              {% assign employer_task = step.employer_task %}
+              {% if employer_task != null %}
                 <div class="well">
-                  <span>Das hast du zu tun</span>
-                  <p>{{ applicant_task }}</p>
+                  <span>{% t employer.employer_task_headline %}</span>
+                  <p>{{ employer_task }}</p>
                 </div>
               {% endif %}
             </div>
@@ -126,19 +126,19 @@ navigation_weight: 5
 </section>
 
 <section class="thick-separator-primary">
-  <p>Sie haben sich entschieden, einen Praktikumsplatz anzubieten?</p>
+  <p>{% t employer.offer_internhsip_separator %}</p>
   <p></p>
 </section>
 
-<section class="information-section white-bg">
+<section class="information-section offer-internhsip white-bg">
   <div class="container">
     <div class="row">
       <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-lg-5">
-        <h2>Praktikumsplatz anbieten</h2>
+        <h2>{% t employer.offer_internhsip.title %}</h2>
         <div class="heading-separator"></div>
-        <p>Damit Sie auf jeden Fall den geeigneten Bewerber erhalten, können Sie bereits vorab genau festlegen, was der potentielle Praktikant können muss. Neben Fachrichtung, Sprachkenntnissen, Arbeitserfahrung und Fachsemester kann beispielsweise auch das Herkunftsland festgelegt werden. Bei Fragen wenden Sie sich jederzeit gerne an uns. Das auszufüllende Formular ist hier zu finden</p>
-        <a class="btn btn-complementary" href="">Download PDF "Angebotsformular"</a>
-        <a class="btn btn-complementary" href="">Link zum Online-Formular</a>
+        <p>{% t employer.offer_internhsip.description %}</p>
+        <a href="{{ site.baseurl_root }}/assets/documents/ANGEBOTSFORMULAR_IAESTE_fuer_Arbeitgeber.pdf">{% t employer.offer_internhsip.title_button_1 %}</a>
+        <a href="https://www.iaeste.de/employers?page=onlineform_link">{% t employer.offer_internhsip.title_button_2 %}</a>
       </div>
       <div class="col-sm-6 col-md-5 col-md-offset-1 col-lg-offset-2 hidden-xs text-center content-center">
         <img class="information-icon" src="{{ site.baseurl_root }}/assets/icons/soft_skill.png"  alt="Image of two people shaking hands">

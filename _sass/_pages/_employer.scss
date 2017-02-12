@@ -1,5 +1,5 @@
 section.employer-hero {
-  background: url(../images/employer_hero.jpg) no-repeat center center;
+  background: url(../images/employer_tiny.jpg) no-repeat center center;
   background-size: cover;
 
   height: calc(100vh - #{$navbar-height});
@@ -11,10 +11,27 @@ section.general-employer-information {
   .heading-separator {
     margin-left: 0;
   }
+  a {
+    max-width: inherit;
+    width: initial;
+    font-size: 1.2em;
+    line-height: initial;
+    height: 25px;
+  }
 }
 
 section.approach-section {
   ul {
     padding-left: 25px;
+  }
+}
+
+section.offer-internhsip {
+  a {
+    max-width: inherit;
+    width: initial;
+    font-size: 1.2em;
+    line-height: initial;
+    height: 25px;
   }
 }
