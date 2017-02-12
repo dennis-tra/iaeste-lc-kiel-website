@@ -6,23 +6,23 @@
           <div class="row">
             <div class="col-xs-6 col-sm-12 col-md-6">
               <h3>{% t contact.postal_address %}</h3>
-              <div class="short-heading-separator"></div>
-              <p class="address">Westring 304<br>24043 Kiel<br>Germany</p>
+              <div class="short-heading-separator">{{ site.postal_address }}</div>
+              <p class="address"></p>
             </div>
             <div class="col-xs-6 col-sm-12 col-md-6">
               <h3>{% t contact.office_address %} <span class="badge hidden-xs">{% t contact.participate_badge %}</span></h3>
               <div class="short-heading-separator"></div>
-              <p class="address">Westring 304<br>24043 Kiel<br>Germany</p>
+              <p class="address">{{ site.office_address }}</p>
             </div>
           </div>
           <div class="contact-option">
             <img src="{{ site.baseurl_root }}/assets/icons/email-logo-white.png" alt="Email icon">
-            <a href="mailto:iaeste@uv.uni-kiel.de">iaeste@uv.uni-kiel.de</a>
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
           </div>
 
           <div class="contact-option">
             <img src="{{ site.baseurl_root }}/assets/icons/facebook-logo-white.png" alt="Email icon">
-            <a href="https://www.facebook.com/iaestelckiel/">IAESTE LC Kiel</a>
+            <a href="{{ site.facebook_site }}">IAESTE LC Kiel</a>
           </div>
         </div>
         <div class="col-sm-6 col-md-4">

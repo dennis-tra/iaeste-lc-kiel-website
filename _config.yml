@@ -14,7 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: IAESTE LC Kiel
-email: dennisauskiel@posteo.com
+email: iaeste@uv.uni-kiel.de
+facebook_site: https://www.facebook.com/iaestelckiel/
+postal_address: Westring 304<br>24043 Kiel<br>Germany
+office_address: Westring 304<br>24043 Kiel<br>Germany
+
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -35,10 +39,6 @@ sass:
 # Build settings
 markdown: kramdown
 gems:
-   - jemoji
-   - jekyll-redirect-from
-   - jekyll-sitemap
-   - jekyll-seo-tag
    - jekyll-multiple-languages-plugin
 
 exclude:

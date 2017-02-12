@@ -1,13 +1,74 @@
 <footer>
-  <div class="container">
-    <div class="copyright-label text-left">
+  <div class="container copyright-logo">
+    <div class="copyright-label text-left col-xs-12 col-sm-6">
       Copyright &copy; 2017 IAESTE in Kiel, Germany. All rights reserved.
     </div>
-    <div class="icon-copyright-label text-right">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a>, <a href="http://www.flaticon.com/authors/google" title="Google">Google</a>, <a href="http://www.flaticon.com/authors/icomoon" title="Icomoon">Icomoon</a> and <a href="http://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+    <div class="col-xs-12 col-sm-6">
+      <div class="brand-logo">
+        <a href="index.html" class="navbar-brand"> IAESTE <span>LC Kiel</span> </a>
+        <a href="index.html"><img alt="IAESTE Logo" src="{{ site.baseurl_root }}/assets/images/logo_weiss.png" > </a>
+      </div>
+    </div>
+  </div>
 
-    <!--<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-    <div>Icons made by <a href="http://www.flaticon.com/authors/google" title="Google">Google</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-    <div>Icons made by <a href="http://www.flaticon.com/authors/icomoon" title="Icomoon">Icomoon</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-    <div>Icons made by <a href="http://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>-->
+  <div class="container">
+    <div class="col-sm-3">
+      <h5>{% t footer.headlines.navigation %}</h5>
+      <ul>
+        {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+        {% for p in navigation_pages %}
+          {% if p.navigation_weight %}
+            <li {% if p.url == page.url %}class="active"{% endif %}><a href="{{ p.url | prepend: site.baseurl | prepend: site.github.url }}">{{ p.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-sm-3">
+      <h5>{% t footer.headlines.credits %}</h5>
+      Icons made by
+      <ul>
+        <li><a href="http://www.freepik.com" title="Freepik">Freepik</a></li>
+        <li><a href="http://www.flaticon.com/authors/google" title="Google">Google</a></li>
+        <li><a href="http://www.flaticon.com/authors/icomoon" title="Icomoon">Icomoon</a></li>
+        <li><a href="http://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a></li>
+      </ul>
+      from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> <br> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+
+    </div>
+    <div class="col-sm-3">
+      <h5>{% t footer.headlines.languages %}</h5>
+      <ul>
+        {% for language in site.languages %}
+          {% if language == "de" %}
+            {% capture link %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
+          {% else %}
+            {% capture link %}{{ site.baseurl_root }}/{{ language }}{{ page.url  }}{% endcapture %}
+          {% endif %}
+          <li><a href="{{ link }}">{{ site.translations[site.lang]["langs"][language] }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-sm-3">
+      <h5>{% t footer.headlines.imprint %}</h5>
+      <div class="row">
+        <div class="col-xs-6">
+          <h6>{% t contact.postal_address %}</h6>
+          <p class="address">Westring 304<br>24043 Kiel<br>Germany</p>
+        </div>
+        <div class="col-xs-6">
+          <h6>{% t contact.office_address %}</h6>
+          <p class="address">Westring 304<br>24043 Kiel<br>Germany</p>
+        </div>
+      </div>
+      <div class="contact-option">
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </div>
+      <div class="contact-option">
+        <a href="{{ site.facebook_site }}">Facebook: IAESTE LC Kiel</a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <p class="love">Made with <i class="glyphicon glyphicon-heart"></i> by <a href="https://github.com/dennis-tra">Dennis Trautwein</a></p>
   </div>
 </footer>
