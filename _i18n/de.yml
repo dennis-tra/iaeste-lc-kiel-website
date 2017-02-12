@@ -4,6 +4,7 @@ global:
   twitter: Twitter
   github: GitHub
 langs:
+  active_image: germany.png
   de: Deutsch
   en: Englisch
 titles:

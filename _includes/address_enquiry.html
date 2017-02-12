@@ -6,8 +6,8 @@
           <div class="row">
             <div class="col-xs-6 col-sm-12 col-md-6">
               <h3>{% t contact.postal_address %}</h3>
-              <div class="short-heading-separator">{{ site.postal_address }}</div>
-              <p class="address"></p>
+              <div class="short-heading-separator"></div>
+              <p class="address">{{ site.postal_address }}</p>
             </div>
             <div class="col-xs-6 col-sm-12 col-md-6">
               <h3>{% t contact.office_address %} <span class="badge hidden-xs">{% t contact.participate_badge %}</span></h3>
@@ -27,19 +27,21 @@
         </div>
         <div class="col-sm-6 col-md-4">
           <h1>{% t contact.enquiry.title %}</h1>
-          <form>
+          <form action="https://formspree.io/iaeste@uv.uni-kiel.com" method="POST">
             <div class="form-group">
               <label for="name-input">{% t contact.enquiry.name_label %}:</label>
-              <input class="form-control" id="name-input">
+              <input class="form-control" id="name-input" name="Name">
             </div>
-              <div class="form-group">
-                <label for="email-input">{% t contact.enquiry.email_label %}:</label>
-                <input type="email" class="form-control" id="email-input">
-              </div>
+            <div class="form-group">
+              <label for="email-input">{% t contact.enquiry.email_label %}:</label>
+              <input type="email" class="form-control" id="email-input" name="_replyto">
+            </div>
             <div class="form-group">
               <label for="message-input">{% t contact.enquiry.message_label %}:</label>
-              <textarea class="form-control" rows="4" id="message-input"></textarea>
+              <textarea class="form-control" rows="4" id="message-input" name="Nachricht"></textarea>
             </div>
+            <input type="hidden" name="_subject" value="Neue Anfrage!" />
+            <input type="text" name="_gotcha" style="display:none" />
             <button type="submit" class="btn btn-complementary">{% t contact.enquiry.send_button %}</button>
           </form>
         </div>

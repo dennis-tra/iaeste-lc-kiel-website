@@ -26,7 +26,7 @@
           {% endfor %}
           <li>
             <div class="btn-group current-language">
-              <button type="button" class="btn-default" data-toggle="dropdown" style="background-image: url({{ site.baseurl_root }}/assets/icons/flags/{{ site.translations[site.lang]["langs"][site.lang]["image"] }})" aria-haspopup="true" aria-expanded="false"></button>
+              <button type="button" class="btn-default" data-toggle="dropdown" style="background-image: url({{ site.baseurl_root }}/assets/icons/flags/{% t langs.active_image %})" aria-haspopup="true" aria-expanded="false"></button>
               <ul class="dropdown-menu">
 
                 {% for language in site.languages %}
