@@ -44,7 +44,7 @@ permalink: /outgoing
     </div>
   </div>
 </section>
-  
+
   {% assign outgoing_steps = site.translations[site.lang]["outgoing"]["process"] %}
   {% for step in outgoing_steps %}
 
@@ -112,20 +112,6 @@ permalink: /outgoing
       </div>
       <div class="col-xs-12 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1">
 
-        <div id="mc_embed_signup">
-        <form action="//asdf.us13.list-manage.com/subscribe/post?u=682b348e31ca800bd3d0452ab&amp;id=13cf371da3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-          <div class="form-group" id="mc_embed_signup_scroll">
-          	<label for="mce-EMAIL">{% t outgoing.newsletter.label %}</label>
-          	<input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="{% t outgoing.newsletter.email_placeholder %}" required>
-          </div>
-          <div class="form-group">
-            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_682b348e31ca800bd3d0452ab_13cf371da3" tabindex="-1" value=""></div>
-            <div class="clear"><input type="submit" value="{% t outgoing.newsletter.subscribe_button %}" name="subscribe" id="mc-embedded-subscribe" class="btn btn-complementary"></div>
-          </div>
-          </div>
-        </form>
-        </div>
       </div>
     </div>
   </div>
