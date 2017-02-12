@@ -23,7 +23,7 @@ permalink: /outgoing
         <p>{% t outgoing.general_information.description %}</p>
         <a class="btn btn-complementary" href="travel_reports">{% t outgoing.general_information.button %}</a>
       </div>
-      <div class="col-xs-12 col-sm-5 col-md-4 col-md-offset-2">
+      <div class="col-xs-12 col-sm-5 col-md-4 col-md-offset-2 well-column">
         <div class="well text-left">
           <h4>{% t outgoing.in_a_nutshell.title %}:</h4>
           <ul>
@@ -79,9 +79,9 @@ permalink: /outgoing
               </div>
               <div class="col-xs-12 col-sm-5 col-md-4 col-md-offset-2 well-column">
                 {% assign applicant_task = step.applicant_task %}
-                {% if applicant_task != blank %}
+                {% if applicant_task != "" %}
                   <div class="well">
-                    <span>Das hast du zu tun</span>
+                    <span>{% t outgoing.applicant_task_headline %}</span>
                     <p>{{ applicant_task }}</p>
                   </div>
                 {% endif %}

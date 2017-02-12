@@ -20,8 +20,6 @@ footer:
     imprint: Impressum
     languages: Sprachen
     credits: Credits
-
-
 index:
   title: Horizont erweitern?
   subtitle: IAESTE bietet dir fachbezogene und internationale Praktikumsplätze an!
@@ -145,7 +143,7 @@ outgoing:
   subtitle: fachspezifisch, bezahlt, horizonterweiternd
   general_information:
     title: Allgemeine Informationen
-    description: Das IAESTE Lokalkomitee Kiel vermittelt Fachpraktika im Ausland für Studierende der CAU Kiel, der FH Kiel und der FH Flensburg in allen technischen und naturwissenschaftlichen Fachrichtungen. Ein Großteil der IAESTE-Praktika dauert etwa 2 bis 3 Monate und findet in den Sommermonaten zwischen Mai und Oktober statt, mittlerweile werden aber auch immer mehr Praktika über ein halbes oder ganzes Jahr angeboten. Die Praktika werden grundsätzlich bezahlt; dabei richtet sich der Verdienst nach den landestypischen Lebenshaltungskosten.
+    description: Das IAESTE Lokalkomitee (LC) Kiel vermittelt Auslandspraktika in den Fachbereichen der Ingenieur- und Naturwissenschaften sowie Land- und Forstwirtschaften für Studierende der CAU Kiel, der FH Kiel und der FH Flensburg. Bei den Arbeitgebern kann es sich sowohl um Hochschulen und Forschungseinrichtungen als auch um Unternehmen handeln. Ein Großteil der IAESTE-Praktika dauert etwa 2 bis 3 Monate und findet meist zwischen Mai und Oktober statt. Zum Teil werden auch halb- oder ganzjährig Praktika angeboten. Die Praktika werden grundsätzlich bezahlt; dabei richtet sich der Verdienst nach den landestypischen Lebenshaltungskosten. Weltweit nehmen etwa 85 Länder am IAESTE-Programm teil.
     button: Erfahrungsberichte
   in_a_nutshell:
     title: IAESTE in Kürze
@@ -153,35 +151,36 @@ outgoing:
       - Weltweiter Praktikantenaustausch
       - Weltweit etwa 85 Mitgliedsländer
       - In Deutschland Teil des DAAD
-      - Jährlich etwa 1200 getauschte Praktikumsplätze für Deutschland
       - Betreuung erfolgt an den Universitäten zumeist ehrenamtlich durch Studenten
-      - Anzahl angebotener Praktikumsplätze = Anzahl erhaltener Praktikumsplätze
   process_title: Ablauf des Bewerbungsverfahrens
+  applicant_task_headline: Das hast du zu tun
   process:
     - month: November
-      description: Zunächst wirbt jedes Lokalkomitee Praktikumsplätze in seinem jeweiligen Zuständigkeitsbereich ein. Außerdem sammelt jedes Lokalkomitee bis zum 30. November eines jeden Jahres die Vorbewerbung von den Praktikumsinteressenten, um einen Überblick über den Platzbedarf an der jeweiligen Hochschule zu bekommen.
-      applicant_task: Schicke uns eine vorläufige Bewerbung bis zum 30. November an unsere Email adresse
+      description: Das IAESTE LC Kiel bietet Informationsabende an, auf denen ihr euch über das Programm informieren könnt. Diese Veranstaltungen sind nicht Pflicht für die Teilnahme am Austauschprogramm, doch ein Besuch ist sehr empfehlenswert, da ihr viele nützliche Angaben zum weiteren Bewerbungsverfahren erhaltet. Wenn ihr euch entschieden habt teilzunehmen, müsst ihr eine vorläufige Bewerbung (<a href="assets/documents/Vorl_Bewerbung_2017.docx">Download</a>) ausfüllen und per E-Mail an uns schicken. Durch diese Anmeldungen erhalten wir einen Überblick über den Platzbedarf an unseren Hochschulen.
+      applicant_task: Besuche einen unsere Informationsabende und schicke uns eine vorläufige Bewerbung (<a href="assets/documents/Vorl_Bewerbung_2017.docx">Download</a>).
     - month: Dezember
-      description: Zu einem bestimmten Stichtag melden alle Lokalkomitees den eigenen Platzbedarf an das zuständige Nationalkomitee. Wir schicken unsere Bedarfsliste also an den Deutschen Akademischen Austauschdienst (DAAD). Die von den Lokalkomitees eingeworbenen Plätze werden direkt beim Nationalkomitee gesammelt.
-      applicant_task:
+      description: Alle Lokalkomitees in ganz Deutschland schicken ihre Listen mit dem benötigten Platzbedarf an das Nationalkomitee in Bonn (im DAAD), um eine Deutschlandweite Liste zu erstellen. Hierbei werden die Fachrichtungen und die Praktikumslaufzeiten berücksichtigt, die ihr in den vorläufigen Bewerbungen angegeben habt.
+      applicant_task: ""
     - month: Januar
-      description: "Im Januar eines jeden Jahres findet die General Conference (GC) statt, zu der Vertreter aus allen Nationalkomitees anreisen. Jeder hat die Platzangebote aus seinem Land im Gepäck und außerdem einen Überblick über den nationalen Platzbedarf. Auf der GC werden dann in mehreren Tauschsessions die Platzangebote mit den Vertretern der anderen Länder getauscht. Dabei gilt das Prinzip: Anzahl angebotene Plätze = Anzahl erhaltene Plätze."
-      applicant_task:
+      description: Im Januar eines jeden Jahres findet die General Conference (GC) statt, zu der Vertreter aus allen Nationalkomitees der Mitgliedsländer anreisen. Jeder hat die Platzangebote aus seinem eigenen Land im Gepäck und einen Überblick über den nationalen Platzbedarf. In mehreren Tauschsessions werden die Praktikumsplätze aus dem eigenen Land gegen Praktika im Ausland ausgetauscht. Am Ende der GC hat jedes Land ein Kontingent an Auslandspraktika. <br> Diese möglichen Praktikumsplätzen sind in einer Liste zusammengefasst, die neben den Ländern, Zeiträumen und weiteren Informationen auch die Anforderungen an den Bewerber enthalten. <br> Diese Liste wird per E-Mail an uns geschickt und von uns an euch weitergeleitet. Ihr habt dann die Möglichkeit euch drei (oder weniger) Angebote von dieser Liste zu wünschen und uns mitzuteilen. Bitte achtet dabei darauf, dass euch die Zeiträume passen und ihr alle Anforderungen erfüllt! Zusätzlich bitten wir euch um ein kleines Motivationsschreiben (max. eine DIN A4-Seite), indem ihr kurz erläutert, warum ihr der richtige Bewerber für die gewünschten Plätze seit.
+      applicant_task: Schicke uns deine drei (oder weniger) Praktikumswünsche zusammen mit einem kleinen Motivationsschreiben.
     - month: Februar
-      description: "Jedes Jahr im Februar werden die auf der GC erhaltenen Praktikumsplätze im Ausland dann von den Nationalkomitees an die angeschlossenen Lokalkomitees verteilt. Diese Zuteilung geschieht anhand der von den Lokalkomitees erstellten Bedarfslisten. Zusätzlich findet ebenfalls im Februar eine nationale Tauschkonferenz statt, zu der Vertreter aller Lokalkomitees anreisen. Auf dieser nationalen Tauschkonferenz besteht die Gelegenheit, Plätze mit anderen Lokalkomitees zu tauschen, da die erste Platzzuteilung nicht immer optimal ist. Hier versuchen wir also, für Euch die besten Plätze zu ergattern!"
-      applicant_task:
+      description: Jedes Jahr im Februar werden die auf der GC erhaltenen Praktikumsplätze vom Nationalkomitee an die einzelnen Lokalkomitees verteilt. Diese Zuteilung geschieht mit Hilfe eines Algorithmus, der die Praktikumsplätze möglichst entsprechend der gewünschten Plätze zuweist. Trotzdem können einige LCs Plätze erhalten, die nicht benötigt werden. Auf einer nationalen Tauschkonferenz, zu der Vertreter aller Lokalkomitees anreisen, besteht die Gelegenheit, Plätze mit anderen LCs zu tauschen, um möglichst vielen Bewerbern ihr Wünsche zu erfüllen. <br> Wenn wir einen eurer Wünsche ergattern konnten, werden wir so schnell wie möglich mit euch Kontakt aufnehmen (Telefon oder E-Mail). <br> Wenn keiner eurer Wünsche erfüllt wurde, habt ihr die Möglichkeit euch drei (oder weniger) Angebote von einer Liste mit noch nicht vergebenen Praktika zu wünschen und uns mitzuteilen. <br> Sollten unser LC einen Plätze erhalten haben, den sich mehrere Bewerber gewünscht haben, so entscheiden wir anhand der Vorbewerbungen und Motivationsschreiben über die endgültige Platzvergabe. Sollten alle Interessenten gleich gut geeignet sein und alle Anforderungen erfüllen, entscheidet das Los.
+      applicant_task: ""
     - month: März
-      description: Im letzten Schritt verteilen wir dann noch im Februar eines jeden Jahres die Plätze an unsere Bewerber. Da wir in Kiel jährlich etwa 20 Plätze zur Verfügung haben und die Anzahl der Bewerber bei ca. 60 liegt, werden auf einen Platz bis zu drei Bewerber gesetzt. Bei mehreren Zusagen entscheiden wir dann anhand der Vorbewerbungen über die endgültige Platzvergabe. Sollten alle Interessenten gleich gut geeignet sein, entscheidet das Los.
-      applicant_task: Hier passiert auch noch iwas voll wichtiges
+      description: Wenn ihr einen Praktikumsplatz bekommen habt, könnt ihr das Arbeitsangebot in unserem Büro abholen und eine vollständige schriftliche Bewerbung auf Englisch anfertigen. In einem Bewerberseminar werden wir mit euch besprechen, wie man eine Bewerbung richtig schreibt und worauf ihr zu achten habt. Ihr schickt uns dann eure Bewerbung als pdf-Datei in einer Mail, die wir an das Nationalkomitee weiterleiten. Diese schickt dann die Bewerbung weiter in das Zielland. Es ist nicht erlaubt, dass der Bewerber vor seiner Akzeptierung selbst mit dem Arbeitgeber in Kontakt tritt!
+      applicant_task: Besuche unser Bewerbungsseminar und verfasse eine vollständige schriftliche Bewerbung
+    - month: Ab April
+      description: Sollte der Arbeitgeber mit euch zufrieden sein, erhaltet ihr die Akzeptierungsunterlagen. Bitte bucht den Flug aber erst nachdem ihr die offizielle Akzeptierung bekommen habt! Die Dauer zwischen dem Absenden der Bewerbung und der Akzeptanz hängt sowohl von Schnelligkeit des Nationalkomitees im Gastland als auch dem Arbeitgeber ab und kann sehr unterschiedlich sein. Sollte der Beginn des Praktikums immer näher rücken, wendet euch einfach an uns und wir werden für euch nachfragen.
+      applicant_task: ""
+
   missed_application:
     question: Diese Periode verpasst?
     answer: Macht nichts!
   remaining_offers:
     title: Restplätze und kurzfristige Angebote
     paragraphs:
-      - Im regulären Bewerbungsverfahren bleiben nach der ersten Platzvergabe oft Plätze übrig, die mitunter recht interessant sind. Diese Restplätze werden im sogenannten Nachtauschverfahren vergeben. Dabei spielt die Abgabe einer Vorbewerbung keine Rolle mehr. Die entsprechenden Termine werden über unseren Newsletter, den IAESTE-Friends-Verteiler, angekündigt.
-      - Die außerplanmäßige Platzvergabe durch Early/Late Offers und die kurzfristig zu vergebenen Plätze hat in den letzten Jahren starkt zugenommen. Bei den Early/Late Offers handelt es sich um Plätze, die für das letzte Bewerbungsverfahren zu spät und das folgende zu früh eingereicht wurden. Diese sind oft kurzfristig zu besetzen. Wenn wir so einen Platz vom IAESTE Nationalkomitee bekommen, schicken wir ebenfalls eine Nachricht über unseren Newsletter, den IAESTE-Friends-Verteiler. Bei Interesse an einem solchen Praktikumsplatz solltet Ihr uns möglichst schnell Bescheid geben, damit wir den entsprechenden Platz für Euch reservieren können.
-      - Schließlich existiert noch eine internationale IAESTE-Datenbank, in der ebenfalls kurzfristig zu besetzende Praktikumsplätze verzeichnet sind. Mit Unterstützung des LC Karlsruhe können wir Euch hier die aktuelle Platzliste anbieten. Auf diese Plätze kann weltweit zugegriffen werden und sie können schnell anderweitig vergeben sein. Bitte beachtet auch, dass diese Liste aus Datenschutzgründen nicht alle Informationen enthält. Sie wird regelmäßig aktualisiert, bei häufigen Besuchen hilft also ein Klick auf "Aktualisieren" bzw. "Neu laden". Für weitere Informationen bzw. bei Interesse an einem Platz kommt bitte während unserer Bürozeiten bei uns im Büro vorbei! Dann können wir versuchen, den Platz für Euch zu reservieren.
+      - Außerplanmäßig können auch sogenannte Early/Late Offers und kurzfristig Plätze vergeben werden. Bei den Early/Late Offers handelt es sich um Plätze, die für das letzte Bewerbungsverfahren zu spät und das folgende zu früh eingereicht wurden. Über die IAESTE-Homepage des Nationalkomitees könnt ihr <a href="https://www.iaeste.de/de/outgoing?page=outoffer">hier</a> eine Liste mit solchen Plätzen einsehen. Bei Interesse an einem Praktikumsplatz solltet Ihr uns möglichst schnell Bescheid geben, damit wir den entsprechenden Platz für Euch reservieren können. Auf diese Plätze kann weltweit zugegriffen werden und sie können schnell anderweitig vergeben sein. Bitte beachtet auch, dass diese Liste aus Datenschutzgründen nicht alle Informationen enthält. Sie wird regelmäßig aktualisiert.
 
 something_unclear:
   title: Irgendwas unklar?

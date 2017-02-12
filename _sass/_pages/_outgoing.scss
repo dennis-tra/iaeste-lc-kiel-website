@@ -10,10 +10,16 @@ section.general-outgoing-information {
   .heading-separator {
     margin-left: 0;
   }
-  
+
   .btn {
     margin: 20px auto 20px 0;
   }
+}
+
+.well-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 section.application-step {
@@ -83,12 +89,6 @@ section.application-step {
     transform: translateX(-50%);
   }
 
-  .well-column {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
   .well {
     background: #DDE8F5;
     border-color: $primary-color;
@@ -103,6 +103,10 @@ section.application-step {
     p {
       font-weight: lighter;
       margin: 0px 0 40px;
+    }
+
+    a {
+      font-weight: 300;
     }
 
     @media screen and (max-width: $screen-xs-max) {
@@ -134,6 +138,11 @@ section.remaining-offers {
 
   .row div:nth-child(2) {
     justify-content: center;
+  }
+
+  a {
+    font-size: inherit;
+    line-height: inherit;
   }
 
   @media screen and (max-width: $screen-xs-max) {
