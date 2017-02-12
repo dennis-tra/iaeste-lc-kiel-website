@@ -104,7 +104,7 @@ why_participate:
       icon: bored_student.png
       icon_alt: ""
     - title: Auslandsaufenthalte
-      description: "Du bist an der Quelle für ein gutes Auslandspraktikum und eine Menge an spaßigen internationalen Treffen weltweit - praktische Auslandserfahrungen mit hohem Spaßfaktor - in mehr als 80 Ländern der Welt!"
+      description: "Du bist an der Quelle für ein gutes Auslandspraktikum und eine Menge an spaßigen, internationalen Treffen weltweit - praktische Auslandserfahrungen mit hohem Spaßfaktor - in mehr als 80 Ländern der Welt!"
       icon: plane.png
       icon_alt: ""
     - title: Internationale Kontakte
@@ -327,7 +327,7 @@ incoming:
 
 travel_reports:
   title: Erfahrungsberichte
-  description: Wähle einen Berichte aus der liste rechts aus und ...
+  description: Wähle einen Berichte aus der liste aus und bekomme Fernweh
   read_on_button: Weiterlesen
 employer:
   title: Internationaler Praktikantenaustausch
