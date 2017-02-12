@@ -4,35 +4,27 @@ footer {
   a {
     color: #3e688c
   }
-  
+
   color: #4d748c;
 
   h5, h6 {
     color: #4d748c;
   }
 
-  .horizontal-ruler-footer {
-    @extend %horizontal-ruler;
-    margin: 10px 0;
-    hr {
-      width: 100%;
-      border-top: 1px solid #315165;
-      margin-top: 0px;
-    }
-    span {
-        color: $primary-color;
+  @media screen and (max-width: $screen-xs-max) {
+    ul {
+      list-style-type: none;
+      padding-left: 0;
     }
   }
 }
 
 footer .container {
-  display: flex;
+
   &.copyright-logo {
+    display: flex;
     align-items: center;
     font-size: 13px;
-  }
-
-  & > div {
     flex-grow: 1;
   }
 
@@ -63,6 +55,32 @@ footer .container {
     margin: 50px auto;
     .glyphicon {
       color: #b54545;
+    }
+  }
+  @media screen and (max-width: $screen-xs-max) {
+    text-align: center;
+    &.copyright-logo {
+      display: block;
+      font-size: 10px;
+    }
+
+    .copyright-label {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .brand-logo {
+      float: none;
+      display: block;
+      a {
+        display: block;
+        float: none;
+      }
+
+      img {
+        height: 100px;
+        margin: 0 0 20px 0;
+      }
     }
   }
 }
