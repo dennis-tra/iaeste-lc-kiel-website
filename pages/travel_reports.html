@@ -36,11 +36,11 @@ permalink: /travel_reports
             <div class="background-image" style="background-image: url({{ site.baseurl_root }}/assets/travel-reports/{{ report.folder }}/thumb.jpg)"></div>
             <div class="blue-bottom-badge">
               <h1 id="report_{{forloop.index0}}_location">{{ report.where }}</h1>
-              <h2><span id="report_{{forloop.index0}}_who">{{ report.who }}</span>, <span id="report_{{forloop.index0}}_when">{{ report.when }}</span></h2>
+              <h2><span id="report_{{forloop.index0}}_gender">{{ report.gender }}</span>, <span id="report_{{forloop.index0}}_when">{{ report.when }}</span></h2>
             </div>
             <div class="hover-dummy" id="report_{{forloop.index0}}"
               data-report-location="{{ report.where }}"
-              data-report-who="{{ report.who }}"
+              data-report-gender="{{ report.gender }}"
               data-report-when="{{ report.when }}"
               data-report-text="{{ report.teaser_text }}"
               data-report-pdf="{{ site.baseurl_root }}/assets/travel-reports/{{ report.folder }}/report.pdf"
@@ -51,7 +51,7 @@ permalink: /travel_reports
         {% if modulo == 1 or forloop.last == true %}
           </div>
         {% endif %}
-        
+
 
       {% endfor %}
     </div>

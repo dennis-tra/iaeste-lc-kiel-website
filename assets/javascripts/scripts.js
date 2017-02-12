@@ -47,7 +47,7 @@ $(document).ready(function() {
   var addFadingsFrom = function(reportInfoDiv) {
 
     var reportLocation = reportInfoDiv.dataset.reportLocation;
-    var reportWho = reportInfoDiv.dataset.reportWho;
+    var reportGender = reportInfoDiv.dataset.reportGender;
     var reportWhen = reportInfoDiv.dataset.reportWhen;
     var reportText = reportInfoDiv.dataset.reportText;
     var reportPDF = reportInfoDiv.dataset.reportPdf;
@@ -58,7 +58,8 @@ $(document).ready(function() {
     });
 
     reportSubheadingDiv.fadeOut(function(){
-      $(this).text(reportWho + ", " + reportWhen).fadeIn();
+      console.log(reportGender);
+      $(this).text(reportGender + ", " + reportWhen).fadeIn();
     });
 
     reportTextDiv.fadeOut(function(){
