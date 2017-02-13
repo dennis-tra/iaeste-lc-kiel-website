@@ -38,13 +38,13 @@ index:
     title: Was ist IAESTE?
     top_left:
       title: Erfahrungen
-      description: Erarbeite dir neue Fähigkeiten und lerne in einer multikulturellen Umgebung
+      description: Erarbeite dir neue Fähigkeiten<br>und lerne in einer multikulturellen Umgebung
     bottom_left:
       title: Weltoffen
       description: Finde internationale Praktika, verbessere deine Sprachkenntisse und erlebe neue Kulturen
     top_right:
       title: Fachbezogen
-      description: Forsche und Arbeite an einem Projekt, um dein Wissen in der Praxis anzuwenden
+      description: Forsche und Arbeite an einem<br>Projekt, um dein Wissen in der Praxis anzuwenden
     bottom_right:
       title: Netzwerk
       description: Werde Teil einer weltumspannenden Gemeinschaft von Studenten und finde zukünftige Arbeitspartner
@@ -327,7 +327,6 @@ incoming:
 
 travel_reports:
   title: Erfahrungsberichte
-  description: Wähle einen Berichte aus der liste aus und bekomme Fernweh
   read_on_button: Weiterlesen
 employer:
   title: Internationaler Praktikantenaustausch
