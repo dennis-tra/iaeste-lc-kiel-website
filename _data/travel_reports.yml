@@ -1,4 +1,4 @@
-- folder: 2016_Ghana
+- folder: 2015_Ghana
   where: Ghana
   gender: w
   when: 2015
@@ -13,8 +13,38 @@
   gender: m
   when: 2016
   teaser_text: Das absolvierte Praktikum fand im Zeitraum vom 01.08.2016 bis zum 01.09.2016 an der Cairo University in der Hauptstadt Ägyptens statt. Die vorgesehene Arbeit sollte im DLECS-Labor im Fachbereich für Elektrotechnik der Fakultät für Ingenieurwesen der Universität Kairo abgeleistet werden. Es gestaltete sich relativ schwierig ...
-- folder: 2016_India
+- folder: 2016_India_m
   where: India
   gender: m
   when: 2016
   teaser_text: Als ich in Indien ankam, wurde ich herzlich in Empfang genommen, alles war klar strukturiert und organisiert. Ich musste mich um nichts kümmern. Ich wurde vom Flughafen abgeholt, zum IEASTE Office gebracht und dort willkommen geheißen. Nachdem ich ein paar Dokumente ausfüllen musste, durfte ich auch in meine WG in den Valley Flats...
+- folder: 2016_Kazachstan_m
+  where: Kazakhstan
+  gender: m
+  when: 2016
+  teaser_text: "Vom Mitte August bis zum Mitte Oktober 2016 reiste ich nach Kasachstan um entsprechend meines Studienganges (Biologie) in Almaty, der ehemaligen Hauptstadt Kasachstans, an der staatlichen Al-Farabi Universität ein sechswöchiges Praktikum zu absolvieren. Vorneweg: ich möchte jedem ..."
+- folder: 2016_India_w
+  where: India
+  gender: w
+  when: 2016
+  teaser_text: "Der Grund warum ich mich für ein Auslandsaufenthalt entschieden habe, kann man in einem kurzen Satz zusammenfassen: Ich wollte meine Sprachkenntnisse erweitern. Deshalb war ich von vorn herein offen bei der Auswahl des Landes und Projektes. Ich hatte kein spezielles technisches ..."
+- folder: 2016_Spain_m
+  where: Spain
+  gender: m
+  when: 2016
+  teaser_text: "Als ich die Zusage für meine Praktikumsstelle bekam war ich überglücklich und begann umgehend damit Kontakt mit dem zuständigen Lokalkomitee aufzunehmen, um alle Formalitäten fristgerecht zu erledigen. Der wesentliche Punkt dabei  ..."
+- folder: 2015_Israel_m
+  where: Israel
+  gender: m
+  when: 2015
+  teaser_text: Während meines Praktikums arbeitete ich am Technion Institut in Haifa im Department Biotechnology und Food Production. Was Naturwissenschaften, Technik und vor allem Informatik angeht, ist das Technion das wahrscheinlich beste und wichtigste Institut Israels, was sich in einer ausgezeichneten Ausstattung der Labore zeigte. Mit meinem Arbeitsplatz hatte ich ...
+- folder: 2014_Russia_m
+  where: Russia
+  gender: m
+  when: 2014
+  teaser_text: "Im September und Oktober 2014 habe ich ein Praktikum an der Lomonosov Moscow State University of Fine Chemical Technologies (МИTXT) in Moskau absolviert. Bereits im November 2013 habe ich mich beim IAESTE Lokalkomitee in Kiel vorläufig beworben und im Nachtauschverfahren den Praktikumsplatz in Russland erhalten. Nach meiner schriftlichen Bewerbung habe ich ..."
+- folder: 2013_Thailand_m
+  where: Thailand
+  gender: m
+  when: 2013
+  teaser_text: "Bereits im Sommer 2012 habe ich mich entschieden, einen Auslandsaufenthalt zu absolvieren. Leider passte ein Auslandssemester nur schwierig in meinen Studien- verlaufsplan und ich wollte zudem auch praktische Erfahrungen sammel. Aus diesen Gründen habe ich mich für ein Auslandspraktikum zwischen dem Sommersemester 2013 und dem Wintersemester 2013/14 entschieden. Nach einigen Recherchen bin ich ..."
