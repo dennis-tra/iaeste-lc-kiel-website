@@ -140,3 +140,6 @@ _site
 
 .env
 *.sketch
+
+### Exclude backup of the old website ###
+backup_old_website/
