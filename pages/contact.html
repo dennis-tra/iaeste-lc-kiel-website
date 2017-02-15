@@ -64,17 +64,17 @@ permalink: /contact/
         <h2>{{ title }}</h2>
         <div class="heading-separator"></div>
         <p>{{ reason.description }}</p>
-        <a href="travel_reports.html" class="btn btn-sq-lg btn-primary"> 
+        <a href="/travel_reports" class="btn btn-sq-lg btn-primary"> 
           <span class="glyphicon glyphicon-file" aria-hidden="true"></span><br/> 
           {% t why_participate.buttons.reports %}
         </a>
 
-        <a href="#" class="btn btn-sq-lg btn-primary">
-          <span class="glyphicon glyphicon-picture" aria-hidden="true"></span><br/>
-          {% t why_participate.buttons.gallery %}
+        <a href="/faq" class="btn btn-sq-lg btn-primary">
+          <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span><br/>
+          {% t something_unclear.buttons.faq %}
         </a>
 
-        <a href="mailto:{{ site.iaeste_email }}" class="btn btn-sq-lg btn-primary">
+        <a href="mailto:{{ site.email }}" class="btn btn-sq-lg btn-primary">
           <span class="glyphicon glyphicon-send" aria-hidden="true"></span><br/>
           {% t why_participate.buttons.email %}
         </a>
