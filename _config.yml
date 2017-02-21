@@ -19,11 +19,10 @@ facebook_site: https://www.facebook.com/iaestelckiel/
 postal_address: Westring 400<br>24118 Kiel<br>Germany
 office_address: Olshausenstr. 75<br>24118 Kiel<br>Germany
 
-description: > # this means to ignore newlines until "baseurl:"
-  Website of IAESTE LC Kiel 
+description: >
+  Website of IAESTE LC Kiel. Here you can find all necessary information for your internship.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "iaeste.uni-kiel.de" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
+url: "www.iaeste.uni-kiel.de"
 
 #languages: ["de", "en"]
 languages: ["de"]
@@ -47,4 +46,5 @@ exclude:
   - .env
   - .gitignore
   - scripts/deploy.sh
-  - backup_old_website
+  - id_rsa
+  - id_rsa.pub
