@@ -24,8 +24,8 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "www.iaeste.uni-kiel.de"
 
-#languages: ["de", "en"]
-languages: ["de"]
+languages: ["de", "en"]
+#languages: ["de"]
 exclude_from_localizations: [ "assets" ]
 
 sass:
