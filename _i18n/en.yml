@@ -1,69 +1,398 @@
-global:
+﻿global:
   tagline: English
   about: About
   twitter: Twitter
   github: GitHub
 langs:
-  de: Deutsch
-  en: Englisch
+  active_image: english.png
+  de: German
+  en: English
 titles:
   home: Home
+  iaeste: IAESTE
   outgoing: Outgoing
   incoming: Incoming
   employer: Employer
   faq: FAQ
   contact: Contact
-reasons:
-  reason_1: Ausgleich
-  reason_2: lol
-why-participate:
-  reason_0:
-    title: Variety in your studies
-    description: "Do you you have Du hast genug von der grauen Theorie des Studiums und brauchst ein bisschen Abwechslung? Bei uns im Lokalkomitee kannst du vielfältige Aufgaben übernehmen, ganz nach deinen Vorlieben: Ausflüge und Wohnungen organiseren, Projekte planen und durchführen, andere Studenten beraten und Praktikumsplätze vermitteln, ..."
-    icon: bored_student.png
-    icon_alt: ""
-  reason_1:
-    title: Stay abroad
-    description: "Du bist an der Quelle für ein gutes Auslandspraktikum und eine Menge an spaßigen internationalen Treffen weltweit - praktische Auslandserfahrungen mit hohem Spaßfaktor - in mehr als 80 Ländern der Welt!"
-    icon: plane.png
-    icon_alt: ""
-  reason_2:
-    title: International Contacts
-    description: "IAESTE - ein weltweites Netzwerk. Bei uns kommunizierst du mit Studenten aus der ganzen Welt. Um Erfahrungen auszutauschen, gemeinsame Projekte zu organisieren, oder um langjährige Freundschaften zu pflegen!"
-    icon: network.png
-    icon_alt: ""
-  reason_3:
-    title: Social skills
-    description: "Alle Unternehmen fordern sie, viele Studenten können damit aber nicht viel anfangen. Bei uns investierst du in deine eigene Zukunft - durch verantwortungsvollen Umgang mit deinen Aufgaben im Lokalkomitee kann man das lernen: Ideen vertreten vor anderen, Diskutieren, Verhandeln mit Firmenvertretern - und noch viel mehr!"
-    icon: soft_skill.png
-    icon_alt: ""
-  reason_4: 
-    title: Teamwork
-    description: "Viele Köpfe haben viele gute Ideen. Im Team gilt es dann abzuwägen, welcher Weg der beste ist... Teamwork ist außerordentlich wichtig, sowohl bei uns als auch später im Berufsleben. Bei uns kann man seine Teamfähigkeit trainieren."
-    icon: teamwork.png
-    icon_alt: ""
-  reason_5:
-    title: Fremdsprachen aktiv nutzen
-    description: "Deine Fremdsprachenkenntnisse sind seit der Schule stark eingerostet? Oder du sprichst eine exotische Sprache? Bei uns hast Du Kontakt zu Praktikanten und Studenten aus aller Welt: Japan, Brasilien, England, Finnland... fast alle sprechen Englisch. Die ideale Gelegenheit, eine Fremdsprache regelmäßig aktiv zu benutzen und die eigenen Kenntnisse zu verbessern. Du lernst schnell neue Begriffe aus erster Hand, oder bringst den Praktikanten bei, sich auf Deutsch zurechtzufinden."
-    icon: speaking_bubbles.png
-    icon_alt: ""
-  reason_6:
-    title: Kreativität ausleben
-    description: "Du kannst gut Schreiben, Zeichnen, Reden? Aber im Studium fühlst Du Dich unterfordert... Oder Du findest nicht die richtigen Aufgaben? Sprich uns an - wir können kreative Köpfe immer gebrauchen: für unsere Artikel, für die Werbung, für Grafik und Layout..."
-    icon: creativity.png
-    icon_alt: ""
-  reason_7:
-    title: Verantwortung übernehmen
-    description: "Für uns kein Fremdwort. Wir übernehmen Aufgaben, die ein hohes Maß an Verantwortungsbewusstsein erfordern - die Dankbarkeit und Zufriedenheit unserer Praktikanten zeigt uns, dass sich der Einsatz lohnt."
-    icon: responsibility.png
-    icon_alt: ""
-  reason_8:
-    title: Eine Welt voll neuer Bekanntschaften
-    description: "Das weltweite Netzwerk von IAESTE sorgt immer wieder für internationale Freundschaften. Und durch unsere Projekte sieht man sich immer mal wieder - irgendwo..."
-    icon: world-icon.png
-    icon_alt: ""
-  reason_9:
-    title: Es macht einfach Spaß
-    description: "Schaue Dir unsere Erfahrungsberichte, Incomer-Aktivitäten an oder melde dich bei uns!"
-    icon: 
-    icon_alt: ""
+  travel_reports: Travel Reports
+supporters_separator: Supporters
+footer:
+  headlines:
+    navigation: Navigation
+    imprint: Impressum
+    languages: Languages
+    credits: Credits
+index:
+  title: Do you want to broaden your horizon?
+  subtitle: IAESTE offers the opportunity for international internships related to your major!
+  main_audience:
+    outgoing:
+      title: Outgoing
+      description: You're studying at one of the colleges in Kiel or Flensburg and want to do an internship abroad? click here
+    incoming:
+      title: Incoming
+      description: You were accepted for an IAESTE internship in Kiel and want to inform yourself? click here    
+    employer:
+      title: companies
+      description: You want to employ a dedicated student for an internship? Further information
+  what_is_iaeste:
+    title: What is IAESTE?
+    top_left:
+      title: Experiences
+      description: Develop new skills<br> and learn in an international enviroment
+    bottom_left:
+      title: Cosmopolitan
+      description: Find international internships, improve your language skills and experience different cultures
+    top_right:
+      title: Major related
+      description: Work on one<br> project in order to use your knowledge practically
+    bottom_right:
+      title: Networking
+      description: Be part of a global community of students and meet your future business partners
+  statistics:
+    - value: 300k
+      description: Outgoer
+      icon: backpack.png
+      icon_alt: Backpack
+    - value: 85
+      description: nations
+      icon: world.png
+      icon_alt: World
+    - value: 800
+      description: internship offers / year
+      icon: worker.png
+      icon_alt: Worker
+  travel_reports:
+    title: Travel reports
+    description: Here you find several reports from former interns which gives you the opportunity to read about their experiences abroad. Starting from technical projects and cultural experiences and ending with the wedding party of the employees - here you can read about everything. Just read your way through and feel the longing for your own international experience.
+    button_label: Read reports
+  discover_kiel:
+    title: Discover Kiel
+    description: Kiel is the capital of the german federal state of Schleswig-Holstein and due to the perfect location at the seaside one of the most beautiful locations for studying in Germany. If you were accepted for an internship in Kiel just click here for more information.
+    button_label: Click here
+  employer_information:
+    title: Employer information
+    description: IAESTE is an international NGO which campaigns for the exchange of students. We do not only organize internships for German students abroad but also internships for foreign students in Germany. Here you can learn about the advantages how your company can profit from an international student in various ways.
+    button_label: Further information
+  newsletter:
+    separator: Stay updated!
+    title: Newsletter
+    description: In our newsletter we give information about our work. Just sign up here and you will receive the exact dates for our informative meetings as well as current information about our work with international students.
+    label: Subscribe to our mailing list
+    email_placeholder: Email address
+    subscribe_button: Subscribe
+contact:
+  contact: Contact
+  postal_address: Postal adress
+  office_address: Office adress
+  enquiry:
+    title: Enquiry
+    name_label: Name
+    email_label: Email
+    message_label: Message
+    send_button: Send
+  participate_badge: Participate!
+why_participate:
+  title: Why participate?
+  x_reasons: Reasons
+  buttons:
+    reports: Reports
+    gallery: Gallery
+    email: Email
+  reasons:
+    - title: For an escape from your studies
+      description: "You are fed up with all the theories you learn during your studies and need a little change? At our local comittee you take care of various tasks according to your preference: organising trips and accomodations, planning and execution of projects, consulting other students and mediate internhips offers..."
+      icon: bored_student.png
+      icon_alt: ""
+    - title: Staying abroad
+      description: "You're at the source for a grat internship abroad and lots of fun international meetings worldwide - practical work experience in over 80 countries all around the world!"
+      icon: plane.png
+      icon_alt: ""
+    - title: International contacts
+
+      description: "IAESTE - a global network. At IAESTE you will communicate with students from all over the world. In order to exchange experiences, organise common prjects or taking care of longtime friendships!"
+      icon: network.png
+      icon_alt: ""
+    - title: Soft skills
+      description: "Every company asks for it, but many students can't offer it. When working for IAESTE you will invest in your own future - by taking the responsibility for your own tasks in our local commitee you will learn various skills: advance your ideas in front of others, discuss, negotiate with companies and lots more!"
+      icon: soft_skill.png
+      icon_alt: ""
+    - title: Teamwork
+      description: "Many minds have a lot of good ideas. The team then has to decide which way to go... Teamwork is extremely important, for our work as well as in your future job. Working for IAESTE will improve your teamworking skills."
+      icon: teamwork.png
+      icon_alt: ""
+    - title: practice your foreign language competence 
+      description: "Your foreign language competences weren't practiced a lot after you graduated from high school? Or you are able to speak a more exotic language? At IAESTE You will get in contact wih people from all over the world: Japan, Brazil, England, Finland,... Most of them speak english fluently. The perfect opportunity to frequently use your english skills and to improve your competences. You will soon learn new terms or help the interns to learn some word in German."
+      icon: speaking_bubbles.png
+      icon_alt: ""
+    - title: Creativity
+      description: "You're good at writing, painting, speaking? But in your studies you don't get the Chance to use your skills? Ask us - we're always searching for creative minds: for our articles, for advertising, for art designing and layout..."
+      icon: creativity.png
+      icon_alt: ""
+    - title: Taking responsibility
+      description: "We take care of tasks that require a high sense for responsibility - and the answering gratitude and satisfaction from our interns show us that it's definetely worth it."
+      icon: responsibility.png
+      icon_alt: ""
+    - title: A world full of new friends
+      description: "The worldwide network of IAESTE often leads to international friendships. And due to our projects you will meet again - anywhere, anyhow..."
+      icon: world-icon.png
+      icon_alt: ""
+    - title: It's fun!
+      description: "Look at our reports, incoming activities or ask us directly!"
+      icon:
+      icon_alt: ""
+outgoing:
+  title: IAESTE internship abroad 
+  subtitle: Major related, payed, mind opening
+
+  general_information:
+    title: general information
+    description: The IAESTE local commitee (LC) in Kiel mediates internships abroad for students in engineering, sciences and forestry at the university of Kiel or the university of applied scinces in Kiel and Flensburg. Employees can be both colleges and research institutes or companies. Most IAESTE internships last for ca. 2 to 3 months and mainly take place between May and October. Sometimes also internships for half a year or a year are offered. Generally the internships are payed; the wage depends on the living costs in the according country. Worldwide 85 countries take part in the IAESTE programm.
+    button: Reports
+  in_a_nutshell:
+    title: IAESTE in a nutshell
+    points:
+      - Worldwide exchange of interns
+      - More than 85 countries worldwide
+      - In Germany part of the DAAD
+      - Support at the universities maily voluntarily by students
+
+  process_title: Guidance through the application procedure
+  applicant_task_headline: What you need to do
+  process:
+    - month: November
+      description: IASTE LC Kiel offers informative meetings where you can inform yourself about the programm. These meetings are not obligatory but as they are very usefull and informative for the further application procedure we would strongly recommend to show up. When you decided to take part in our program you need to fill out the preliminary application form (<a href="assets/documents/Vorl_Bewerbung_2017.docx">Download</a>) and send it to us via email. According to these applications we get an overview over the amount of places we need for our universities.
+      applicant_task: Visit one of our informative meetings and send us the preliminary application (<a href="assets/documents/Vorl_Bewerbung_2017.docx">Download</a>)..
+    - month: December
+      description: All commitees in Germany send their lists with the demand to the national commitee (NC) in Bonn (part of the DAAD) to establish a germanwide list. Therefore the majors and the time slots for the internships are considered that you named in your preliminary application.
+      applicant_task: ""
+    - month: January
+      description: Every year in january the general conference (GC) takes place. Here representatives from all member countries are coming together with the internship places they can offer in their country and the national demand for internships. In several changing sessions internship offers from the own country are exchanged with offers from other countries. At the end of the GC every country has a certain conitingent of offers. <br> These possible offers are summarized in a list that contains country, time slot and further information as well as requirements to the applicants. <br> This list will be send to us via email and forwarded to you. Now you have the opportunity to chose three (or less) wishes from this list and send them to us. Please take care that the time slots are suitable and that you fulfill all requirements by the employer! Additionally we ask for a short letter of motivation (max. one page DIN A4) in which you briefly explain why you are the right applicant for the named offers.
+      applicant_task: Send us your three (or less) wishes together with a short letter of motivation.
+    - month: February
+      description: Every year in february the internship places earned on the GC are distributed to the local commitees by the NC. This distributions happens accoring to an algorithm that the distributes the places accoring to the wishes. Nevertheless some LCs might get places that they have no use for. On a national changing conference, to which representatives from all LCs travel, they have the opportunity to exchange these places with othe LCs, in order to fulfill as many wishes as possible. <br> If we were able to get your wish we will contact you as soon as possible (telephone or email). <br> If none of your wishes could be fulfilled you have the chance to make three (or less) new wishes from the list of not assigned places and send them to us. <br> Should we have a place for which several applicants applied we will decide according to you prelimiinary application and your letter of motivation. If all applicants have the same qualification for the offer lottery will decide.
+      applicant_task: ""
+    - month: March
+      description: If you did get your internship place you can get your offer at our office and prepare a complete written application in English. In a seminar for applicants we will discuss how to write your application and what to take care of. You can send us your application as pdf and we will forward it to the national commitee. The NC will forward your application to the accoring country. It is not allowed to contact the employer before you receive your acceptance and the employer contacts you!
+      applicant_task: Visit our seminar for applicants and prepare a complete written application
+    - month: From April on
+      description: If the employer is satisfied with your application you will receice the acceptance documents. Please do not  book the flight before receiving the official acceptance! The time between sending the application and receiving the acceptance depends on the speed of the national commitee in the according country as well as from the employer and can be very different. If the beginning of your internship comes closer ask us and we will check for you.
+      applicant_task: ""
+
+  missed_application:
+    question: Missed the application period?
+    answer: Don't worry!
+  remaining_offers:
+    title: Remaining offers and short-term offers
+    paragraphs:
+      - Unscheduled so called "early/late offers" and short-term offers can be distributed. Early/Late Offers are places which were handed in too late for the last period but too early for the next period. On the IAESTE-Homepage of the national commitee <a href="https://www.iaeste.de/de/outgoing?page=outoffer">hier</a> you can have a look at a list with those places. If you are interested in any of those offers tell us as soon as possible so that we can reserve this place for you. These places are available worldwide and can be given to someone else very quickly. Please note that this list does not contain all information due to data security reasons. It will be updated regularly.
+
+something_unclear:
+  title: Something unclear?
+  description: Take a look at our FAQ, write an email or just visit us at our office!
+  buttons:
+    faq: FAQ
+    email: Email
+    contact: Contact
+faq:
+  title: Frequently Asked Questions
+  subtitle: Here you find the most frequently asked questions. If you have further questions just send us an email. We will try to answer as soon as possible.
+  sections:
+    - title: Outgoing
+      questions:
+        - question: Who can get an internship?
+          answer: All enrolled students at the CAU and the universities of applied sciences in Kiel and Flensburg are able to get an internship from IAESTE Kiel. Most internships that are available ask for students in engineering or sciences. But also for students of other majors some offers are available. Students from other colleges please contact their responsible local commitee. 
+        - question: Which requirements do I need fulfill for an IAESTE internship?
+          answer: An applicant must have finished his third semester in the bachelor studies and must still be enrolled as a student. Futhermore offer related requirements need to be fulfilled.
+        - question: How do I get an IAESTE internship?          
+          answer: If you have sent your preliminary application before November 30th you will be considered for the internship offers in the following year. In Kiel the preliminary application will be given online. Start of the application period will be published on oour website or via our newsletter. Please note that IAESTE is only procuring internships, the final decision is always made by the according employer.
+        - question: Are the internships paid?
+          answer: "IAESTE internships are paid. The wage depends on the employer and covers at least the living costs in the according country. As an example: At the moment the IAESTE minimum wage in Germany is 650 €."
+        - question: How much do I need to pay for the procurement?
+          answer: "In Germany the procurement of internships by IAESTE is free. This is made possible by the voluntary work of the members of the local commitee and by the financial support from the DAAD for some events."
+        - question: I did not hand in a preliminary application, is there still the possibility to get an internship?
+          answer: There is a list on the homepage of the national commitee where you can find current offers all year long. Just check this list once in a while and contact us immediately if there is an offer you're interested in.
+        - question: Why is there no company name on my offer?
+          answer: To protect the data security of the company firstly no contact details are given to avoid premature contact of the applicants with the company. This is necessary to keep the organisational work for the company as low as possible. After definite acceptance and payment of the deposit you will get further information about your employer.
+        - question: Why do I need to pay 75€ deposit for my offer?
+          answer: To make sure that you are really interested in the offer you need to pay a deposit of 75€ to our local commitee in Kiel. This is necessary because there is only one applicant per offer; for the well of the employer this place shall definetly be used. After finishing the internship and giving in the internship report or if the employer did not accept your application we will return your deposit.
+        - question: Is it possible to participate in the Kiel local commitee?
+          answer: Of course! We are happy about everybody who'd like to help us. Besides the procurement of internships for students we have several other working fields. Fun at our work is always important and all tasks are definetly manageable next to fulltime studies. Further information on our activities you'll find here and at our Newcomer information. If you are interested just visit our next meeting or send us an email!
+        # - question: Do I need to take care of lodging? 
+        #   answer: adsfdafsasdfasdsdagga
+        # - question: Is there the possibility to earn credit points at the university for my internship?
+        #   answer: dasflkfdsalkadslfkdfasj - Fahrkostenzuschuss
+        # - question: Does the internship extend my studies? / Does it endanger to finish the studies in the estimated number of semesters?
+        #   answer: dsfjfasdlkjsldjfds
+        # - question: Do I have an insurance for the duration of the internship abroad?
+        #   answer: DAAD aksdfjflds
+    - title: Incoming
+      questions:
+        - question: Will the lodging be arranged for me?
+          answer: Yes, the local commitee will arrange a room for you?
+        - question: Do I need to share my room?
+          answer: No. It is very likely that you have to share bathroom and kitchen. But usually everybody gets his own room.
+        - question: How high is the rent in Kiel?
+          answer: Generally the rent in Kiel is slightly lower than in other bigger cities in Germany. We will try to to arrange a room that does not exceed 260€ per month but we can't promise. For us it is always helpful when the internships are during the months june to september and does not start or end in the middle of a month.
+        - question: What do I have to do if in the end I can't attend my internship?
+          answer: Contact as soon as possible the according local commitee to make it possible to pass the internship place to someone else.
+        - question: What do I need to consider?
+          answer: An important tip for our incomer - Downloading from music and movies via filesharin (torring etc.) is illegal in Germany and will be prosecuted. Please download everything necessary before arriving in Germany and delete the software. Already opening the programm accidently and the associated download of few megabytescan lead to a fign of several 1000€. Please take care!
+
+    - title: Companies
+      questions:
+        - question: Which demands can I make for the potentail interns?
+          answer: In the offer form you can define desired language requirements, country of origin, major and finished semesters as well as work experience. For example if you only want to accept master students or someone from Poland, this is no problem. If you have any further professional requirements like computer languages or practical lab experience, you can define them of course. Furthermore of course also the time period can be defined. 
+        - question: How many applications do I need to read before I will find an appropriate intern?
+          answer: Usually only one - local and national commitee of Germany and the country of origin do some prework. Only if the applicants fulfill all requirements and his application is complete the application wil be forwarded to you. In the unlikely case of an application from an unqualified applicant you can decide whether or not you want to accept another application.
+        - question: Am I allowed to reject taking an intern?
+          answer: This is theoretically possible at any time. If already someone applied and you might have even accepted him or her already this of course leads to a big disappointment. But there will be no disadvantages for you. If you have any problems or questions please contact us anytime!
+        - question: Do we have to find an appartment for the intern and arrange the visa for him/her?
+          answer: No. You are only responsible for the arrangement of the internship. The local commitee Kiel will take care of finding an appartment and the possibly necessary visa will be organized by the student himself. The employment permit or relief from it will be arranged by the DAAD.
+        - question: What wage level is adequate?
+          answer: At the moment (beginning 2017) IAESTE-interns in Germany get at least 670€ per month. This amount is geared to the Bafög level. Please consider that some students are from poor countries and depend on their wage to make a living from it. If the employer is a university or a research institute part of the costs can be payed by the DAAD. This must be clearified in the individual case. For internships which last longer than three months minimum wage must be payed, unless the internship is verifiable part of the studies of the intern (which can be listed as a requirement in the offer form).
+        - question: Does the intern have an insurance for the case he gets sick or anything will be damaged?
+          answer: Yes. The DAAD will organize the insurance and will pay for it. It is a complete health and liability insurance by Continentale. If you have questions about the extent of the insurance feel fre to ask us.
+incoming:
+  control_left: Previous
+  control_right: Next
+  hero_pictures:
+    - filename: kiel_04.jpg
+      alt_text: "Kite surfer in Heikendorf"
+      title: "Kitesurfer"
+      description: "Heikendorf"
+    - filename: kiel_08.jpg
+      alt_text: ""
+      title: "Footbridge"
+      description: "Kiel-Canal"
+    - filename: kiel_01.jpg
+      alt_text: ""
+      title: "City bridge in Kiel at night"
+      description: "Hörn"
+    - filename: kiel_03.jpg
+      alt_text: ""
+      title: "Ferries"
+      description: "Kiel fjord"
+    - filename: kiel_05.jpg
+      alt_text: ""
+      title: "Kiel weekend 2016"
+      description: "Falkenstein beach"
+    - filename: kiel_06.jpg
+      alt_text: ""
+      title: "Skyline"
+      description: "View over Kiel"
+    - filename: kiel_07.jpg
+      alt_text: ""
+      title: "Kiel-Canal"
+      description: "Canal bridge"
+    - filename: kiel_02.jpg
+      alt_text: ""
+      title: "City centre"
+      description: "Hörn"
+  general_information:
+    title: Dear applicant
+    description: We're happy that you applied for an internship in Kiel. As soon as you were accepted by your employer, nothing stands in the way for your internship anymore! <br /><br />We are a group of about 10 students that form the IAESTE local commitee in Kiel. Wir arbeiten ehrenamtlich für IAESTE, weil wir sehr interessiert daran sind, Leute aus aller Welt kennenzulernen und auf diesem Wege mehr über andere Kulturen und Sprachen zu erfahren – genau wie du! Aus diesem Grunde geben wir alles, um deinen Aufenthalt in Kiel so angenehm und spaßig wie möglich zu gestalten. Im Rahmen unserer Sommerbetreuung veranstalten wir z.B. verschiedene Ausflüge und Events für unsere Praktikanten. Während deines Praktikums hast du die Möglichkeit, wertvolle Erfahrungen für dein Studienfach zu sammeln und neue Dinge zu lernen. Gleichzeitig möchten wir dir während deiner Zeit in Deutschland aber auch die deutsche Gesellschaft und Kultur näherbringen. Zusammen mit uns und ein paar weiteren Praktikanten wirst du daher sicherlich eine unvergessliche Zeit in Kiel verbringen!<br/><br/>Auf diesen Seiten findest du einige wichtige Informationen für deinen Aufenthalt in Kiel. Solltest du weitere Fragen haben, kannst du uns jederzeit kontaktieren.
+  after_acceptance_separator:
+    line_1: After your acceptance
+    line_2: First steps
+  process:
+    - title: Formular N5/b ausfüllen
+      description: Innerhalb von 2 Wochen das Formular N5/b ausfüllen und an das IAESTE-Nationalkomitee im Heimatland zurückschicken (manchmal müssen weitere Formulare ausgefüllt und eingereicht werden). Sobald wir das Formular N5/b erhalten haben, können wir mit der Suche nach einer Unterkunft für dich beginnen. Es ist also sehr wichtig, das N5/b so schnell wie möglich zurückzuschicken.
+      note:
+    - title: Visum beantragen
+      description: Wenn du kein EU-Bürger bist, benötigst du zur Einreise nach Deutschland ein Visum. Dieses solltest du so schnell wie möglich bei der nächsten deutschen Botschaft beantragen, da die Bearbeitung oft einige Wochen dauert. Für den Visumantrag benötigst du das Formular N5/a. Bitte erkundige dich bei der deutschen Botschaft nach einem „Schengen-Visum“, da dieses Visum auch in den meisten anderen Ländern Europas gültig ist.
+      note: Nur für nicht EU-Bürger
+    - title: Reisepass verlängern
+      description: Stelle sicher, dass dein Pass während des Praktikums gültig ist
+      note:
+    - title: Internationaler Studentenausweis
+      description: "Jedes Jahr im Februar werden die auf der GC erhaltenen Praktikumsplätze im Ausland dann von den Nationalkomitees an die angeschlossenen Lokalkomitees verteilt. Diese Zuteilung geschieht anhand der von den Lokalkomitees erstellten Bedarfslisten. Zusätzlich findet ebenfalls im Februar eine nationale Tauschkonferenz statt, zu der Vertreter aller Lokalkomitees anreisen. Auf dieser nationalen Tauschkonferenz besteht die Gelegenheit, Plätze mit anderen Lokalkomitees zu tauschen, da die erste Platzzuteilung nicht immer optimal ist. Hier versuchen wir also, für Euch die besten Plätze zu ergattern!"
+      note:
+    - title: "Reise buchen"
+      description: Buche einen Flug nach Deutschland. Weitere Informationen zur Anreise gibt es hier. Benachrichtige uns bitte, wann du in Deutschland ankommen wirst.
+      note:
+  arrival:
+    separator: Anfahrt
+    plane:
+      title: Flugzeug
+      description: Die beste Möglichkeit nach Kiel zu kommen, ist nach Hamburg Airport (HAM) zu fliegen. Von dort fährt ein Flughafenbus direkt nach Kiel zum Hauptbahnhof. Kielius Bei der Planung der Weiterreise vom Flughafen nach Kiel sind wir gerne behilflich. Auf den Seiten der Deutschen Bahn kann man sich passende Verbindungen heraussuchen.
+    train:
+      title: Bahn
+      description: Durch die Anbindung Kiels an das internationale Hochgeschwindigkeitsnetz ist in einigen Fällen eine Anreise per Bahn möglich. Auf den Seiten der europäischen Bahngesellschaften und der Deutschen Bahn kann man sich passende Verbindungen heraussuchen.
+    car:
+      title: Auto
+      description: Kiel ist an das deutsche Autobahnnetz angebunden. Europaweite Routenempfehlungen bekommt man hier. Wir empfehlen jedoch, nicht mit dem Auto anzureisen, da es in Kiel relativ wenige Parkplätze gibt. Außerdem benötigt man in Kiel kein Auto im Alltag, da alles einfach zu Fuß erreichbar ist.
+  separator_2:
+    line_1: Nun bin ich in Kiel
+    line_2: Und dann?
+  accommodation:
+    title: Unterkunft
+    description: Sofern nichts anderes in den IAESTE-Unterlagen vermerkt ist, sind wir verantwortlich für die Organisation einer Unterkunft. Wir suchen preiswerte, möblierte Zimmer und mieten diese für die Dauer deines Praktikums. Die Miete liegt bei etwa 250 EUR, kann aber auch günstiger sein. Die Zimmer sind mindestens mit einem Bett, Schrank/Regal, Tisch und Stuhl ausgestattet, außerdem gibt es Zugang zu einer Küche und zu Dusche/WC. In vielen Zimmern gibt es einen Internetanschluss, dies können wir allerdings nicht garantieren. Die entsprechende Miete musst du selbst bezahlen. Du musst zusätzlich beim Einzug eine Kaution in Höhe von 50 EUR bei uns hinterlegen, die du später beim Auszug wieder von uns zurückerhälst, sofern in der Wohnung alles in Ordnung ist. Bettbezüge und Handtücher müssen mitgebracht werden!
+
+travel_reports:
+  title: Erfahrungsberichte
+  read_on_button: Weiterlesen
+employer:
+  title: Internationaler Praktikantenaustausch
+  subtitle: DURCH EHRENAMTLICH ARBEITENDE STUDIERENDE UND DIE UNTERSÜTZUNG DES DAAD BLEIBT IHR AUFWAND GERING
+  general_information:
+    title: Hinweise für Arbeitgeber
+    description: Die Vermittlung ausländischer wie auch deutscher Praktikanten im Rahmen des Austauschprogramms der "International Association for the Exchange of Students for Technical Experience" (IAESTE) wird vom Deutschen Komitee der IAESTE im Deutschen Akademischen Austauschdienst (DAAD) wahrgenommen. Die Vermittlung erfolgt im Einvernehmen mit der Zentralen Auslandsund Fachvermittlung (ZAV) der Bundesagentur für Arbeit.</br></br>Broschüren-Download
+    button_1:
+      title: Weltweiter Praktikantaustausch
+    button_2:
+      title: Hinweise für Arbeitgeber
+  process_title: Jahresablauf
+  employer_task_headline: Aufgaben des Arbeitgebers
+  process:
+    - month: November
+      description: Bis etwa Ende November müssen die Anforderungen an den gewünschten Praktikanten beim IAESTE-Lokalkomitee Kiel vorliegen. Dazu kann, wenn gewünscht auch gerne mit unserer Unterstützung, das <a href="assets/documents/ANGEBOTSFORMULAR_IAESTE_fuer_Arbeitgeber.pdf">Anmelde-Formular</a> oder das <a href="https://www.iaeste.de/employers?page=onlineform_link">Online-Formular</a> ausgefüllt werden. Sollten Sie sich für das Ausfüllen des pdf-Dokumentes entscheiden, senden Sie es bitte an <a href="mailto:iaeste@uv.uni-kiel.de">unsere eMail-Adresse</a>. Sie haben diese Frist verpasst? Auch außerhalb des IAESTE-Zyklus kann ein Bewerber gefunden werden. Sie können sich gerne jederzeit an uns wenden.
+      employer_task: <a href="/assets/documents/ANGEBOTSFORMULAR_IAESTE_fuer_Arbeitgeber.pdf">Angebotsformular</a> oder <a href="https://www.iaeste.de/employers?page=onlineform_link">Online-Formular</a> ausfüllen und uns bzw. dem Nationalkomitee zukommen lassen.
+    - month: Januar
+      description: Ende Januar findet die sogenannte Annual Conference der IAESTE statt. Diese wird jedes Jahr von einem anderen Mitgliedsland ausgerichtet. Hier tauschen die Nationalkomitees ihre eingeworbenen Plätze mit anderen Ländern. Sollten Sie in Ihrem Angebot die Länderauswahl eingeschränkt haben, wird Ihr Angebot selbstverständlich an eines der gewünschten Länder vergeben.
+      employer_task:
+    - month: März
+      description: Die Bewerbungsfrist ist Ende März. Im März wird also Ihr potentieller Praktikant damit beschäftigt sein, seine oder ihre Bewerbung anzufertigen. Diese schickt er oder sie dann an sein Nationalkomitee und dieses leitet die vollständige Bewerbung nach erfolgreicher Prüfung an das deutsche Nationalkomitee weiter. Von dort gelangt sie nur zu Ihnen, wenn alles vollständig ist. So wird sichergestellt, dass nur eine korrekte und vollständige Bewerbung Sie erreicht.
+      employer_task:
+    - month: April
+      description: Spätestens jetzt liegt Ihnen die Bewerbung vor. Pro angebotener Praktikumsstelle erhalten Sie nur eine, ihren vorher festgelegten Anforderungen entsprechende, Bewerbung. Ein Vordruck zur Bestätigung beziehungsweise Ablehnung liegt vor. Gerne kann der Bewerber auch kontaktiert und zum Beispiel um ein Skype-Interview gebeten werden, bevor Sie sich entscheiden. Wir bitten Sie jedoch, Ihre Entscheidung schnellstmöglich zu fällen, damit der Bewerber sich darauf einstellen kann. Zudem wäre es schön, wenn Sie neben dem Nationalkomitee in Bonn auch uns unterrichten könnten, wie Ihre Entscheidung ausgefallen ist.
+      employer_task: Über die Akzeptierung des Praktikanten entscheiden
+    - month: Juni
+      description: Die frühesten Praktika beginnen meist Anfang Juni (in Ausnahmefällen Mitte Mai). Ihr bestätigter Praktikant / Praktikantin reist an und wird in eine von uns organisierte Wohnung gebracht. Wir helfen ihm, eine SIM-Karte zu kaufen, sich zurechtzufinden und Kontakte zu knüpfen. Er wird von uns auch am ersten Tag zur Arbeit gebracht. Kranken- und haftpflichtversichert ist er oder sie über den DAAD, der die Versicherung nach der Akzeptierung abschließt und bezahlt. Sie sind lediglich für den Inhalt des Praktikums zuständig.
+      employer_task:
+    - month: Juli und August
+      description: Den ganzen Sommer über kann Ihr Praktikant an den Wochenenden durch Deutschland reisen und das Land und die Kultur kennenlernen. Die Lokalkomitees der verschiedenen Städte organisieren Wochenenden, die finanziell vom DAAD unterstützt werden. Natürlich wird auch ein Kiel-Wochenende mit Aktivitäten wie Segeln und Kanufahren auf der Schwentine dazu beitragen, dass Ihr Praktikant eine unvergessliche Zeit hat.
+      employer_task:
+  task_sharing:
+    title: Aufgabenteilung auf einen Blick
+    entities_responsible:
+      - title: DAAD in Bonn
+        points:
+          - Prüfen der Bewerbungen, bevor sie an den Arbeitgeber weitergeleitet werden
+          - Kommunikation und Abstimmung mit der Bundesagentur für Arbeit, insbesondere bei visapflichtigen Praktikanten
+          - Bereitstellung der Dokumente für das Visum
+          - Abschließen und Bezahlen der Kranken- und Haftpflichtversicherung
+          - Unterstützung der Lokalkomitees bei wichtigen Fragen und Problemen
+          - Finanzielle Unterstützung des von den Lokalkomitees organisierten Freizeitprogrammes
+          - nur bei Hochschulen ggf. anteilige oder volle Bezahlung des Praktikumsgehaltes
+      - title: Lokalkomitee Kiel
+        points:
+          - Wohnungssuche
+          - Abholung bei der Ankunft, Zeigen der wichtigsten Anlaufstellen
+          - Organisation von SIM-Karte, Busticket, ggf. Bankkonto etc.
+          - Erklärung des Weges zur Arbeit, ggf. Bringen am ersten Tag
+          - Gestaltung eines Freizeitprogrammes in Kooperation mit allen Lokalkomitees deutschlandweit (und sogar grenzübergreifend)
+          - Ansprechpartner für die Praktikanten und Praktikantinnen und auch für die Arbeitgeber
+      - title: Arbeitgeber
+        points:
+          - Festlegen von Anforderungen an den Bewerber
+          - Zu- oder Absage nach Durchsicht der Bewerbung
+          - Gestaltung des Praktikumsinhaltes, ggf. zusammen mit dem Praktikanten
+          - Bezahlung des Praktikanten
+  offer_internhsip_separator: Sie haben sich entschieden, einen Praktikumsplatz anzubieten?
+  offer_internhsip:
+    title: Praktikumsplatz anbieten
+    description: Damit Sie auf jeden Fall den geeigneten Bewerber erhalten, können Sie bereits vorab genau festlegen, was der potentielle Praktikant können muss. Neben Fachrichtung, Sprachkenntnissen, Arbeitserfahrung und Fachsemester kann beispielsweise auch das Herkunftsland festgelegt werden. Bei Fragen wenden Sie sich jederzeit gerne an uns. Das auszufüllende Formular ist hier zu finden
+    title_button_1: Angebotsformular
+    title_button_2: Online-Formular

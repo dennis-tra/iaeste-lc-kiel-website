@@ -9,11 +9,13 @@ langs:
   en: Englisch
 titles:
   home: Home
+  iaeste: IAESTE
   outgoing: Outgoing
   incoming: Incoming
   employer: Firmen
   faq: FAQ
   contact: Kontakt
+  travel_reports: Erfahrungsberichte
 supporters_separator: Unterstützt durch
 footer:
   headlines:
@@ -343,7 +345,7 @@ employer:
   process:
     - month: November
       description: Bis etwa Ende November müssen die Anforderungen an den gewünschten Praktikanten beim IAESTE-Lokalkomitee Kiel vorliegen. Dazu kann, wenn gewünscht auch gerne mit unserer Unterstützung, das <a href="assets/documents/ANGEBOTSFORMULAR_IAESTE_fuer_Arbeitgeber.pdf">Anmelde-Formular</a> oder das <a href="https://www.iaeste.de/employers?page=onlineform_link">Online-Formular</a> ausgefüllt werden. Sollten Sie sich für das Ausfüllen des pdf-Dokumentes entscheiden, senden Sie es bitte an <a href="mailto:iaeste@uv.uni-kiel.de">unsere eMail-Adresse</a>. Sie haben diese Frist verpasst? Auch außerhalb des IAESTE-Zyklus kann ein Bewerber gefunden werden. Sie können sich gerne jederzeit an uns wenden.
-      employer_task: <a href="{{ site.baseurl_root }}/assets/documents/ANGEBOTSFORMULAR_IAESTE_fuer_Arbeitgeber.pdf">Angebotsformular</a> oder <a href="https://www.iaeste.de/employers?page=onlineform_link">Online-Formular</a> ausfüllen und uns bzw. dem Nationalkomitee zukommen lassen.
+      employer_task: <a href="/assets/documents/ANGEBOTSFORMULAR_IAESTE_fuer_Arbeitgeber.pdf">Angebotsformular</a> oder <a href="https://www.iaeste.de/employers?page=onlineform_link">Online-Formular</a> ausfüllen und uns bzw. dem Nationalkomitee zukommen lassen.
     - month: Januar
       description: Ende Januar findet die sogenannte Annual Conference der IAESTE statt. Diese wird jedes Jahr von einem anderen Mitgliedsland ausgerichtet. Hier tauschen die Nationalkomitees ihre eingeworbenen Plätze mit anderen Ländern. Sollten Sie in Ihrem Angebot die Länderauswahl eingeschränkt haben, wird Ihr Angebot selbstverständlich an eines der gewünschten Länder vergeben.
       employer_task:
