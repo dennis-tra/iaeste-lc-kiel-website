@@ -144,12 +144,12 @@ why_participate:
       icon_alt: ""
 outgoing:
   title: IAESTE internship abroad 
-  subtitle: Major related, payed, mind opening
+  subtitle: Major related, paid, mind opening
 
   general_information:
-    title: general information
-    description: The IAESTE local commitee (LC) in Kiel mediates internships abroad for students in engineering, sciences and forestry at the university of Kiel or the university of applied scinces in Kiel and Flensburg. Employees can be both colleges and research institutes or companies. Most IAESTE internships last for ca. 2 to 3 months and mainly take place between May and October. Sometimes also internships for half a year or a year are offered. Generally the internships are payed; the wage depends on the living costs in the according country. Worldwide 85 countries take part in the IAESTE programm.
-    button: Reports
+    title: General information
+    description: The IAESTE local commitee (LC) in Kiel mediates internships abroad for students in engineering, sciences and forestry at the university of Kiel or the university of applied scinces in Kiel and Flensburg. Employees can be both colleges and research institutes or companies. Most IAESTE internships last for ca. 2 to 3 months and mainly take place between May and October. Sometimes also internships for half a year or a year are offered. Generally the internships are paid; the wage depends on the living costs in the according country. Worldwide 85 countries take part in the IAESTE programm.
+    button: Travel Reports
   in_a_nutshell:
     title: IAESTE in a nutshell
     points:
@@ -251,7 +251,7 @@ faq:
         - question: Do we have to find an appartment for the intern and arrange the visa for him/her?
           answer: No. You are only responsible for the arrangement of the internship. The local commitee Kiel will take care of finding an appartment and the possibly necessary visa will be organized by the student himself. The employment permit or relief from it will be arranged by the DAAD.
         - question: What wage level is adequate?
-          answer: At the moment (beginning 2017) IAESTE-interns in Germany get at least 670€ per month. This amount is geared to the Bafög level. Please consider that some students are from poor countries and depend on their wage to make a living from it. If the employer is a university or a research institute part of the costs can be payed by the DAAD. This must be clearified in the individual case. For internships which last longer than three months minimum wage must be payed, unless the internship is verifiable part of the studies of the intern (which can be listed as a requirement in the offer form).
+          answer: At the moment (beginning 2017) IAESTE-interns in Germany get at least 670€ per month. This amount is geared to the Bafög level. Please consider that some students are from poor countries and depend on their wage to make a living from it. If the employer is a university or a research institute part of the costs can be paid by the DAAD. This must be clearified in the individual case. For internships which last longer than three months minimum wage must be paid, unless the internship is verifiable part of the studies of the intern (which can be listed as a requirement in the offer form).
         - question: Does the intern have an insurance for the case he gets sick or anything will be damaged?
           answer: Yes. The DAAD will organize the insurance and will pay for it. It is a complete health and liability insurance by Continentale. If you have questions about the extent of the insurance feel fre to ask us.
 incoming:
@@ -292,107 +292,107 @@ incoming:
       description: "Hörn"
   general_information:
     title: Dear applicant
-    description: We're happy that you applied for an internship in Kiel. As soon as you were accepted by your employer, nothing stands in the way for your internship anymore! <br /><br />We are a group of about 10 students that form the IAESTE local commitee in Kiel. Wir arbeiten ehrenamtlich für IAESTE, weil wir sehr interessiert daran sind, Leute aus aller Welt kennenzulernen und auf diesem Wege mehr über andere Kulturen und Sprachen zu erfahren – genau wie du! Aus diesem Grunde geben wir alles, um deinen Aufenthalt in Kiel so angenehm und spaßig wie möglich zu gestalten. Im Rahmen unserer Sommerbetreuung veranstalten wir z.B. verschiedene Ausflüge und Events für unsere Praktikanten. Während deines Praktikums hast du die Möglichkeit, wertvolle Erfahrungen für dein Studienfach zu sammeln und neue Dinge zu lernen. Gleichzeitig möchten wir dir während deiner Zeit in Deutschland aber auch die deutsche Gesellschaft und Kultur näherbringen. Zusammen mit uns und ein paar weiteren Praktikanten wirst du daher sicherlich eine unvergessliche Zeit in Kiel verbringen!<br/><br/>Auf diesen Seiten findest du einige wichtige Informationen für deinen Aufenthalt in Kiel. Solltest du weitere Fragen haben, kannst du uns jederzeit kontaktieren.
+    description: We're happy that you applied for an internship in Kiel. As soon as you were accepted by your employer, nothing stands in the way for your internship anymore! <br /><br />We are a group of about 10 students that form the IAESTE local commitee in Kiel. We are working voluntarily for IAESTE because we're interested in meeting people from all around the world and learn more about other cultures and languages - just as you are! For this reason we will do everything to make your stay in Kiel as nice and fun as possible. During summer we will organize e.g. some trips and events for our interns. During your internship you have the chance to earn some experiences related to your major and learn new things. Simultaneously we also want to show you something about the german society and culture during your time in Germany. Together with us and the other interns you will definetly have a great time in Kiel!<br/><br/>Here you find some important information for your stay in Kiel. If you have any further questions you can contact us anytime.
   after_acceptance_separator:
     line_1: After your acceptance
     line_2: First steps
   process:
-    - title: Formular N5/b ausfüllen
-      description: Innerhalb von 2 Wochen das Formular N5/b ausfüllen und an das IAESTE-Nationalkomitee im Heimatland zurückschicken (manchmal müssen weitere Formulare ausgefüllt und eingereicht werden). Sobald wir das Formular N5/b erhalten haben, können wir mit der Suche nach einer Unterkunft für dich beginnen. Es ist also sehr wichtig, das N5/b so schnell wie möglich zurückzuschicken.
+    - title: Fill in form N5/b 
+      description: Fill in form Nf5/b within 2 weeks and send it to the IAESTE national commitee in your country of origin (sometimes you need to fill in and hand in further forms). As soon as we received the N5/b form we can start searching for a room for you. Therefore it is important to send the N5/b as soon as possible.
       note:
-    - title: Visum beantragen
-      description: Wenn du kein EU-Bürger bist, benötigst du zur Einreise nach Deutschland ein Visum. Dieses solltest du so schnell wie möglich bei der nächsten deutschen Botschaft beantragen, da die Bearbeitung oft einige Wochen dauert. Für den Visumantrag benötigst du das Formular N5/a. Bitte erkundige dich bei der deutschen Botschaft nach einem „Schengen-Visum“, da dieses Visum auch in den meisten anderen Ländern Europas gültig ist.
-      note: Nur für nicht EU-Bürger
-    - title: Reisepass verlängern
-      description: Stelle sicher, dass dein Pass während des Praktikums gültig ist
+    - title: Apply for your visa
+      description: If you're not a EU citizen you need a visa to travel to Germany. You should apply for this as soon as possible at the closest german embassy because the processing might take some weeks. For applying for a visa you need the N5/a form. Please ask for a "schengen-visa" at the german embassy because this is valid for most countires in europe.
+      note: only for not EU-citizens
+    - title: renew your passport
+      description: Make sure that your passport is valid for the duration of the internship
       note:
-    - title: Internationaler Studentenausweis
-      description: "Jedes Jahr im Februar werden die auf der GC erhaltenen Praktikumsplätze im Ausland dann von den Nationalkomitees an die angeschlossenen Lokalkomitees verteilt. Diese Zuteilung geschieht anhand der von den Lokalkomitees erstellten Bedarfslisten. Zusätzlich findet ebenfalls im Februar eine nationale Tauschkonferenz statt, zu der Vertreter aller Lokalkomitees anreisen. Auf dieser nationalen Tauschkonferenz besteht die Gelegenheit, Plätze mit anderen Lokalkomitees zu tauschen, da die erste Platzzuteilung nicht immer optimal ist. Hier versuchen wir also, für Euch die besten Plätze zu ergattern!"
+    - title: international students ID
+      description: "In february every year the internship offers that were exchanged on the general conference will be forwarded to the local commitees via the national commitee. The allocation takes place according to the demand of the different local commitees. Additionally every february in Germany a national exchange conference takes place where represantatives of all local commitees will meet. On this national exchange conference the local commitees can exchange offers as the first allocation is often not the optimal allocation. Here we try to get the best offers for you!"
       note:
-    - title: "Reise buchen"
-      description: Buche einen Flug nach Deutschland. Weitere Informationen zur Anreise gibt es hier. Benachrichtige uns bitte, wann du in Deutschland ankommen wirst.
+    - title: "Book your travels"
+      description: Book your flight to Germany. Further information for your arrival you'll find here. Please contact when you arrive in Germany.
       note:
   arrival:
-    separator: Anfahrt
+    separator: Arrival
     plane:
-      title: Flugzeug
-      description: Die beste Möglichkeit nach Kiel zu kommen, ist nach Hamburg Airport (HAM) zu fliegen. Von dort fährt ein Flughafenbus direkt nach Kiel zum Hauptbahnhof. Kielius Bei der Planung der Weiterreise vom Flughafen nach Kiel sind wir gerne behilflich. Auf den Seiten der Deutschen Bahn kann man sich passende Verbindungen heraussuchen.
+      title: Airplane
+      description: The best way to get to Kiel is Hamburg airport (HAM). From here there is an airport bus (Kielius) that is going directly to Kiel main station. For planning the travel from Hamburg airport to Kiel feel free to ask us. You can find the right connections on the homepage of the Deutsche Bahn.
     train:
-      title: Bahn
-      description: Durch die Anbindung Kiels an das internationale Hochgeschwindigkeitsnetz ist in einigen Fällen eine Anreise per Bahn möglich. Auf den Seiten der europäischen Bahngesellschaften und der Deutschen Bahn kann man sich passende Verbindungen heraussuchen.
+      title: train
+      description: Because Kiel is connected to the German speed train railway in some cases also travelling by train is possible. You will find information about the connections on the homepages of the european railway companies.
     car:
-      title: Auto
-      description: Kiel ist an das deutsche Autobahnnetz angebunden. Europaweite Routenempfehlungen bekommt man hier. Wir empfehlen jedoch, nicht mit dem Auto anzureisen, da es in Kiel relativ wenige Parkplätze gibt. Außerdem benötigt man in Kiel kein Auto im Alltag, da alles einfach zu Fuß erreichbar ist.
+      title: Car
+      description: Kiel is connected to the German highway network. Suggestions for routes through europe you can find here. We suggest not to travel by car as there is only little parking space. Furthermore in Kiel you need no car in daily life as everything is in walking distance.
   separator_2:
-    line_1: Nun bin ich in Kiel
-    line_2: Und dann?
+    line_1: Now I'm in Kiel
+    line_2: What's next?
   accommodation:
-    title: Unterkunft
-    description: Sofern nichts anderes in den IAESTE-Unterlagen vermerkt ist, sind wir verantwortlich für die Organisation einer Unterkunft. Wir suchen preiswerte, möblierte Zimmer und mieten diese für die Dauer deines Praktikums. Die Miete liegt bei etwa 250 EUR, kann aber auch günstiger sein. Die Zimmer sind mindestens mit einem Bett, Schrank/Regal, Tisch und Stuhl ausgestattet, außerdem gibt es Zugang zu einer Küche und zu Dusche/WC. In vielen Zimmern gibt es einen Internetanschluss, dies können wir allerdings nicht garantieren. Die entsprechende Miete musst du selbst bezahlen. Du musst zusätzlich beim Einzug eine Kaution in Höhe von 50 EUR bei uns hinterlegen, die du später beim Auszug wieder von uns zurückerhälst, sofern in der Wohnung alles in Ordnung ist. Bettbezüge und Handtücher müssen mitgebracht werden!
+    title: Accomodation
+    description: As long nothing else is remarked in your IAESTE documents we are responsible for your accomodation. We will search for inexpensive rooms equipped with furniture and rent it for the duration of your stay. The rent will be about 250€ but may vary. You're room will be equipped at least with a bed, cupboard, desk and a chair and kitchen and bathroom will be accesible. In most rooms will be internet access but we can't guarantee for this. You have to pay the rent for the room yourself. Furthermore you have to pay a deposit of 50€ upon arrival, that will be returned on your departure as long everthing is fine with your room. Please remember that you have to bring bed linen and towels!
 
 travel_reports:
-  title: Erfahrungsberichte
-  read_on_button: Weiterlesen
+  title: Travel Reports
+  read_on_button: Read more
 employer:
-  title: Internationaler Praktikantenaustausch
-  subtitle: DURCH EHRENAMTLICH ARBEITENDE STUDIERENDE UND DIE UNTERSÜTZUNG DES DAAD BLEIBT IHR AUFWAND GERING
+  title: International internships
+  subtitle: BECAUSE OF THE VOLUNTARY WORK OF STUDENTS AND THE SUPPORT BY THE DAAD YOUR OWN EXPENDITURES WILL STAY ON A LOW LEVEL
   general_information:
-    title: Hinweise für Arbeitgeber
-    description: Die Vermittlung ausländischer wie auch deutscher Praktikanten im Rahmen des Austauschprogramms der "International Association for the Exchange of Students for Technical Experience" (IAESTE) wird vom Deutschen Komitee der IAESTE im Deutschen Akademischen Austauschdienst (DAAD) wahrgenommen. Die Vermittlung erfolgt im Einvernehmen mit der Zentralen Auslandsund Fachvermittlung (ZAV) der Bundesagentur für Arbeit.</br></br>Broschüren-Download
+    title: Tips for employers
+    description: The procurance of international as well as Germany interns by the "International Association for the Exchange of Students for Technical Experience" (IAESTE) will be organized by the german IAESTE commitee under the head of the German Academic Exchange Service (DAAD). The procurance will be arranged in consultation with the Zentralen Auslands und Fachvermittlung (ZAV) of the Bundesagentur für Arbeit.</br></br>Broschüren-Download
     button_1:
-      title: Weltweiter Praktikantaustausch
+      title: Worlwide intenship exchange
     button_2:
-      title: Hinweise für Arbeitgeber
-  process_title: Jahresablauf
-  employer_task_headline: Aufgaben des Arbeitgebers
+      title: Tips for employers
+  process_title: Yearly process
+  employer_task_headline: Tasks for the employer
   process:
     - month: November
-      description: Bis etwa Ende November müssen die Anforderungen an den gewünschten Praktikanten beim IAESTE-Lokalkomitee Kiel vorliegen. Dazu kann, wenn gewünscht auch gerne mit unserer Unterstützung, das <a href="assets/documents/ANGEBOTSFORMULAR_IAESTE_fuer_Arbeitgeber.pdf">Anmelde-Formular</a> oder das <a href="https://www.iaeste.de/employers?page=onlineform_link">Online-Formular</a> ausgefüllt werden. Sollten Sie sich für das Ausfüllen des pdf-Dokumentes entscheiden, senden Sie es bitte an <a href="mailto:iaeste@uv.uni-kiel.de">unsere eMail-Adresse</a>. Sie haben diese Frist verpasst? Auch außerhalb des IAESTE-Zyklus kann ein Bewerber gefunden werden. Sie können sich gerne jederzeit an uns wenden.
-      employer_task: <a href="/assets/documents/ANGEBOTSFORMULAR_IAESTE_fuer_Arbeitgeber.pdf">Angebotsformular</a> oder <a href="https://www.iaeste.de/employers?page=onlineform_link">Online-Formular</a> ausfüllen und uns bzw. dem Nationalkomitee zukommen lassen.
-    - month: Januar
-      description: Ende Januar findet die sogenannte Annual Conference der IAESTE statt. Diese wird jedes Jahr von einem anderen Mitgliedsland ausgerichtet. Hier tauschen die Nationalkomitees ihre eingeworbenen Plätze mit anderen Ländern. Sollten Sie in Ihrem Angebot die Länderauswahl eingeschränkt haben, wird Ihr Angebot selbstverständlich an eines der gewünschten Länder vergeben.
+      description: Until the end of november the wished requirements for the interns must be handed to the IAESTE local commitee Kiel. If wanted we will help you to fill in <a href="assets/documents/ANGEBOTSFORMULAR_IAESTE_fuer_Arbeitgeber.pdf">Anmelde-Formular</a> or <a href="https://www.iaeste.de/employers?page=onlineform_link">Online-Formular</a>. If you decided to fill in the pdf document please send it to <a href="mailto:iaeste@uv.uni-kiel.de">our email adress</a>. You passed the deadline? It is also possible to find applicants outside from he IAESTE-cycle. Feel free to ask us anytime.
+      employer_task: <a fill in href="/assets/documents/ANGEBOTSFORMULAR_IAESTE_fuer_Arbeitgeber.pdf">Angebotsformular</a> or <a href="https://www.iaeste.de/employers?page=onlineform_link">Online-Formular</a>  and send it to us or the national commitee.
+    - month: January
+      description: At the end of january the annual conference of IAESTE takes place. This will be organized by the national commitee of a different country every year. Here the national commitees wil exchange the offers with other countries. If you restricted the country of origin in your offer this will be noticed.
       employer_task:
-    - month: März
-      description: Die Bewerbungsfrist ist Ende März. Im März wird also Ihr potentieller Praktikant damit beschäftigt sein, seine oder ihre Bewerbung anzufertigen. Diese schickt er oder sie dann an sein Nationalkomitee und dieses leitet die vollständige Bewerbung nach erfolgreicher Prüfung an das deutsche Nationalkomitee weiter. Von dort gelangt sie nur zu Ihnen, wenn alles vollständig ist. So wird sichergestellt, dass nur eine korrekte und vollständige Bewerbung Sie erreicht.
+    - month: March
+      description: The deadline for the interns handing in their applications is the end of march. During march your potential applicant will be busy preparing his or her application. This will be send to his or her national commitee and after double checking it the national commitee of the country of origin will forward the application to the german national commitee which will send the application to you if it's complete. This way will be ensured that only correct and complete applications will reach you.
       employer_task:
     - month: April
-      description: Spätestens jetzt liegt Ihnen die Bewerbung vor. Pro angebotener Praktikumsstelle erhalten Sie nur eine, ihren vorher festgelegten Anforderungen entsprechende, Bewerbung. Ein Vordruck zur Bestätigung beziehungsweise Ablehnung liegt vor. Gerne kann der Bewerber auch kontaktiert und zum Beispiel um ein Skype-Interview gebeten werden, bevor Sie sich entscheiden. Wir bitten Sie jedoch, Ihre Entscheidung schnellstmöglich zu fällen, damit der Bewerber sich darauf einstellen kann. Zudem wäre es schön, wenn Sie neben dem Nationalkomitee in Bonn auch uns unterrichten könnten, wie Ihre Entscheidung ausgefallen ist.
-      employer_task: Über die Akzeptierung des Praktikanten entscheiden
-    - month: Juni
-      description: Die frühesten Praktika beginnen meist Anfang Juni (in Ausnahmefällen Mitte Mai). Ihr bestätigter Praktikant / Praktikantin reist an und wird in eine von uns organisierte Wohnung gebracht. Wir helfen ihm, eine SIM-Karte zu kaufen, sich zurechtzufinden und Kontakte zu knüpfen. Er wird von uns auch am ersten Tag zur Arbeit gebracht. Kranken- und haftpflichtversichert ist er oder sie über den DAAD, der die Versicherung nach der Akzeptierung abschließt und bezahlt. Sie sind lediglich für den Inhalt des Praktikums zuständig.
+      description: Latest now you should receive your application. Per offered internship you will only receive one application that fulfill your requirements. A form for acceptance or refusal are on hand. Of course the applicant can be contacted and e.g. a skype interview can be held before you decide. We ask you to decide as soon as possible so that the applicant can prepare for the possible internship. Furthermore it would be nice if you could inform the national commitee in Bonn about your decision.
+      employer_task: Decision about the acceptance of the intern
+    - month: June
+      description: The earliest internships will start in the beginning of june (sometimes mid may). Your accepted intern will arrive and will be brought to his organzed flat. We will help him or her to buy a SIM card, to get along in Kiel and make first contacts. On the first day the intern will be brought to his working place. The intern has an health and liability insurance via the DAAD. You are only responsible for the content of the internship.
       employer_task:
-    - month: Juli und August
-      description: Den ganzen Sommer über kann Ihr Praktikant an den Wochenenden durch Deutschland reisen und das Land und die Kultur kennenlernen. Die Lokalkomitees der verschiedenen Städte organisieren Wochenenden, die finanziell vom DAAD unterstützt werden. Natürlich wird auch ein Kiel-Wochenende mit Aktivitäten wie Segeln und Kanufahren auf der Schwentine dazu beitragen, dass Ihr Praktikant eine unvergessliche Zeit hat.
+    - month: July and August
+      description: During the whole summer the intern can travel through Germany and Europe on the weekends to learn about the country and the culture. The local commitees of the different cities organize weekends that will be financially supported by the DAAD. Of course there will be also a Kiel weekend that includes activities like sailing and canooing.
       employer_task:
   task_sharing:
-    title: Aufgabenteilung auf einen Blick
+    title: Responsibilities
     entities_responsible:
       - title: DAAD in Bonn
         points:
-          - Prüfen der Bewerbungen, bevor sie an den Arbeitgeber weitergeleitet werden
-          - Kommunikation und Abstimmung mit der Bundesagentur für Arbeit, insbesondere bei visapflichtigen Praktikanten
-          - Bereitstellung der Dokumente für das Visum
-          - Abschließen und Bezahlen der Kranken- und Haftpflichtversicherung
-          - Unterstützung der Lokalkomitees bei wichtigen Fragen und Problemen
-          - Finanzielle Unterstützung des von den Lokalkomitees organisierten Freizeitprogrammes
-          - nur bei Hochschulen ggf. anteilige oder volle Bezahlung des Praktikumsgehaltes
-      - title: Lokalkomitee Kiel
+          - Checking the applications before forwarding them
+          - communication and coordination with the Bundesagentur für Arbeit, especially for the non EU citizens
+          - Preperation of the visa documents
+          - Organizing health and liability insurance
+          - Supporting the local commitees with important questions and problems
+          - Financial support for the events organized by the local commitees
+          - Only for universities and research institutes the possibility for partial or full payment of the wage
+      - title: local commitee Kiel
         points:
-          - Wohnungssuche
-          - Abholung bei der Ankunft, Zeigen der wichtigsten Anlaufstellen
-          - Organisation von SIM-Karte, Busticket, ggf. Bankkonto etc.
-          - Erklärung des Weges zur Arbeit, ggf. Bringen am ersten Tag
-          - Gestaltung eines Freizeitprogrammes in Kooperation mit allen Lokalkomitees deutschlandweit (und sogar grenzübergreifend)
-          - Ansprechpartner für die Praktikanten und Praktikantinnen und auch für die Arbeitgeber
-      - title: Arbeitgeber
+          - Finding an appartment
+          - Picking up the intern on arrival, showing most important places
+          - Organizing of the SIM-card, bus tickets, bank account if necessary etc.
+          - Showing the way to work
+          - Arrangement weekend activities in cooperation with other local commitees in Germany (or Europe)
+          - Contact person for the interns and for the employers
+      - title: Employer
         points:
-          - Festlegen von Anforderungen an den Bewerber
-          - Zu- oder Absage nach Durchsicht der Bewerbung
-          - Gestaltung des Praktikumsinhaltes, ggf. zusammen mit dem Praktikanten
-          - Bezahlung des Praktikanten
-  offer_internhsip_separator: Sie haben sich entschieden, einen Praktikumsplatz anzubieten?
+          - Setting requirements for the aplicants
+          - Acceptance or refusal after checking the application
+          - Setting of the content of the internships
+          - Payment of the interns
+  offer_internhsip_separator: You decided to offer an internship?
   offer_internhsip:
-    title: Praktikumsplatz anbieten
-    description: Damit Sie auf jeden Fall den geeigneten Bewerber erhalten, können Sie bereits vorab genau festlegen, was der potentielle Praktikant können muss. Neben Fachrichtung, Sprachkenntnissen, Arbeitserfahrung und Fachsemester kann beispielsweise auch das Herkunftsland festgelegt werden. Bei Fragen wenden Sie sich jederzeit gerne an uns. Das auszufüllende Formular ist hier zu finden
-    title_button_1: Angebotsformular
-    title_button_2: Online-Formular
+    title: Offer an internship
+    description: To ensure that you will get an appropriate applicate you can set requirements in advance. Major, language skills, work experience and year of studies as well as country of origin. If you have any further questions please feel free to contact us. You'll find the form here
+    title_button_1: Offer form
+    title_button_2: Online-form
