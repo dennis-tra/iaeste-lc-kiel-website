@@ -86,6 +86,7 @@ contact:
   contact: Contact
   postal_address: Postal adress
   office_address: Office adress
+  meeting_time: Meeting every Thursday 8pm
   enquiry:
     title: Enquiry
     name_label: Name
@@ -162,8 +163,8 @@ outgoing:
   applicant_task_headline: What you need to do
   process:
     - month: November
-      description: IASTE LC Kiel offers informative meetings where you can inform yourself about the programm. These meetings are not obligatory but as they are very usefull and informative for the further application procedure we would strongly recommend to show up. When you decided to take part in our program you need to fill out the preliminary application form (<a href="assets/documents/Vorl_Bewerbung_2017.docx">Download</a>) and send it to us via email. According to these applications we get an overview over the amount of places we need for our universities.
-      applicant_task: Visit one of our informative meetings and send us the preliminary application (<a href="assets/documents/Vorl_Bewerbung_2017.docx">Download</a>)..
+      description: IASTE LC Kiel offers informative meetings where you can inform yourself about the programm. These meetings are not obligatory but as they are very usefull and informative for the further application procedure we would strongly recommend to show up. When you decided to take part in our program you need to fill out the <a href="https://iaeste.tu-dresden.de/outgoing/">preliminary application form</a>. According to these applications we get an overview over the amount of places we need for our universities.
+      applicant_task: Visit one of our information events and send us your <a href="https://iaeste.tu-dresden.de/outgoing/">preliminary application</a>.
     - month: December
       description: All commitees in Germany send their lists with the demand to the national commitee (NC) in Bonn (part of the DAAD) to establish a germanwide list. Therefore the majors and the time slots for the internships are considered that you named in your preliminary application.
       applicant_task: ""

@@ -9,6 +9,23 @@ section.index-hero {
     height: 100%;
     position: relative;
   }
+
+  .info-disturber {
+    position: absolute;
+    color: white;
+    background: #F5A623;
+    height: initial;
+    padding: 10px 30px;
+    display: inline-block;
+    max-width: 90%;
+    line-height: 21px;
+    text-transform: uppercase;
+    font-size: larger;
+    @media screen and (max-width: $screen-xs-max) {
+      padding: 8px 15px;
+    }
+  }
+
 }
 
 .index-hero-heading {
