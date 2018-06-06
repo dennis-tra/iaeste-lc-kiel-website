@@ -34,7 +34,7 @@ index:
       title: Incoming
       description: You were accepted for an IAESTE internship in Kiel and want to inform yourself? click here    
     employer:
-      title: companies
+      title: Companies
       description: You want to employ a dedicated student for an internship? Further information
   what_is_iaeste:
     title: What is IAESTE?
@@ -123,7 +123,7 @@ why_participate:
       description: "Many minds have a lot of good ideas. The team then has to decide which way to go... Teamwork is extremely important, for our work as well as in your future job. Working for IAESTE will improve your teamworking skills."
       icon: teamwork.png
       icon_alt: ""
-    - title: practice your foreign language competence 
+    - title: Practice your foreign language competence 
       description: "Your foreign language competences weren't practiced a lot after you graduated from high school? Or you are able to speak a more exotic language? At IAESTE You will get in contact wih people from all over the world: Japan, Brazil, England, Finland,... Most of them speak english fluently. The perfect opportunity to frequently use your english skills and to improve your competences. You will soon learn new terms or help the interns to learn some word in German."
       icon: speaking_bubbles.png
       icon_alt: ""
@@ -187,7 +187,7 @@ outgoing:
   remaining_offers:
     title: Remaining offers and short-term offers
     paragraphs:
-      - Unscheduled so called "early/late offers" and short-term offers can be distributed. Early/Late Offers are places which were handed in too late for the last period but too early for the next period. On the IAESTE-Homepage of the national commitee <a href="https://www.iaeste.de/de/outgoing?page=outoffer">hier</a> you can have a look at a list with those places. If you are interested in any of those offers tell us as soon as possible so that we can reserve this place for you. These places are available worldwide and can be given to someone else very quickly. Please note that this list does not contain all information due to data security reasons. It will be updated regularly.
+      - Unscheduled so called "early/late offers" and short-term offers can be distributed. Early/Late Offers are places which were handed in too late for the last period but too early for the next period. On the IAESTE-Homepage of the national commitee <a href="https://www.iaeste.de/de/outgoing?page=outoffer">here</a> you can have a look at a list with those places. If you are interested in any of those offers tell us as soon as possible so that we can reserve this place for you. These places are available worldwide and can be given to someone else very quickly. Please note that this list does not contain all information due to data security reasons. It will be updated regularly.
 
 something_unclear:
   title: Something unclear?
@@ -319,7 +319,7 @@ incoming:
       title: Airplane
       description: The best way to get to Kiel is Hamburg airport (HAM). From here there is an airport bus (Kielius) that is going directly to Kiel main station. For planning the travel from Hamburg airport to Kiel feel free to ask us. You can find the right connections on the homepage of the Deutsche Bahn.
     train:
-      title: train
+      title: Train
       description: Because Kiel is connected to the German speed train railway in some cases also travelling by train is possible. You will find information about the connections on the homepages of the european railway companies.
     car:
       title: Car
@@ -339,9 +339,9 @@ employer:
   subtitle: BECAUSE OF THE VOLUNTARY WORK OF STUDENTS AND THE SUPPORT BY THE DAAD YOUR OWN EXPENDITURES WILL STAY ON A LOW LEVEL
   general_information:
     title: Tips for employers
-    description: The procurance of international as well as Germany interns by the "International Association for the Exchange of Students for Technical Experience" (IAESTE) will be organized by the german IAESTE commitee under the head of the German Academic Exchange Service (DAAD). The procurance will be arranged in consultation with the Zentralen Auslands und Fachvermittlung (ZAV) of the Bundesagentur für Arbeit.</br></br>Broschüren-Download
+    description: The procurance of international as well as Germany interns by the "International Association for the Exchange of Students for Technical Experience" (IAESTE) will be organized by the german IAESTE commitee under the head of the German Academic Exchange Service (DAAD). The procurance will be arranged in consultation with the Zentralen Auslands und Fachvermittlung (ZAV) of the Bundesagentur für Arbeit.</br></br>Brochure-download
     button_1:
-      title: Worlwide intenship exchange
+      title: Worlwide internship exchange
     button_2:
       title: Tips for employers
   process_title: Yearly process
@@ -377,7 +377,7 @@ employer:
           - Supporting the local commitees with important questions and problems
           - Financial support for the events organized by the local commitees
           - Only for universities and research institutes the possibility for partial or full payment of the wage
-      - title: local commitee Kiel
+      - title: Local commitee Kiel
         points:
           - Finding an appartment
           - Picking up the intern on arrival, showing most important places
