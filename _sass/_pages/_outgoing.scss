@@ -144,12 +144,4 @@ section.remaining-offers {
     font-size: inherit;
     line-height: inherit;
   }
-
-  @media screen and (max-width: $screen-xs-max) {
-    text-align: center;
-
-    .heading-separator {
-      margin: 0 auto;
-    }
-  }
 }

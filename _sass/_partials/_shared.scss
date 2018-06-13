@@ -85,16 +85,8 @@ section.thick-separator-primary {
   }
 
   @media screen and (max-width: $screen-xs-max) {
-    text-align: center;
     min-height: inherit;
     padding: 20px 0 40px 0;
-    .btn {
-      margin: auto;
-    }
-
-    .heading-separator {
-      margin: auto;
-    }
   }
 
   .row {
