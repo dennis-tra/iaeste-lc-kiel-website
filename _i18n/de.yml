@@ -160,8 +160,8 @@ outgoing:
   applicant_task_headline: Das hast du zu tun
   process:
     - month: November
-      description: Das IAESTE LC Kiel bietet Informationsabende an, auf denen ihr euch über das Programm informieren könnt. Diese Veranstaltungen sind nicht Pflicht für die Teilnahme am Austauschprogramm, doch ein Besuch ist sehr empfehlenswert, da ihr viele nützliche Angaben zum weiteren Bewerbungsverfahren erhaltet. Wenn ihr euch entschieden habt teilzunehmen, müsst ihr eine <a href="https://iaeste.tu-dresden.de/outgoing/">unverbindliche Vorabbewerbung</a> ausfüllen. Durch diese Anmeldungen erhalten wir einen Überblick über den Platzbedarf an unseren Hochschulen.
-      applicant_task: Besuche einen unsere Informationsabende am 14. und 17. November um 19:00 Uhr im Westring 400 und fülle die <a href="https://iaeste.tu-dresden.de/outgoing/">unverbindliche Vorabbewerbung</a> aus.
+      description: Das IAESTE LC Kiel bietet Informationsabende an, auf denen ihr euch über das Programm informieren könnt. Diese Veranstaltungen sind nicht Pflicht für die Teilnahme am Austauschprogramm, doch ein Besuch ist sehr empfehlenswert, da ihr viele nützliche Angaben zum weiteren Bewerbungsverfahren erhaltet. Wenn ihr euch entschieden habt teilzunehmen, müsst ihr eine <a href="https://iaeste.tu-dresden.de/yii/index.php">unverbindliche Vorabbewerbung</a> ausfüllen. Durch diese Anmeldungen erhalten wir einen Überblick über den Platzbedarf an unseren Hochschulen.
+      applicant_task: Besuche einen unsere Informationsabende und fülle die <a href="https://iaeste.tu-dresden.de/yii/index.php">unverbindliche Vorabbewerbung</a> aus.
     - month: Dezember
       description: Alle Lokalkomitees in ganz Deutschland schicken ihre Listen mit dem benötigten Platzbedarf an das Nationalkomitee in Bonn (im DAAD), um eine Deutschlandweite Liste zu erstellen. Hierbei werden die Fachrichtungen und die Praktikumslaufzeiten berücksichtigt, die ihr in den vorläufigen Bewerbungen angegeben habt.
       applicant_task: ""
