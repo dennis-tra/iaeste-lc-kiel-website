@@ -1,4 +1,4 @@
-FROM ruby:2.3
+FROM ruby:2.7.8
 MAINTAINER dennisauskiel@posteo.de
 
 # Install apt based dependencies required to run Rails as
@@ -18,7 +18,9 @@ WORKDIR /app
 # will be cached unless changes to one of those two files
 # are made.
 COPY Gemfile Gemfile.lock ./
-RUN gem install bundler && bundle install --jobs 20 --retry 10
+RUN gem install bundler:1.14.4
+RUN bundle config --local build.ffi --with-cflags=-Wno-error=implicit-function-declaration
+RUN bundle install --jobs 20 --retry 10
 
 # Copy the main application.
 COPY . ./
